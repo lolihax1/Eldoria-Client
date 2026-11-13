@@ -1,0 +1,37 @@
+# Локальные данные пользователя, бинарные кеши и библиотеки Minecraft
+assets/
+crash-reports/
+defaultconfigs/
+downloads/
+libraries/
+local/
+logs/
+mods/
+patchouli_books/
+runtime/
+saves/
+versions/
+
+# Пользовательские настройки и приватные файлы лаунчера
+launcher/electron-profile/
+launcher/skins/
+launcher/electron-settings.json
+launcher/settings.json
+launcher/client-manifest-state.json
+launcher/game-pid.txt
+launcher/smoke-pid.txt
+launcher/last-check.json
+config/sodium-fingerprint.json
+
+# Локальные файлы игры
+command_history.txt
+launcher_profiles.json
+options.txt
+patchouli_data.json
+servers.dat
+servers.dat_old
+usercache.json
+usernamecache.json
+*.tmp
+*.log
+__pycache__/

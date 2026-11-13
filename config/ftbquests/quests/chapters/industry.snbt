@@ -1,0 +1,137 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industry"
+	group: ""
+	id: "5CA96B9FF7C63FB1"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["242B6F4167503F2C"]
+			id: "65D9D6C5C7C2D5C2"
+			rewards: [{
+				count: 4
+				id: "08DB7B2BB2DE310D"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "52C81463944F8AB0"
+				item: { count: 1, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65D9D6C5C7C2D5C2"]
+			id: "0D45F5FD462B8C70"
+			rewards: [{
+				count: 4
+				id: "79E8257A3772EFFD"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3E58A63D61147167"
+				item: { count: 1, id: "kubejs:resonant_core" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D45F5FD462B8C70"]
+			id: "55AF050C759283DB"
+			rewards: [{
+				count: 4
+				id: "35EB54034D6F4217"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2CB3275C22608E5C"
+				item: { count: 1, id: "mekanism:steel_casing" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55AF050C759283DB"]
+			id: "47A00F7628345321"
+			rewards: [{
+				count: 4
+				id: "0EC69550D7340857"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3548C3D78AA56CB4"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55AF050C759283DB"]
+			id: "74548FD41212C3FA"
+			rewards: [{
+				count: 4
+				id: "6A7C786E44D60D2A"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7A829CC0D229517D"
+				item: { count: 1, id: "mekanism:basic_energy_cube" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "65605B3435817B5B"
+			rewards: [{
+				count: 4
+				id: "3AFD63ECE3E6C26A"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "05D725E7F8F50540"
+				item: { count: 1, id: "divinerpg:realmite_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+}

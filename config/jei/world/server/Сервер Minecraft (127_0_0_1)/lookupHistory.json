@@ -1,0 +1,4 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"mekanism:jetpack_armored","components":"{\"mekanism:chemicals\":{chemical_tanks:[{amount:24000L,id:\"mekanism:hydrogen\"}]}}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

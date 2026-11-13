@@ -1,0 +1,138 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "worlds"
+	group: ""
+	id: "139E2745B99F8758"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6661473579CC99D9"]
+			id: "042A066D39B2E488"
+			rewards: [{
+				count: 4
+				id: "40D5C5EBA11EDA27"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1E0364319E46A1C3"
+				item: { count: 1, id: "divinerpg:divine_shards" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "28B883137CF911F0"
+			rewards: [{
+				count: 4
+				id: "568DE1451D92A322"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "12CE392A62E2B4DF"
+				item: { count: 1, id: "divinerpg:eden_gem" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "650E077F4DC2BF2D"
+			rewards: [{
+				count: 4
+				id: "5A2C7A72383CD972"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "33BBC78867F945E6"
+				item: { count: 1, id: "divinerpg:wildwood_gem" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DD38200AECD1789"]
+			id: "2CC6C56E7C7F1D5B"
+			rewards: [{
+				count: 4
+				id: "3D530F5F1F3C1457"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1A36863D50FD5035"
+				item: { count: 1, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"650E077F4DC2BF2D"
+				"0C752426B15EC075"
+			]
+			id: "4AFC37E5E959372D"
+			rewards: [{
+				count: 4
+				id: "32EA4A6D53B7E247"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "132F4EC266EDC7F7"
+				item: { count: 1, id: "kubejs:divine_core" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "48CB83F5BD131858"
+			rewards: [{
+				count: 4
+				id: "6F4303425FD71BAC"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34FBE679C6036AE3"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+}

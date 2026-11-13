@@ -1,0 +1,1939 @@
+{
+  "schemaVersion": 1,
+  "name": "Eldoria TechnoMagic",
+  "packVersion": "0.1.0",
+  "release": "0.1-playtest",
+  "minecraft": "1.21.1",
+  "loader": "neoforge",
+  "loaderVersion": "21.1.265",
+  "versionId": "neoforge-21.1.265",
+  "repository": "https://github.com/lolihax1/Eldoria-Client",
+  "rawBaseUrl": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/",
+  "updatedAt": "2026-11-13T11:00:56Z",
+  "modsCount": 54,
+  "filesCount": 221,
+  "files": [
+    {
+      "path": "config/Mekanism/client.toml",
+      "size": 8753,
+      "sha512": "e8998fc6ae0723e765c166170231dbafc127f42d5c1959fa785a1364432aa00cc8a53f0060d3f8882998b2964056c82712429dd765185257f6f0dc4e4c69b106",
+      "mode": "always"
+    },
+    {
+      "path": "config/Mekanism/common.toml",
+      "size": 1075,
+      "sha512": "4f9e875db5b1c2811fe8941e883fe6fce7ca6f3e1e6ab1dff24a9df44aeb299c6468296014d59646294fab4c347749183c062aead83a8147ea9bc1c60a45aa66",
+      "mode": "always"
+    },
+    {
+      "path": "config/Mekanism/gear.toml",
+      "size": 13420,
+      "sha512": "13bc93fa9812829cdd02bfd431752c422387de10669fab4a6490cb9003f1e5f2c61a807d9c12a127f809f6ce1590261731fa36cf27691e708a3ed6e0244e2c30",
+      "mode": "always"
+    },
+    {
+      "path": "config/Mekanism/general.toml",
+      "size": 13417,
+      "sha512": "66c26238fccfe5fb00861f7fc803a5c455be1cdc727828afbc3b493cb510d450d26ac1c78503b2709fa1a6edec135e6521a71030252a09e5506dc79d51ec6c1b",
+      "mode": "always"
+    },
+    {
+      "path": "config/Mekanism/generator-storage.toml",
+      "size": 657,
+      "sha512": "89cc1745583b5f7794b6100dd7705746616ad5412b5bf39cf5e65f13995cf2974098630e1fb8ce5118470b5057d587f44b3fa2c9067bd030e76b6b16920932bd",
+      "mode": "always"
+    },
+    {
+      "path": "config/Mekanism/generators-gear.toml",
+      "size": 773,
+      "sha512": "b6e48fc750b030ce942122cf3775b63e3358a47f0cd2ef13cb45a7cc8050f2f48729024d0d70b79b649f65128dc7d43f6f9f3d2c1e1d30f69f999abfa3c480e3",
+      "mode": "always"
+    },
+    {
+      "path": "config/Mekanism/generators.toml",
+      "size": 8482,
+      "sha512": "ea81790700d4bd4733925f863ff5263470e1bb0e6fe7126f470e9c240ec092e51ed06aee7cff035b827e4b629678410316af49be120e93a16332c6988a534a51",
+      "mode": "always"
+    },
+    {
+      "path": "config/Mekanism/machine-storage.toml",
+      "size": 4880,
+      "sha512": "c037af49e67fd718e991f73421f1ed24e94422c9a705341a023de6cef04d46200234fd026951bb9e635cac95c43bb77807ad607dcdd28a95a83a97048d8efcef",
+      "mode": "always"
+    },
+    {
+      "path": "config/Mekanism/machine-usage.toml",
+      "size": 4770,
+      "sha512": "c2d03d1e1420f628cff46d51b79301dc196b42255f69f8b2602be16986f84a47a26bf7d1ca763bd1891be8d46bdf94a574388efae99fdbb78c9a4da0fe8cd664",
+      "mode": "always"
+    },
+    {
+      "path": "config/Mekanism/startup.toml",
+      "size": 1792,
+      "sha512": "42bebe6648e8b58cff4223814002116c2e0c40242f6e281311debc334d41c1e23f3d73b655151a41fc02da59252cc8a8fec1c9eaab29df9630e5a32444bb8e5d",
+      "mode": "always"
+    },
+    {
+      "path": "config/Mekanism/tiers.toml",
+      "size": 12196,
+      "sha512": "ba6b5889515d272be12b1316e1f0292e432d914a837fb32bb0192f743e2d909c65311f1932e9594c86728b50a10aecff572954cf78de77855b61b0de280a9a96",
+      "mode": "always"
+    },
+    {
+      "path": "config/Mekanism/world.toml",
+      "size": 21047,
+      "sha512": "445b2b7e20209c7e2e09b75cc5a5d1c6cdacc50eaf3d594f37d5adbbbf1b3b4c62deaf54ba9a5445bb03cfd65c701a2a439ece51a9899ffed289398be537b5fa",
+      "mode": "always"
+    },
+    {
+      "path": "config/actuallyadditions-client.toml",
+      "size": 96,
+      "sha512": "553e194229ef8bda734c391d387db0839b4d3a630071e11a486f1616d7a8fef4fe846732ecb477a5515b12f2c275cca187f2da8a5b36f68b58491f7e6e886c02",
+      "mode": "always"
+    },
+    {
+      "path": "config/actuallyadditions-common.toml",
+      "size": 4765,
+      "sha512": "e34ac57af7b6e3ee826e91bcb1390418885361bf4ac7a77dde994d77e78ea3ae7f4409f6d39239c9eb57125fbef5956429ff053264b0f3ef349ac862134a2392",
+      "mode": "always"
+    },
+    {
+      "path": "config/advanced_ae-client.toml",
+      "size": 45,
+      "sha512": "6d55a29e3c4d1702baccf888f658ec23aab28126dea8df9bdf567ad382d991d8ce9d13bb255aa764629871c3d12437c91d1ed4abf53d2c1c2456c34cb120e201",
+      "mode": "always"
+    },
+    {
+      "path": "config/advanced_ae-common.toml",
+      "size": 3237,
+      "sha512": "0913feab5ef8aa85f78f7f467a550c1d5c4688d00c839db7f924c698c9fd2476adbb030603a70cffd5fcb9d44058919993e8d1c6f458e2f0a57a9d948371e21a",
+      "mode": "always"
+    },
+    {
+      "path": "config/ae2-client.toml",
+      "size": 2344,
+      "sha512": "06f971ffd8c5751f2cdb5ceb5ca0150116ea8c209384ac7cff40c3d6c3855c5a81650dbfbd068e0faa61af57ed8c44c9be3c464abcc64768d83e50db36004ac6",
+      "mode": "always"
+    },
+    {
+      "path": "config/ae2-common.toml",
+      "size": 6094,
+      "sha512": "a7e8dc8a4a09e1c5eb0dc2a706e61ff0040af190d94d755d4187bbb5b865ae568fbc61706c8443003ee1a66006536210a5feabdb15db3c886a8aff8186aac04d",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau-client.toml",
+      "size": 2697,
+      "sha512": "b471c2d365eb82a91491bbda1c94526eee00ee9d1de96ae834b773dd9bdb1c6ca6d0804fa559ae8ff97cde1a8b306f55d716846d58bf6c8fae99aa1049fcf02b",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau-common.toml",
+      "size": 2910,
+      "sha512": "2bee92eb632eb15d2406b0cdaebdaa06103dc4df04685e73a803cc28cfa73e482cc47bad17840c70ef3bfa7c813a9197796360b9145b15c1e9d45878c9637bf9",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau-server.toml",
+      "size": 2060,
+      "sha512": "1d78a23278ea93788136c71f93c62dd2d8f61be1f50b93a8b7f505f5440838f7d07f43373494bddc2dbd71975dd71d1453d56b8348d1bd6ec36ba61c177d2e0e",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau-startup.toml",
+      "size": 256,
+      "sha512": "972d10d14f1dcb447a4b38adc46e9dc6bef6dd61ffed23e8023aa05523ca78457e5b18400fd8a7aaa918356551b96bbf8dcf599f15cf926242eb353977cd7e00",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/doc_data.json",
+      "size": 55,
+      "sha512": "85633f4c1aee20f39faf78743903ee57220abc8c26d7cc9731bfcacb84e2b21d9adb99f465ae707a43a52200bee113b7e52a402f1f9bfae45b99e76a957f3ecd",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_accelerate.toml",
+      "size": 378,
+      "sha512": "591880ef2d9cb51aed8ed1db9337c25f7c643e2ddf4a6ca7911183d17d743fd849c43d17be8930ce9d0fc8432e4a41325766754611b29e9079aeb67714de4acb",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_amplify.toml",
+      "size": 378,
+      "sha512": "d9a72a8eae5c3f9f4fa4bfe792003b614c7a40f248555a8fe9749c1389ba959476e28a6a64413a6e17f4793684105340210651074ccf1d43f0c3533bbddb4f60",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_animate_block.toml",
+      "size": 1004,
+      "sha512": "bd5c07ce1bc59bb4904ef70126254ddbddd35a86cf16fbd70181b259f1562c19332eed6b23ea46950cd59230eac41a7bf8a6b7ba8392b659e93fd738d4eeeefa",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_aoe.toml",
+      "size": 378,
+      "sha512": "025ec5c7b80406ba112bde866745afb6772906e1175fc10a2f4b48001f687c938411a57f083ad3224570fdc27e5c61d0e2de6e9947fbfdd2e27862c31850441f",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_blink.toml",
+      "size": 976,
+      "sha512": "1373d8da06c797c19bc44e95ade47adc4bc5708a5eaaa3b4c1332a70a37126fd7f4112d3fb0145d396f3ef9183a84ef9c1175ce25cb6077d07f31c3a691f4826",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_bounce.toml",
+      "size": 1006,
+      "sha512": "0953971425d7950209bbfdad83f94d9fd6578b583008e9c33db9685989234a995635c8ee5681503fc5878ce6ab2c49da9047e8bdc5f573858c6ad310082e5bca",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_break.toml",
+      "size": 902,
+      "sha512": "70efbbcc9ed0c456fe59aebe3a5579708fb82a68c8486dcb33205d1918cd021c4e1f5cf9f3c384d0a08bcc652758a26b5256770c8d1ef1f3a4fe2311d74addcd",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_bubble.toml",
+      "size": 1052,
+      "sha512": "7f303fac6df037a7e0fa82275543ccdea33a0ab859f91e8cea4d935a5a51eda9ab0d6abc7c7246c36eaf684c07f5f5e420759b6405dda6ccd8ea979b42081607",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_burst.toml",
+      "size": 910,
+      "sha512": "20d7d7f610d50251aba91346b1e7667800a79f366a0981cad11ff8dcaf24c0bbb0499db19863a7113d22ffe97b96efa31cf8258f141ea413ac086604d06bf877",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_cold_snap.toml",
+      "size": 1187,
+      "sha512": "456018f216320e5728d2673beccb11c794a56c0039eb95e43450a293d6009ef77d3d1fabe2a41df02f77a976d13f514396ee021bec10a55f0e0dfbae41ee0b18",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_conjure_water.toml",
+      "size": 1039,
+      "sha512": "c9b08d3a84e208dfaffa887ecdcc04a2cf32f7b13913a9da6a3915fcb8fdd0941612f43ee8a64a73ab7ee7a42cbb16d45b9017499f36f1f20b1147b4c879796c",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_craft.toml",
+      "size": 841,
+      "sha512": "5bf830eca2c258fe28adc3bbef5bc951524f0b9a9d9e8c0a0fc5c59b90a606005c1423fe33bd98d5401a282782d1c4873403b7b43609a21513c6ecc792f229a3",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_crush.toml",
+      "size": 1030,
+      "sha512": "fb737cf9a7c76cc47284fec5a21f211d1debfe48874b18e7e837834fd307d1404b6d6ff1cb00bc14b8fcb9b7124ef0d57832afb418193025cd17053cadaa1e04",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_cut.toml",
+      "size": 995,
+      "sha512": "616db0ae6f6c7ec2403571c95a4dd3a9d8eea3fff2264c1b0911d07ef251de663f8b83e557fa08be784b203920e0f244033f07351c69b46684c2f9070bf21d31",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_dampen.toml",
+      "size": 376,
+      "sha512": "e587dfa2c16dc602554fddc21fca021cdc95a257c1b3fe3a0820d6e10fd8753359efd5df00f69370dbc9e9e548b8a4add4b1255e36d7416b49f734aa50f314d9",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_decelerate.toml",
+      "size": 376,
+      "sha512": "36dc79a46677b710c893c89c37314ee305e33a4d573129fd54c80b265c6cfabddef39b2d234d1879b931e67729bc0f84395268ff2613fa5e633129416dbd35d0",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_delay.toml",
+      "size": 1243,
+      "sha512": "1d743a28e090b1035e95900572191d912093eb4027cbaccfe030e11234b34fa4fa75b73f00aba7435a3c87996b0bc3afc2649fd6106b05674804d50560f184f4",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_dispel.toml",
+      "size": 841,
+      "sha512": "909b83a28d01b6e33c1d5ad4d5137af40b6dfa78b2c48a4442ba1cff275f7b025d2ac9503c673392cd346c5b4969833a6dbf9e30fec6bf048085da898259dce8",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_duration_down.toml",
+      "size": 378,
+      "sha512": "55cb3f2b4bb37c77066792aea64e5f429eceaf323d9e89c614b83c952db88dfa56d216cf588765be04312b4af36d12e6c523bb6a5700eb9d5b19d3de1beff37d",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_ender_inventory.toml",
+      "size": 841,
+      "sha512": "ada437baefb6ef0dafd2bc9405f18cda5fcafe8f8add76e323a6a5160b3d24bf5e3150667990818f4f2a3b7a320f90c0f46922d9b531c5dd24087a7627c1ecd9",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_evaporate.toml",
+      "size": 841,
+      "sha512": "5bf830eca2c258fe28adc3bbef5bc951524f0b9a9d9e8c0a0fc5c59b90a606005c1423fe33bd98d5401a282782d1c4873403b7b43609a21513c6ecc792f229a3",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_exchange.toml",
+      "size": 841,
+      "sha512": "ada437baefb6ef0dafd2bc9405f18cda5fcafe8f8add76e323a6a5160b3d24bf5e3150667990818f4f2a3b7a320f90c0f46922d9b531c5dd24087a7627c1ecd9",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_explosion.toml",
+      "size": 1263,
+      "sha512": "af9404408d1dc2c25b3cc29586ca149b037fdf1bcc68b1f48a03f99dd38aa7c691b38b6f450037d37de438a3d5bbcb13150e99fdbd3d9b3e02208e2fa3c064af",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_extend_time.toml",
+      "size": 378,
+      "sha512": "591880ef2d9cb51aed8ed1db9337c25f7c643e2ddf4a6ca7911183d17d743fd849c43d17be8930ce9d0fc8432e4a41325766754611b29e9079aeb67714de4acb",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_extract.toml",
+      "size": 378,
+      "sha512": "0aaea808778c7b4faf1bac1421ca93d9aeb387b810293505577cdc515b65212bd2e3b1f77317c7935ce825ab14dc88366c3f1da98532f121bcc093094cd44994",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_fangs.toml",
+      "size": 997,
+      "sha512": "e2314ab7dd6bac0788cb93acfadaba09d92944b1872c92a3421861847e8b4a10face6203b1d21695f0d77bc0545a7c8624129705db1417b6edfcf644a27493cd",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_fell.toml",
+      "size": 1010,
+      "sha512": "274d02aa75a5a1ea65b33bf31f7f5b3790d4bda88c5905612fecdb2fbe2eb779e63f363c7a5eb6ac8be13d9761fc7226dfbb936366355b24c6fa0aef550db360",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_firework.toml",
+      "size": 870,
+      "sha512": "36efaeb6ba0116767a69cc7b92483d0bd7548a86f6f2092bb8011e0e4728d075a1ded9c73605616ac41ee5dca5f65f12e134da88c3154bf4dce9b8e2f3801b96",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_flare.toml",
+      "size": 1081,
+      "sha512": "820f387f2251b0e901d58c5476d69a3fde37bd371bbb65f36876c5ad3bd85f871d912833ccf1d5844f02c1990a07efa2f9158165ee48fb0b733f5e48a5d85dd5",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_fortune.toml",
+      "size": 378,
+      "sha512": "1e44d42acc7b8b49febb1f5f3c71f431d1e1f471726dca97395bcf5dd7a5750b3a0aeb57cd003b24a83bb3aa389196536829569eca50705883878d1b13c6a340",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_freeze.toml",
+      "size": 1037,
+      "sha512": "8bca72ab01d5b50ecb2694637b1723a7bdee866055252e2ce5657b1ddb2f93bf5fc8d46ea17da7779a912621969e925b3191ab2c9efbcd31431b0b78d53f6285",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_glide.toml",
+      "size": 1014,
+      "sha512": "6cd0b7c5f4808fd8fd3700fdb780e02eee1a41710d49fb32288d6f840409dccd4f846a52b565e25d5ca149a43ec6a6d079cb23df217de66ebdf365ebe803f57c",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_gravity.toml",
+      "size": 1006,
+      "sha512": "a52bcfbf84a2f9d956f8c2b610b5915ec0b3408a279c4d47c86d1f2b46968bd529cb15a472a01a8a9c349c9b245a38353f7d010fe05a16633c0a07f27b81a1b8",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_grow.toml",
+      "size": 841,
+      "sha512": "95368e3e50d1f48ccf41fe08124a572ead318ec636cbe8de576b4721df6746be7c0012dfda244ece21a9fae8474978b91dd629b61189c7609b6f557516b0ab0c",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_gust.toml",
+      "size": 1036,
+      "sha512": "44d47ae995381044beec1ef45d5ed2ce3b19615060e13b7cd2eb4049ac3bb1eb05955b6262111af301bfc2cb2c22f583ff28b782b762d862f7378f29a9d97b17",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_harm.toml",
+      "size": 1159,
+      "sha512": "1939e7092903b73260a26e984b9809b240e0fdedeed30bd6ea6d605fb5b0593b53f179aace998941f9e5c1b15a9a5af0e27b4edaa589002b3aac949d5f6ce611",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_harvest.toml",
+      "size": 841,
+      "sha512": "99c3d3054b68f52fbaa19ae65f4baf1f9ffc6e04b8e3a494b14351ebb8598dbcbad7d78e59bbdf8bced4aa8709c5fbe72ad800002722e54ff29dcbe111f5dff7",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_heal.toml",
+      "size": 1000,
+      "sha512": "de2a5036090feb5ba74517d28afe9b8f6bb375614142490a411d2381925f5b0087538774d7eaf83947a7a27516690a0b44c47186f7938a95886eb1dc9d05bf5c",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_hex.toml",
+      "size": 1037,
+      "sha512": "e6a8fa82cb03c08666044c6b3f167b8932fbc31f822837078dbd0f192ebc8bca24b247249e52badc76eb55af0bf07c23e33d6bf53abbdeddc3d6ad3d50775cc3",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_ignite.toml",
+      "size": 1035,
+      "sha512": "aa91472a54ee271ed8dc896fafd3f335f79199ac1ac1b1ac5cb6051f6d686871707037cec5ae2dbfcf19e138c1112c2f8c7937373a0e95fd150f7c83f5e37301",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_infuse.toml",
+      "size": 901,
+      "sha512": "6532239c7427398eb11c2710a7398f1197546d48d77c72ba7b51bc75ed37a7880d197820a620d27720762e3b36d208f025617fbcf1a60a12c9f0ba01ae7e2422",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_intangible.toml",
+      "size": 995,
+      "sha512": "00523148cebcde88f1dc662fa502a9adc2f730ee1f1ab1017e4cf24386d4af15cf1bf035f998efcc8d98742e8425272e2c1c6ed5f252dc1ab7b3ea1cacefd166",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_interact.toml",
+      "size": 933,
+      "sha512": "08a9f163f229315e3e7653bf04ba39398b3856667d710cb87a7dde0915a246597ce907a3e64c57f2c52a9c0f1c75fe0625a0a0ee3cd53929a99bf46485dfa369",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_invisibility.toml",
+      "size": 1006,
+      "sha512": "9b5e7b06893745f744fe36ef49c1bc7aad577c2a0ad50a626bc6a51ab22bb3bdcf8d739e6794fd20dda2257b73c0661a011f50d65fb5cbecace9a8613e1bc31d",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_launch.toml",
+      "size": 1034,
+      "sha512": "98fb13360748fa3aadeb19697b6163fee2f1fb89b1e38f72ad2197eced541845bec9bde8e7771b8f2f6784ca2296a2303e3d447b91d940bd462514e4ac766711",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_leap.toml",
+      "size": 1126,
+      "sha512": "be7e76a531575208e691b764d70a7523e2277bf3beb68621bbd50db69cfba73c1ed1d3cb2ae2ce4bbc73a0885f1f86579bd8034d04e56f410cd3e7af97599d39",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_light.toml",
+      "size": 1068,
+      "sha512": "2ee7940ba0d1e0d924fbb24fbd984275bc6360e033c60c6e94faa77accd66c69044f9a4f08721863e344f16e24a46db5b2a806f9f4b78263054f26c23745d322",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_lightning.toml",
+      "size": 1107,
+      "sha512": "151113e289466490df2e796188b0efbe33541332536a447548b4df13beb106333efef53dc9bb0a75a77ace055d2973c8554fa1daaa6015cb15218fb6f13d63e4",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_linger.toml",
+      "size": 858,
+      "sha512": "ffc55fc102d8a00a336ea065f368fb86c5f5ec45e78302382528ae345b28314b9e71de8a1eabe3b63f8e02fffda15341608ebf729bf84ef26049db14e639c8f2",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_name.toml",
+      "size": 841,
+      "sha512": "f940db87e269b33f4b3b018e2cb855bcccf9b8a18d931e3a4073be05b5c1a4ea23eb35761b179f00385b4079fd8c7b05518e2963ae4938ba554cb5e66d067827",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_orbit.toml",
+      "size": 841,
+      "sha512": "03bfe75310137a5c038a7c15b8e09d74336c205e482d6f332f2d3eeae32d794cd6ddcd3ec67163b1461b2f78318fc14dea26c182e50d61b0df1a69aef0c774a4",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_pantomime.toml",
+      "size": 732,
+      "sha512": "38db4351416ef8a977c7f44544c7d5a54d20a9fc0d9547ede96a8b736bce3d520bb1dbffaa82925241ce59a394039f116beeb741a9659b1d736efe490ecb0a22",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_phantom_block.toml",
+      "size": 868,
+      "sha512": "dd9a2e57aaf10422e5a7ff039d6ffde90f75d45f60fb2431271c8db96bc5fde68bc0c7b2e5b34f0dce438d4ed92be53f186b2d61a32758f91fe7d2fb248c1f84",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_pickup.toml",
+      "size": 841,
+      "sha512": "99c3d3054b68f52fbaa19ae65f4baf1f9ffc6e04b8e3a494b14351ebb8598dbcbad7d78e59bbdf8bced4aa8709c5fbe72ad800002722e54ff29dcbe111f5dff7",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_pierce.toml",
+      "size": 378,
+      "sha512": "f737a778a29d7bc0f3fa1f5f5cccd92db4fb292cf1aa0269581a487ce3d1317d3ac23281d0f090cd7903532536a89f35543aa2936eb5ee8b247edee0d44c354e",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_place_block.toml",
+      "size": 872,
+      "sha512": "83f934b0b7ff40bf1b57c71521ae1b1146c82943108a5b99e057ae15dcc5d7b5fd4df29f4632e0d4b63df62a55a9dd7e47cb932e7d53f46d395976fa7207eb0f",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_prestidigitation.toml",
+      "size": 839,
+      "sha512": "8a2bd8b41a9225cc4f2da37f4fe45e850cf25168a50adecd6891f60032a14d7af326ec65261cb341c64f6b7defa7851f0c45bf8782eec6567a6102198ca4a4ed",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_projectile.toml",
+      "size": 803,
+      "sha512": "590632290eeeba3f621cba843acfa037107ed2df11575fea3729d5eb250100eb04bdd65fed1a4f300ec9102bf1c067b73f19ec2e35590d068a853d9a06dc6052",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_pull.toml",
+      "size": 1038,
+      "sha512": "9b51fd11019628b0a598c774db3fb72a9f3daf60078b8fad09dc1a054afa9a04c110d4efdd433e8f7c24c6bd7e5764b70c9958db0e565f92a42b1b20cc8c2b38",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_randomize.toml",
+      "size": 376,
+      "sha512": "6180070232afa62ada51ab5d3dcd1bc9fd53aa3dee0f49fe052c1654fb081c6142883a3575fdc6c5f9dba188c587e0bbb8a757d1f49f973d52e8883d4e7680e6",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_redstone_signal.toml",
+      "size": 1023,
+      "sha512": "a650557e2f44afecfe2d43b54fb9f85516c75fdd09a43bda1397b944cfd271820fb23db622cdbf26d0847f7d7cb3cf68b27d31bd66df1f028715c50b0de8977b",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_rotate.toml",
+      "size": 905,
+      "sha512": "7bd6f53dc861075d0bb9e760ddac9696bfd2233686dc4081bb068a4cdfbc17bd269ecede658f51f71284beb72da9a4ee513711cb71fb6e619198b9a7498baeea",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_rune.toml",
+      "size": 872,
+      "sha512": "292af3b910d3c04685219a33675d398899ac47396c0f2a0db746bab0a3ccce46979bd524c71e491b1041b03c3ab612a2741dffcfc96cecd4a2c935fadb8ba256",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_self.toml",
+      "size": 705,
+      "sha512": "4a513f3881070618d2b35ecb11afb51a6f2e25a8d3124ed6631ac00865b153d5c77b777267a2fff66d312fd3aa3d9b046a82ca05fe47fc05d6a3d23c82e68cab",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_sense_magic.toml",
+      "size": 1008,
+      "sha512": "189d3a33fc435ba4b27dc9e59e47fa460d00ca02eb46cce4d7f360f62315ffe3ea9587f8810ac47d95d21cb8922a6fb0c50547cf59ddc86d3cfebac85fe7a867",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_sensitive.toml",
+      "size": 378,
+      "sha512": "3996ccf582cd40f1842c3aca370e90c3a32b4fb4dbc75944e42a9ed6be4f2ffe110c3cebea601c5456ce083493dc563deed1ad858d2341c28ce5a6d75f2a9319",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_slowfall.toml",
+      "size": 1006,
+      "sha512": "9b5e7b06893745f744fe36ef49c1bc7aad577c2a0ad50a626bc6a51ab22bb3bdcf8d739e6794fd20dda2257b73c0661a011f50d65fb5cbecace9a8613e1bc31d",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_smelt.toml",
+      "size": 874,
+      "sha512": "4f7608ebca7c084d4ee0cc77d65667ab3f347b816cf22b6dbe7306ea11cae92cdb243a1dbafdfa9074a6a0ebd306c9ccdaa8b0dc4aaa92a301a5e7adef6d0821",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_snare.toml",
+      "size": 1006,
+      "sha512": "3ea99d9f49a56112fd9fcb240c163c57cacaa4b1f9810eb2d6be7315e9c2e00c2e62115fb464a8eb3eb0cba4c22095bc3892fa59029ef12a3a1a69ed4b9c6fee",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_split.toml",
+      "size": 378,
+      "sha512": "58e46f5b3f1f788d8a5307bb86afba5743869057bd430f86f8a0a342decc470304b5bb6f548c97a8fff582d1c933971ddc6b91fac9d29eaf6d800d37462fb4df",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_summon_decoy.toml",
+      "size": 1004,
+      "sha512": "d801fa1f6b8270041df52be9dfea35b183070702be907d13e2de2d6681ab6d03cbd49960f83f462d8a7f783aa476d5e0a985cc75952797c56bbb13d7abd7d244",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_summon_steed.toml",
+      "size": 1008,
+      "sha512": "13c7d9b270bfbf61fddf5ee097e39746da5b678aed349a7b6dfcadcf6fc2323ca5458c2ff8bab53501d854dfe516e8ea7acef09a85e2d7a1246035bec615e031",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_summon_undead.toml",
+      "size": 1004,
+      "sha512": "779ee5cedaaadcfb59f5b02442992c70f987840a68545525478c8fa4da8e30242b441be1f233dbdecef20d96483372fc6874f1f7e9900e3f81ae63593012ead6",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_summon_vex.toml",
+      "size": 1004,
+      "sha512": "779ee5cedaaadcfb59f5b02442992c70f987840a68545525478c8fa4da8e30242b441be1f233dbdecef20d96483372fc6874f1f7e9900e3f81ae63593012ead6",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_summon_wolves.toml",
+      "size": 1004,
+      "sha512": "369e8f1a82baa5a13b7cd089f96b3d4af9cd654065262232045330fb747adf47970c9c4c72c749008459f3e7bd3b204d829c28596be0507838f9318fb48f33e9",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_toss.toml",
+      "size": 841,
+      "sha512": "99c3d3054b68f52fbaa19ae65f4baf1f9ffc6e04b8e3a494b14351ebb8598dbcbad7d78e59bbdf8bced4aa8709c5fbe72ad800002722e54ff29dcbe111f5dff7",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_touch.toml",
+      "size": 703,
+      "sha512": "2e4abd4b9122469895b313e334a794015c4471e7430b8b60215365c5a10411f1fd28b135fddb2eda44c142a36b334ea2007bf4e889aa8174f51eef3432a2a009",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_underfoot.toml",
+      "size": 704,
+      "sha512": "97c549a0612fada8a20524f65f9f88327c085c15b9e308a38598052b0ca2cad1f5bc1d0858db1889ae6412bdfefd5cfb6ff4433943d5056f3a876a1467bfdf22",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_wall.toml",
+      "size": 884,
+      "sha512": "5c135ccd0ed9e89b5acae7740cf994fc6d99dcaa8cfffeab6b8c9422ded87f25f39a684f9651845847518e1b63beb285c80c36e1a442de2a99969d19131a447a",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_wind_burst.toml",
+      "size": 1036,
+      "sha512": "f28831993b413ef36b36dc18d226fec0df88d793785f0a13915f1f6ea620cce88b514fb49326ee90ce210a778a3d197623de1c7181e52d31c94c40ebca082bc9",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_wind_shear.toml",
+      "size": 1105,
+      "sha512": "7cd0d9ac56cedb46e8aba7ba02a509112f1baa5597342a4a9540babd8ca83aad0729c0137bf389bdb5881fe7e2730eff8ec665e50644d24157a447fe1b08b3f1",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/glyph_wither.toml",
+      "size": 1037,
+      "sha512": "e6a8fa82cb03c08666044c6b3f167b8932fbc31f822837078dbd0f192ebc8bca24b247249e52badc76eb55af0bf07c23e33d6bf53abbdeddc3d6ad3d50775cc3",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/reset.toml",
+      "size": 839,
+      "sha512": "8a2bd8b41a9225cc4f2da37f4fe45e850cf25168a50adecd6891f60032a14d7af326ec65261cb341c64f6b7defa7851f0c45bf8782eec6567a6102198ca4a4ed",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/rewind.toml",
+      "size": 1362,
+      "sha512": "f6158ee17328e09d886d35747e7f675711a0f713c8ed7991800e6090f04e3e005103bb421d1fb665f33b4c6ac5096e92e4d9ff4985787df49016da30adc457fc",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/search_index/_7.cfe",
+      "size": 390,
+      "sha512": "4577ee59de486b9c5e2e6c0a9cd047b49c722c02ddd4ff65389924011ded145816d627af4e41669ef3d1e8103acd587a8e5861670c6777e73b167368496d07a6",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/search_index/_7.cfs",
+      "size": 69009,
+      "sha512": "c18f58ba501b91189950e6f87c0950bf8934bc07662120ee03f7af8574c51b722f5c74fa0e3e1d29e4dc6b2980a2c509ee8c43533f7b89a8f200015dde281a02",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/search_index/_7.si",
+      "size": 326,
+      "sha512": "5af1ac9f1c4945aa0f9937a25d1dd6970808e8cc02fd5ec3b00d6db18c2cda3c88144dd8e5d06c15158706b01b56aea0555d6b7954561bff12641fdf7847de03",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/search_index/segments_8",
+      "size": 155,
+      "sha512": "81098444b8adbfeeb83bfd664d79d298f905ff64af640d6d7a8d1c9bc3ff5bbad4ac95f3c04451f44bca1218e5055ac1fa1ef65f32c2d5a7ad2747b7ffc7fefb",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/search_index/write.lock",
+      "size": 0,
+      "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+      "mode": "always"
+    },
+    {
+      "path": "config/ars_nouveau/wololo.toml",
+      "size": 872,
+      "sha512": "292af3b910d3c04685219a33675d398899ac47396c0f2a0db746bab0a3ccce46979bd524c71e491b1041b03c3ab612a2741dffcfc96cecd4a2c935fadb8ba256",
+      "mode": "always"
+    },
+    {
+      "path": "config/artifacts/client.toml",
+      "size": 1013,
+      "sha512": "e8cf42dd92188b90b0129487070878f73e82596b4adcdc37b79c0c85da3bcba87a79fa1615ec37edc7cfe14b634ce240c2aadfa03b31ad3d72329cb5d4aee951",
+      "mode": "always"
+    },
+    {
+      "path": "config/artifacts/general.toml",
+      "size": 2326,
+      "sha512": "915fefd0b1b46c7da6862664f08eb5f5a21fb0be38caba1a935b0b4d1c8cffa5a819e14ea894d3fd037ef3cc8c083022de7c46e404b89c1ffc29d503ee594406",
+      "mode": "always"
+    },
+    {
+      "path": "config/artifacts/items.toml",
+      "size": 20343,
+      "sha512": "09d2a1b8c54fbd01dd05ed8245e2686c303673f89a8d5e60d1c7572b0947359b321933f2a0e84aa780a8e7c5f1b0db51011ad96ceb5113271e50a6c5942384be",
+      "mode": "always"
+    },
+    {
+      "path": "config/avaritia-server.toml",
+      "size": 792,
+      "sha512": "90cbf5b59ff353dd729d54b72963a70cdf3c9434f598a64ea6b4be116c0f752f38e4e40755af3ada9a3c8d930959f6ae0ed1f20cc96b9cb3cd38ff60538a868a",
+      "mode": "always"
+    },
+    {
+      "path": "config/better-advanced-tooltips-client.toml",
+      "size": 142,
+      "sha512": "5cf814f9767279971d39cf2e8f09b085503be76dac8091a2ae35679ce67542e02455e3ebf9b25ea513bd0000eeaac5e7adc0693d1805e7c7751f91be509fa725",
+      "mode": "always"
+    },
+    {
+      "path": "config/brandon3055/BrandonsCore.cfg",
+      "size": 754,
+      "sha512": "4182dbb9d1eed0176a7424f40a516bc70d25447141d338cb8f54b55c579496aec1f6efddd2013b9d9a1410074e4bc681720cacee2a1139644e2ae851051bb99c",
+      "mode": "always"
+    },
+    {
+      "path": "config/brandon3055/DraconicEvolution.cfg",
+      "size": 17189,
+      "sha512": "e13878d2123714583b8646cd88c3bc8facc5faa3634657868dc79498c5f2ad295d655b011b1265fbf83abc43b5e16f968ae753481528afed2fb06105ae7af898",
+      "mode": "always"
+    },
+    {
+      "path": "config/brandon3055/ModuleStats.cfg",
+      "size": 9472,
+      "sha512": "3b1431f4c4dde43c3f808e085ed6b3ca3b485e14fc77f1a14ab020dae144d233758761d415ba4855bada694e222c41cc8fe87f3a4c6e32558fce676440148499",
+      "mode": "always"
+    },
+    {
+      "path": "config/brandon3055/contributors.json",
+      "size": 5897,
+      "sha512": "69d9dce204e6e321a8f01dcbd6c82c2fda5ce2f757bf7db7359bd0ee6a15dcbbb7589a1edcfe62a0ee06ac9fe7ac7cc0ddda157a5bbe3f94f432dd2104943597",
+      "mode": "always"
+    },
+    {
+      "path": "config/brandon3055/contributors.json.etag",
+      "size": 13,
+      "sha512": "17e40a663a927aad317ba00bfc1b354186ae2d76b88b391e970aefdc95f1fd4d9021faba9d4a6e440ee05fe249350944f69d66dec1cfff8c383e7d0ca6ce9ae5",
+      "mode": "always"
+    },
+    {
+      "path": "config/brandon3055/hud_settings.json",
+      "size": 349,
+      "sha512": "ccd7bb5a84db8de35cb0738d1ef3aa8ba4ee7e4acc697fa1c04a342e0dac518efe8169536d9c620f66fe8a364509f880a10c670e6c823d41f0596766b3c75a49",
+      "mode": "always"
+    },
+    {
+      "path": "config/ccl.cfg",
+      "size": 446,
+      "sha512": "d9cd8464863ec4a83c8b80bbae8f3115c00ddf82541791fb186e4894fa342cbb7dbe06311261121b00e2d17e76fa38581f94f159e541bf23b6d2a4a0a6d6c91b",
+      "mode": "always"
+    },
+    {
+      "path": "config/cucumber-client.toml",
+      "size": 188,
+      "sha512": "7acff178992de36a63be26cded6c281d5d93c2aa9bdda652d6a9b05ea29cb4f7e62d4d8ff8e522f425f16f2d378c4c528ece4515506f18f5a8cef71e122e7b03",
+      "mode": "always"
+    },
+    {
+      "path": "config/cucumber-common.toml",
+      "size": 394,
+      "sha512": "016925065827151ff2bb6fc02ed76cac94210ad7c454372201f01749b1f934b192560efe60db1c47027727923f7fd891921593b5ccd293c2978040fca9fb51f6",
+      "mode": "always"
+    },
+    {
+      "path": "config/cucumber-tags.json",
+      "size": 896,
+      "sha512": "ef6999033db3797488934a1a4eb57a01c2a7d996b64d39a35f07198d288a7678cb51ce6fe24eddc329291c4482e4a9357aadfa0f88e4e0aef0667b53244a7bf8",
+      "mode": "always"
+    },
+    {
+      "path": "config/curios-client.toml",
+      "size": 766,
+      "sha512": "6bf222ee862df0a5f3b36697d7b0ff56a3ed38146b3fa0e9226b5a58cfd331b40d59bdb9ad8e4fb1036ac7af35815a63b32a6c9876e4a78093e5815b8a69668c",
+      "mode": "always"
+    },
+    {
+      "path": "config/curios-common.toml",
+      "size": 159,
+      "sha512": "db96906ef78b65bf73d2bb9b8ee925cdff002e6caa33df9782deb24c474aef50a5ae7ad2cfbbee683944cf817fb053b1f6e2bd49461777399dcba6025a4ea9db",
+      "mode": "always"
+    },
+    {
+      "path": "config/curios-server.toml",
+      "size": 483,
+      "sha512": "f78a8d5241baf2bf65666a2821a670259ffbdb18a75f983bcfb63fe86d635ae3d842c30f996a3c7104945aea13e6708daa4235a91b9c96126e50f0a92ec1ab3d",
+      "mode": "always"
+    },
+    {
+      "path": "config/divinerpg/client.toml",
+      "size": 370,
+      "sha512": "fa7813405298a7a423b4d8f3b36f3e84fb1d477820249451394d90ea68c5139c0c837cd67e92c3f24355667dc5744431fd2838d44e0d338940f9de7427c0cec2",
+      "mode": "always"
+    },
+    {
+      "path": "config/divinerpg/common.toml",
+      "size": 375,
+      "sha512": "cd461a48ace0a5961b14fefff0ba0b120701c9dedbc95b119c273832cbebcdfcec56ca498a5c43bec4d419b3368065b63fdcfd9210fc9a8d2713c5b2193ed7a8",
+      "mode": "always"
+    },
+    {
+      "path": "config/eldoria_spawn.json",
+      "size": 113,
+      "sha512": "2745814047591121558c84b35bda9926e16682b48f94ba0e17939d787485c823827601920b223bcc25155df52b26edfab6dd0cca88b96976324ac435296d0b63",
+      "mode": "always"
+    },
+    {
+      "path": "config/emi.css",
+      "size": 10189,
+      "sha512": "06c3eeb6b64345e3e001ff285ba3b99fd6c8ecd4979b45c1c5c0b9ec766e56626cecb4ba3e452ebd1992f0e31057a1acb3577eee252f5fe2fa8e74e201ef670b",
+      "mode": "always"
+    },
+    {
+      "path": "config/energymeter-common.toml",
+      "size": 582,
+      "sha512": "3ecdbeca12f0744094de42b672d1200efefb4cb758da7ee0b41ebbcd5f23b04104c7096f7743d79d459244815f114419c1a1f3f7bce73e1ed6ea58672a416e0a",
+      "mode": "always"
+    },
+    {
+      "path": "config/entityculling.json",
+      "size": 2248,
+      "sha512": "4ec9e69b2a81ec56e68680ca8f9536c18b50565b6ea4fd40f66cab50ea34bc7be7be55d21cd506c481cd7a0a56e37f1a562cf488ecaeabe71f937576635552df",
+      "mode": "always"
+    },
+    {
+      "path": "config/extendedae-common.toml",
+      "size": 1680,
+      "sha512": "452982ed0dd495016d9dcb15f24fbf4d8157129086fdeb22bd6cf6455156172b1a022cdb0a854f4f7cc3766f7e9f8e3e1958346caaed71d74cc33adff22ae3f1",
+      "mode": "always"
+    },
+    {
+      "path": "config/ferritecore-mixin.toml",
+      "size": 1603,
+      "sha512": "8424c53a4203d2b4389697493b2e0240ed42f15ff20fc9a73ad771802013669090d2e89db9881ad421d70e585f33f8e48f89802a140cd3c8ef28468b7c9ea054",
+      "mode": "always"
+    },
+    {
+      "path": "config/fml.toml",
+      "size": 1551,
+      "sha512": "b1aed72fcefd3f9dc3a1a5d24cbadffa2a25857a9847a92e0eeb93c37a7eab1a4acc54d5c61d4792359620e14b65a12c7ef083d5ec40ff5b5a6abdc6d1febdaa",
+      "mode": "always"
+    },
+    {
+      "path": "config/ftbchunks-client.snbt",
+      "size": 9355,
+      "sha512": "1e8b86e25e8548a450bcb8b1e3b65b85831fb91bebe400fa39739d0cd16f37d6989261b9cf2d902eb03a17768ecc1aa47b0ce6a006896789a693db050c0faef8",
+      "mode": "always"
+    },
+    {
+      "path": "config/ftbchunks-world.snbt",
+      "size": 9750,
+      "sha512": "ba9e9138b80b5f760b10ff81b9d84065890dfeb79ec174427bac3875c7234c23a35fecc13ca7c5ede226dc821de16ada8014be254b7a918ba50c76002249f801",
+      "mode": "always"
+    },
+    {
+      "path": "config/ftblibrary-client.snbt",
+      "size": 1799,
+      "sha512": "9cf10cdb2a4a8e8a7e2c91e64bc9edd0ef00053ad0f2cccde68c2bd269084e62d4c6abc16e6dc48a13d8f6e3f29a31a349f9233fcaaf0126491bca8654b4a0af",
+      "mode": "always"
+    },
+    {
+      "path": "config/ftbquests-client.snbt",
+      "size": 1551,
+      "sha512": "5f5a8ddbcd4fd29e7a791eb0b070cdda408c703dbfbda35373d95414f3c9fe9308d1a75993611d9701d5583dd4c44b09d7fe04813d46a35c998ca1b8bafe695a",
+      "mode": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapter_groups.snbt",
+      "size": 28,
+      "sha512": "754e680eca129e320d34fb71127189dcab8d4348ae57323a218d519fd971b4b2bfd463cef2d299946c4c4d4033fcceda60da76814b42dc2d3bbddb36656c0e2f",
+      "mode": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/final.snbt",
+      "size": 2566,
+      "sha512": "250cf4edca9ad52faf94b656fa2920559813099a890a8865ec8c19c54116eaab7705e5bbb5f306207ea86f95ce854218fc9e6759ff01854f4e2f1ee9373cc201",
+      "mode": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/industry.snbt",
+      "size": 2560,
+      "sha512": "49f47314dc94100bca7b987d33a26207e381ad0b4c7dc6176546873d8c559f0b94df2f4925000b796097c276200014c32f7fb8e1661d6ba7f3d5f9f7dc58e464",
+      "mode": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/magic.snbt",
+      "size": 2617,
+      "sha512": "dff74163cf0da2deb7c343e98cfad5b73a0df29aaf675487261e02f4d6750f8031afbcd5b1850bda869bf4cf5f70396e2b896da2bc7f4c98c5580335b31fab83",
+      "mode": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/network.snbt",
+      "size": 2573,
+      "sha512": "f1e10397e287b6dff43ab91009c7b490e7c345de18ae0304c8c1cb5ca8efa210697368dec7ba63f79afe1f4c0c695d48ef6cfb080d0c5c8c79a979580bfc7655",
+      "mode": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/start.snbt",
+      "size": 2457,
+      "sha512": "ac389c57512d9bee34b3b8fd087fcb6267db5378e6ef2e8aad5b58ff4efe05a412a1f30001658c12781759e76b49957b113d0e6ec3316611c3160fdfdd8020fa",
+      "mode": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/worlds.snbt",
+      "size": 2499,
+      "sha512": "182642c7054ef0a7ac1f570aaa057c728c8e686305cb6a550d30c72d9be2d345316ef295cab0b158053c393c8b663c736de3d8157ea0de81b50a55133238f13e",
+      "mode": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/data.snbt",
+      "size": 744,
+      "sha512": "e96da97e46ac68f273bdee6d52700dd6d16082f93d75f0af7447ad641835fbe5994e3268bf8e91efaaed636485dd2a2a32291086f57c12199964544f68813371",
+      "mode": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/lang/en_us.snbt",
+      "size": 10870,
+      "sha512": "ed7e8987a149392bbe065977a675da77cd047788a407bfa9bc6a20f0d4748efacba0a1a161d8c80b4dad679e2551bbc848fb60034e3ba292c96bcebd08616318",
+      "mode": "always"
+    },
+    {
+      "path": "config/ftbquests/quests/lang/ru_ru.snbt",
+      "size": 10870,
+      "sha512": "ed7e8987a149392bbe065977a675da77cd047788a407bfa9bc6a20f0d4748efacba0a1a161d8c80b4dad679e2551bbc848fb60034e3ba292c96bcebd08616318",
+      "mode": "always"
+    },
+    {
+      "path": "config/ftbteams-server.snbt",
+      "size": 1112,
+      "sha512": "7c1a1f5e310af1b3929841d7fd8434c54427346bee74f9a6588223d0718748ea38e3720e378733196156d8dd507ae202e8a02000037e0fe7e1944baea6be9464",
+      "mode": "always"
+    },
+    {
+      "path": "config/ftbxmodcompat.snbt",
+      "size": 895,
+      "sha512": "d5dfdfe71663da4498f5b57faf9c781ea45e2728fed279e35d61b2231b216067c7e945391c2777a3b27db40919613ae2d9157f030109d1c71e01ddaf860e7000",
+      "mode": "always"
+    },
+    {
+      "path": "config/guideme.toml",
+      "size": 559,
+      "sha512": "37299beca6ec89e2b55d9824248e348d4d20782e627beb3a7650cbdf8379e536fd7867d8345b63addede37e5ad24ca83fb4ff436ca50da9878ab73304921c56f",
+      "mode": "always"
+    },
+    {
+      "path": "config/hostilenetworks.cfg",
+      "size": 3011,
+      "sha512": "90fda7dddf17e5210aad5de13ba3c4a124a1259543aa2b4810afbde6e27e98bf8486559d0b53381b9712a568464b7e2c04428bb2a83fa05d04052124a6b79c13",
+      "mode": "always"
+    },
+    {
+      "path": "config/immediatelyfast.json",
+      "size": 1114,
+      "sha512": "b2e4c22100d3990d8d887a7b10459f2fe380adc691e3fa5c29d4afe71092430054a7fdef463c1615ced5ea5849deddce32bda213f572692edc13722b8a215a90",
+      "mode": "always"
+    },
+    {
+      "path": "config/irons_spellbooks-client.toml",
+      "size": 3571,
+      "sha512": "c3802d26d63244bc82798ff08212ea1bda55d6dc77d2b9888a7363f8c18ba9e08ab7cee2c9a90ae46f7619bdd43af94e762bc206f058cb540bba6cc5dd57750c",
+      "mode": "always"
+    },
+    {
+      "path": "config/irons_spellbooks-server.toml",
+      "size": 5334,
+      "sha512": "8ba2814a509db65cc5a9362cedc58b21e7a922a78c55b7f16147febb0c7cbc1eb6a73ebe4950cd0fdcdb78d0503dac57692c64dcf9b2b570f504769ec07f192b",
+      "mode": "always"
+    },
+    {
+      "path": "config/irons_spellbooks_spell_config/global_config.json",
+      "size": 257,
+      "sha512": "57bea7fa2eecdb15a2275b7f22573d041a6c1f1402237c0ece0e0284dcecb4a2a7d7462488d570fdac43ad2d5b7c179dbf22f9f9b322bec563192baa6d276e54",
+      "mode": "always"
+    },
+    {
+      "path": "config/irons_spellbooks_spell_config/irons_spellbooks/example.txt",
+      "size": 683,
+      "sha512": "169e106a39931f602c285056177d54ecdafbb30be0fcfca61c73e738eac77f39efb9dad0b1ff3eea7604f36b0984bd4e16649d093f41db7f0d8825653240fb05",
+      "mode": "always"
+    },
+    {
+      "path": "config/jade/hide-blocks.json",
+      "size": 149,
+      "sha512": "05292934dcf31e2b88fc177e4003fbaada87eedc2efa6c24d1cca62d399d85e497e98d07072c1f2e3d2c9223240e970b8ca89932cc569cf386667b97733a855e",
+      "mode": "always"
+    },
+    {
+      "path": "config/jade/hide-entities.json",
+      "size": 243,
+      "sha512": "7e20668be689f3cf6c961afd950bf263f762250fbf6597bd0225d0b8e9b5357f00362f684aa73ce19f712571bb0478a0a7c3bb2e8eb2efeff69f1e3ff4fbab0d",
+      "mode": "always"
+    },
+    {
+      "path": "config/jade/jade.json",
+      "size": 1089,
+      "sha512": "830a41cc840ef410040be3b1e8a4050f446874419ee3524f78c5a08a67aa5ccd1e069220d51474c49bd1dea1c9a2cce0adc512a58aaca1b774115e0d2daa2b58",
+      "mode": "always"
+    },
+    {
+      "path": "config/jade/plugins.json",
+      "size": 2905,
+      "sha512": "42cb7c7c1e2ff0235e4bd5453a0db184fa6e281f903ef21ae37af6d070a815901ec46c66699b04e9a06c64c49584796aaea73f1c0177230da3eb08800d15360a",
+      "mode": "always"
+    },
+    {
+      "path": "config/jade/sort-order.json",
+      "size": 2997,
+      "sha512": "8e07bb74c99a249bd19ffdd5ed205568d50a8baa8b2d6b6e116d00fe96fcea743ee399652284200dd1366a9541f8f202eb9b5eb4ad9e37c024b47ae12b1de493",
+      "mode": "always"
+    },
+    {
+      "path": "config/jei/blacklist.json",
+      "size": 19,
+      "sha512": "81642eeec041a8913fee828a23ee0a103334b5c749396bc21cf7d8c543305a503a417f5384873ba649a28749065bcfb533c285a7f3c4a8cd4bcb820324c49017",
+      "mode": "always"
+    },
+    {
+      "path": "config/jei/client/default/jei-client.ini",
+      "size": 16752,
+      "sha512": "6faa39dbabc9a36911a6f33f022fd26dd8d2cee3c03bcaa0545b09e5be91f10dd1c617ef9d904bf83585f402b2c440554263ed59603937eb6ca56531cb4cb7ca",
+      "mode": "always"
+    },
+    {
+      "path": "config/jei/client/default/jei-colors.ini",
+      "size": 1655,
+      "sha512": "8607835e0e9ccecd5980d6df539689b27862c10e5983ae13f8289c473739aa67cfd04f689c3029a5ab60641671952f94d01ef6bcf77036b728d4cbadebcf2f62",
+      "mode": "always"
+    },
+    {
+      "path": "config/jei/client/default/jei-debug.ini",
+      "size": 1174,
+      "sha512": "561872b0f40448977dbfc261d71c4acd04dc40b3f84e8e84de3093d1d7f10b9ca50ab966ba85e9b5cb926b8b99898d93b51f9a3c7dd0462f98b0f8798ef2cea0",
+      "mode": "always"
+    },
+    {
+      "path": "config/jei/client/default/jei-mod-id-format.ini",
+      "size": 863,
+      "sha512": "8025cf48db77d092f21b963957e4a5b382e734f83344c3e9a38315f6c7b2b52012403fd53cf255c01d8fcb39a40a7529dc7e3357c254df674eb33f2241b0a79d",
+      "mode": "always"
+    },
+    {
+      "path": "config/jei/client/ingredient-list-mod-sort-order.ini",
+      "size": 221,
+      "sha512": "260e2a532f93e6756bff733ac3052ae18ef313fff9b667aa0622007b04207dcbf9e417cfc4bb960fd67584660c5adcf07a7d96c526ec19625c62970659f671ac",
+      "mode": "always"
+    },
+    {
+      "path": "config/jei/client/ingredient-list-type-sort-order.ini",
+      "size": 183,
+      "sha512": "9d16ae5c76eca3f5181d0589443d4ae4c6d732ab6957f67f0f75890fb22b529e5b38952400220f386d1397091bf700e3b930cb3a20b8bf76528a0031fbe3626c",
+      "mode": "always"
+    },
+    {
+      "path": "config/jei/client/recipe-category-sort-order.ini",
+      "size": 2304,
+      "sha512": "4eb9a90b21a78ae5240fc7b9d622dd7c1cafe25e452caea11f349eb94b5866de8c6c062f3df43ad6c7fb717e339e672f65a4dee00e2486fca372eb492728fd31",
+      "mode": "always"
+    },
+    {
+      "path": "config/jei/server/world/default/jei-server.ini",
+      "size": 760,
+      "sha512": "b28d484975aa38b690208e89c121339cba45c4cc5d931ce61a78d3a89929dd3ea3c900dfddfcdfaf611d61479b10ad7480d689992735701b1b10acf559af4373",
+      "mode": "always"
+    },
+    {
+      "path": "config/jei/world/server/Сервер Minecraft (127_0_0_1)/lookupHistory.json",
+      "size": 219,
+      "sha512": "7f437dfd075ae0c3e5127bc7b097370f2e174ca9eca0331d835caa8068780951eccf0dd39721a213413da7029205301074b28faf8e4e14ff977a4c3bb8e530da",
+      "mode": "always"
+    },
+    {
+      "path": "config/lithium.properties",
+      "size": 267,
+      "sha512": "7cc1ad34b644be80c01adecf595809874a1d0a86e9b954e4ba39226bb96ec39c8433ce787c7e11280c598a2cf103c00949ea37406abc3e573fb7d28cca1a0573",
+      "mode": "always"
+    },
+    {
+      "path": "config/megacells-common.toml",
+      "size": 143,
+      "sha512": "924b084190362038d695c57bb43156e8f01f2f07d15be8403b1d7c279d51a150108dbe9a8d7fd78634c2a0497d65e09421d9b99dcad09bc659def85ed43a8c37",
+      "mode": "always"
+    },
+    {
+      "path": "config/merequester-common.toml",
+      "size": 380,
+      "sha512": "b459d15040245f643ea6d995bb4b08b786d7a5b6bdac18526518a24c2b3fcc91a6befbd244306726a6c26ce51941e16b2f7d778d63565bb52ae02b9673732d15",
+      "mode": "always"
+    },
+    {
+      "path": "config/mezz_config/client/default/settings.ini",
+      "size": 1452,
+      "sha512": "9b483241dd637e55ab133efd38632011c2d4a9e9944238553bcee59c6bf96c3d34469e355235b0b139f3d80c86b71630da0d6cfc44602c4c2e208e3b69b8bc2d",
+      "mode": "always"
+    },
+    {
+      "path": "config/modernfix-common.toml",
+      "size": 105,
+      "sha512": "64602bf203390e9e011bea40dc7a554481f63f77467a2f893ea5d158f7ab8401311801820d56f327fb822282743b4a36f097d95011efad7bac0cc730d0de8a08",
+      "mode": "always"
+    },
+    {
+      "path": "config/modernfix-mixins.properties",
+      "size": 5530,
+      "sha512": "bf5e49a53f7f8a51d08b9c45dfa62400e1b8144933f440bc2480401603ce5fe151f1d1ede9366f02543b81eb97d6304b19fc4c9aaad1b7c912e48073f4a1332e",
+      "mode": "always"
+    },
+    {
+      "path": "config/mysticalagradditions-common.toml",
+      "size": 947,
+      "sha512": "5a48b6e7aa8e345e5d0937686a498c647225c555ee5d733cfce91ad197d930278838e42e75308bdb52847d3a66350d4d645be9d074233e97b23c0cc5f4bab4a1",
+      "mode": "always"
+    },
+    {
+      "path": "config/mysticalagriculture-common.toml",
+      "size": 2488,
+      "sha512": "a4adc1228c80870c97bf492066cf1300860a33fd484fff7380ffc31a938cabcfde66eb763495d4e7e03590f6cf5e041aa9f30119edd1ada7d5513215296e411f",
+      "mode": "always"
+    },
+    {
+      "path": "config/naturescompass-client.toml",
+      "size": 444,
+      "sha512": "fab5e25553ec79b1df9386848e270b62b62527aa9df050e5d51b2c160232eae263da20fc9b7e16f85692945e7c373c312915327a176d937fa886711256d7394e",
+      "mode": "always"
+    },
+    {
+      "path": "config/naturescompass-common.toml",
+      "size": 2227,
+      "sha512": "c0a9b0ca485d4fdaba11ed8c27e433b1a3fb1a222a0ac97c54e8b0f852a84aa91dea58b0bab74008a442a18d25fa45567ff2cdfdf1d2b5c6cca32c7fbba41d42",
+      "mode": "always"
+    },
+    {
+      "path": "config/neoforge-client.toml",
+      "size": 578,
+      "sha512": "3b2cddc1c8a2b7b8dd29a716d58b998dbd028ddcad35275eeac0a7100540dab4170975d0b420af2e3152cff5b509977fee15eca1decdff2e899c287963efff51",
+      "mode": "always"
+    },
+    {
+      "path": "config/neoforge-common.toml",
+      "size": 1050,
+      "sha512": "5483ff3efb2699d53ac5c2f5104dd9053a7d1d54535c00137b1259ef8e99df16f525ec3f182aac82797ad48d5daaeddaf00d08574412fde2f4b724a8ffb8366a",
+      "mode": "always"
+    },
+    {
+      "path": "config/neoforge-server.toml",
+      "size": 1177,
+      "sha512": "164c8ef51cb19ef4e8421378fa20d56a803b07b2cfb8d5d36b44e32c17bb4bc097ceaee1c2e363bcd8059e2fe710fca2bf3d14500879aaa35c4f98e0fc3ff2e5",
+      "mode": "always"
+    },
+    {
+      "path": "config/patchouli-client.toml",
+      "size": 1089,
+      "sha512": "8f50a9633e852380bb85e2d770a3180beb3523b4a07fb6709af7a60e9b61ef5ed9cb9844124492adaa4a456723621094add590c1f71c6f8e24c6731e4cf9d49f",
+      "mode": "always"
+    },
+    {
+      "path": "config/placebo.cfg",
+      "size": 495,
+      "sha512": "4a8616de875af14795eecae750997a4f64d30b06f6b58a451ccc24567cf79cf9ccb18c8c4b6453b2dc84025b822a183ca89964ae3abe5f46be6aee4999f70d90",
+      "mode": "always"
+    },
+    {
+      "path": "config/sodium-mixins.properties",
+      "size": 258,
+      "sha512": "6acd2f3e4956788d0abd2bd941c5bcb3003b63c58eeedb3db727e5abfd37f036e49e7b97310bd37b9d3c29e2adbcbb3e5109af0482842f704a64a409a59bb437",
+      "mode": "always"
+    },
+    {
+      "path": "config/sodium-options.json",
+      "size": 762,
+      "sha512": "c04424a080169cc6aafe15765bbc3b54f84440e4b352556eadab879a173b064a7be209315ded52659c502fafd884806f4ddd84a13ed9cf13453ec5f4c72805a6",
+      "mode": "missing"
+    },
+    {
+      "path": "config/sophisticatedbackpacks-common.toml",
+      "size": 118,
+      "sha512": "4bda96a33735b62706fd7b7e785cc0dcac04670c9047f7079a05b70e300621899c3c5106da4bbd86de1d74b3ac3eac1a3038200e54d06f1f051ac2e5b07404c6",
+      "mode": "always"
+    },
+    {
+      "path": "config/sophisticatedbackpacks-server.toml",
+      "size": 24153,
+      "sha512": "1bbefd347cb93630b0239f448b0bca758cd298b7fd4e68453b5fc8f91b9a70fc92cf4c2894dae3d1c32e7105d9a88f58609a771d87c2e7a4686e353579f25c12",
+      "mode": "always"
+    },
+    {
+      "path": "config/sophisticatedcore-client.toml",
+      "size": 478,
+      "sha512": "76233eb0781280c1556eebb54c4ac51933a35f487bb3fd4dcc4976154e543da114c01ad04890cd82b3e5d00c1bb2dc1f75afef4e3a191e0f252b5e5f2ecfc8d2",
+      "mode": "always"
+    },
+    {
+      "path": "config/sophisticatedcore-common.toml",
+      "size": 10587,
+      "sha512": "eb55395ec7ecb62b5ca598e25d64f488b1ca9a4aaa3f1a3b7f5f9fbeb5b7dc30c1ea169ac98cef1cd64cbb930f84eb1c26700412298ae79d793ecec3fc6ee519",
+      "mode": "always"
+    },
+    {
+      "path": "config/sophisticatedstorage-client.toml",
+      "size": 447,
+      "sha512": "0637d1916ae038d686637210a796c67dd10aa9369fd3cde170dbd0b4122e33e04b6bcc5f39dd81b68dd6b73b4f399faa52f6c6d3b70b6d3644d7beb5c1b937eb",
+      "mode": "always"
+    },
+    {
+      "path": "config/sophisticatedstorage-common.toml",
+      "size": 186,
+      "sha512": "791af57bbc72bfc13558ca9cce9ab9fa1db9de0503bd73d21c62367a8a736a39ce944738dc28fc3172bbc866bd3d3491eff852fa1c338dacbf35e697fa4fe9fc",
+      "mode": "always"
+    },
+    {
+      "path": "config/sophisticatedstorage-server.toml",
+      "size": 25915,
+      "sha512": "3b3a5d047d73fc8fedb1bfbe83ac49aae306b0730b672536acc4728c4a6fb59d1d4adb8a62b4d5f74716e64897a41900eae326610915075820cfaf00bdc75609",
+      "mode": "always"
+    },
+    {
+      "path": "config/transition.json",
+      "size": 97,
+      "sha512": "5a6cd1e9fb12a87ebf415c26ea086aa03da9d05e31366514eda23eab19b7eb96709eb25c7e0cb16de5e77555bed58abb68d88ce4dd4c6e44d67a0abd97dc98ac",
+      "mode": "always"
+    },
+    {
+      "path": "config/trender.json",
+      "size": 47,
+      "sha512": "cea3e69c7848e74fbacd78f0c663c0ce8c03e9a9725c9ff5b9850325c59552fdbf9624a1c89c606a3de365d04199c6a01e6e1ce4052a050836d935d6f958cf61",
+      "mode": "always"
+    },
+    {
+      "path": "config/waystones-common.toml",
+      "size": 6646,
+      "sha512": "2051e24bb08b16479cbc2fd007a487e047223f0fb27516ce91873e819a92b4e118633cf997cb0596251ae3c58df2af9ff70e08a5a5f11237069a776343abc9fb",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/README.txt",
+      "size": 1203,
+      "sha512": "2a48a8544574fd05bf02ac0de38e43e7ca0942eb4c1d7de9a25ba22595ed6ff39bf056e4da9b1b49fc29aaebecc5805f5acdb3403e5997121f4f8c11f70c5941",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/assets/ars_nouveau/animations/wilden_chimera_animations.json",
+      "size": 25038,
+      "sha512": "3996c4b7e1107339f1e3fda97c434f1828ff272dcd1ab8f2599a05fd933c2a52e449a386afcd84cb9a5093dc4e54d34a39affdc2e52c9c0d4d96e657900a843a",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/client_scripts/main.js",
+      "size": 116,
+      "sha512": "67e79beb2ec62c28b56fdd093921439e549a5b8877f14ee740e838b71ce52f9742713482c81964b25e3082daaee71e4dde42751f29de2600d1ad011343f946c0",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/config/client.json",
+      "size": 184,
+      "sha512": "19ec7d421a97b0cb2a2399a670296bfc1b3c12bc6fd9ad49abc18e219895ef8b172596a3dfe43c6b84400f8248c1082d2de154dd5b6f1bff672cb19cc2bc0a0b",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/config/common.json",
+      "size": 446,
+      "sha512": "30446631b27befa3a7143841a96ce55a66d5d7ea9cd10c513a7018124fe14c82b9e379dcbb58b1b9bd90d534dd25101994ae15e4bdcc6112a876cda4c8dd6b87",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/config/web_server.json",
+      "size": 120,
+      "sha512": "7fe41c7a48717ede7f33bb7fa668bb7d4e0b462f6f02b1fd30ce25a81ed187f5ce34c096ea62c9cf16168afb99a8f9544be850d8978cd223307ce62df10b8417",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/eldoria/dimension/lobby.json",
+      "size": 309,
+      "sha512": "651c21d493d47de46b5a8d486b58c802051cd1d5f274b0803f1ed57899d45a1008739aa51f1da9604ef8730e6328f48f85d8234a15afc1c9be5e44dce4675c49",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/eldoria/dimension_type/lobby.json",
+      "size": 503,
+      "sha512": "02158f596cbf6491bec240b4aaa14df87774b5b867e88a0ea0a9db8955c3b335d1695c853c2274c71d38c6997fcde7d4c478fc5c72fb33ac011d4419f7bfdf1b",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/server_scripts/eldoria.js",
+      "size": 4370,
+      "sha512": "73e5122607ed4fe3297320a4d1620d3cfb41433cb90080dc3a8cbbb153102bcf422e7f17f805e7942d0640092cecb7469b28aad75d5495db22b067f027c1fc37",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/server_scripts/spawn.js",
+      "size": 7237,
+      "sha512": "d2481169c1a793b7592d9e1d2344f328e968bf1f50f45255f60dbd16adb122e175b086fa0772fabe5aa88c99f80300e6bdef0d82dcdf14f1b1ab1716e083b581",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/startup_scripts/eldoria.js",
+      "size": 523,
+      "sha512": "3c93819503a85b7eb56d0f9da198975e51f48d4c0a834e79ced4c31b37d2a62fb7a857af4f77a212f19da21c080287682abded893ce7dc8c3606105d255febb5",
+      "mode": "always"
+    },
+    {
+      "path": "launcher/electron-bridge.py",
+      "size": 3496,
+      "sha512": "0ae0f0ffc1ca9d155a64721300f86b5f1acfbae75dc5071872a4eae7f00bf4d43770f462daa846893f68d78a5f2c0d10e5cde24e5468aa93d838e497c6455aa8",
+      "mode": "always"
+    },
+    {
+      "path": "launcher/resolve-profile-skin.py",
+      "size": 939,
+      "sha512": "f564db477ba106654bc17bcc4c0973ac60d465a46171f1faf37c1f675c3a8fe8d1b537c0e7821c7856085be1e9119c6125aefc45ef102936e7395746b5f51bf4",
+      "mode": "always"
+    },
+    {
+      "path": "launcher/servers.json",
+      "size": 95,
+      "sha512": "e96bb3363e559fbb953620e1ca655a4557b38c07ef8b6ef180a5f0cd6b91a21a852591d6b395a5ded48999bae11153f658e93f7897b90b3ab45b6a950ae2fba0",
+      "mode": "missing"
+    },
+    {
+      "path": "mods-lock.json",
+      "size": 42070,
+      "sha512": "d69b363003644bb2737b55f44e982fef3d5b6de4f1ff1b0151912ad0f26f0cadf8012e718cb1aa488f816f2c72fdb5924dee30a622e300f9b0896b0970de0ed1",
+      "mode": "always"
+    },
+    {
+      "path": "pack-info.json",
+      "size": 157,
+      "sha512": "fc2ee689b5f7e2b890c058fa77e8c235d94a3c429bbdefc1a2a1dd903745e2932645c4c198fad01d396129ce67c960e245fedb46d10496e2d0038a2718574375",
+      "mode": "always"
+    }
+  ],
+  "mods": [
+    {
+      "id": "4K7Q3nqd",
+      "name": "Actually Additions 1.3.26",
+      "slug": "actually-additions",
+      "version": "1.3.26",
+      "side": "both",
+      "filename": "actuallyadditions-1.3.26+mc1.21.1.jar",
+      "size": 3217309,
+      "sha512": "69c9e919fbe3a4c3478a01d2693a944c72e217737c37d6bb94086e07a962404a089cdccd38372df28dc3726df298f00a5b22a433b1c776b04c979a8a7d12c3c6",
+      "url": "https://cdn.modrinth.com/data/4K7Q3nqd/versions/iNeJmgFj/actuallyadditions-1.3.26%2Bmc1.21.1.jar"
+    },
+    {
+      "id": "rxYaglEe",
+      "name": "AdvancedAE-1.6.12-1.21.1",
+      "slug": "advancedae",
+      "version": "1.6.12-1.21.1",
+      "side": "both",
+      "filename": "AdvancedAE-1.6.12-1.21.1.jar",
+      "size": 4791255,
+      "sha512": "ab61c57355649a967a0bcf6b9413cd6b62728d26e914543b3231eea33bde5571536bd589ae1ac026d46799711508c942284c3419e19ff5d5bf80f1045442f33a",
+      "url": "https://cdn.modrinth.com/data/rxYaglEe/versions/ablTMAjP/AdvancedAE-1.6.12-1.21.1.jar"
+    },
+    {
+      "id": "XxWD5pD3",
+      "name": "Applied Energistics 2",
+      "slug": "ae2",
+      "version": "19.2.18",
+      "side": "both",
+      "filename": "appliedenergistics2-19.2.18.jar",
+      "size": 8236552,
+      "sha512": "39bc4cf733a4321631e2637a1a6dfd3527135fdac1b572534e6fd1f9eab7a6dd92d56c5fa066263c95149c9b20cabdd1fd3dff80bea515381b1d2d754cad26c3",
+      "url": "https://cdn.modrinth.com/data/XxWD5pD3/versions/KDnFUmMm/appliedenergistics2-19.2.18.jar"
+    },
+    {
+      "id": "lhGA9TYQ",
+      "name": "Architectury API",
+      "slug": "architectury-api",
+      "version": "13.0.11+neoforge",
+      "side": "both",
+      "filename": "architectury-13.0.11-neoforge.jar",
+      "size": 584734,
+      "sha512": "d9f7c3bb8162577dfb461ffdf04bd6a3563c7586934a0e2a744c14421beffb8286f0d88d4c758317003f20f99fe8072a39b9d675af061e036970d36db36027f0",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1IiqEQGl/architectury-13.0.11-neoforge.jar"
+    },
+    {
+      "id": "TKB6INcv",
+      "name": "Ars Nouveau",
+      "slug": "ars-nouveau",
+      "version": "5.13.4",
+      "side": "both",
+      "filename": "ars_nouveau-1.21.1-5.13.4.jar",
+      "size": 19872506,
+      "sha512": "594ae3e9107d3cb8af19dac0f2df871771b1a542212426e32411cdf7fa65ce8fd779ade9c6386d1b4b6cb3d0fcc5bda5887444b7deaf10019f2ce335e513c72a",
+      "url": "https://cdn.modrinth.com/data/TKB6INcv/versions/CHw9k5Va/ars_nouveau-1.21.1-5.13.4.jar"
+    },
+    {
+      "id": "P0Mu4wcQ",
+      "name": "Artifacts NeoForge 13.2.5",
+      "slug": "artifacts",
+      "version": "13.2.5",
+      "side": "both",
+      "filename": "artifacts-neoforge-13.2.5.jar",
+      "size": 1086922,
+      "sha512": "9079bc8a22c237881b22b38027bbab2a8a2e685a1f49c1e1e0e5796f3e0a5509a130d73753c7b2980f12e4f00845f8e8c967ee969f1eadcd52139c2780afe09d",
+      "url": "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/lMfuK0o7/artifacts-neoforge-13.2.5.jar"
+    },
+    {
+      "id": "j5gjLUvf",
+      "name": "AvaritiaNeo 1.3.1",
+      "slug": "avaritianeo",
+      "version": "1.3.1",
+      "side": "both",
+      "filename": "AvaritiaNeo-1.21-1.3.1.jar",
+      "size": 1017768,
+      "sha512": "8609943c8cfc0c6f3245bd67716fa0c613f725c8ed71d197e37667d8e3952f1d7e35f6f573707757ae21287c65a6566d40134142ee7b3e33b03264cfb59d7740",
+      "url": "https://cdn.modrinth.com/data/j5gjLUvf/versions/FHnVxTl7/AvaritiaNeo-1.21-1.3.1.jar"
+    },
+    {
+      "id": "MBAkmtvl",
+      "name": "Balm",
+      "slug": "balm",
+      "version": "21.0.67+neoforge-1.21.1",
+      "side": "both",
+      "filename": "balm-neoforge-1.21.1-21.0.67.jar",
+      "size": 786010,
+      "sha512": "ad4f4df829b1195446486df818c2c1f0bf6738cb1b30cfdbf9eae4855ce62a66b00f2dc5e0a87409f25ce4eba9bd5c94e1b10d1940af451d5ef7dd7f4b3d8ebd",
+      "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/gMedgtzL/balm-neoforge-1.21.1-21.0.67.jar"
+    },
+    {
+      "id": "iHLDc0eo",
+      "name": "Better Advanced Tooltips",
+      "slug": "better-advanced-tooltips",
+      "version": "2101.1.0-build.5",
+      "side": "both",
+      "filename": "better-advanced-tooltips-2101.1.0-build.5.jar",
+      "size": 37653,
+      "sha512": "05b5cdad948d1735eab7a67a16aaf32814678c392014ec2ada61b8341c0ed1c1ac181cab1de9da3f2c4632592f4a1a5db254bd0543e6778897c8ccd260894142",
+      "url": "https://cdn.modrinth.com/data/iHLDc0eo/versions/uPFbnD32/better-advanced-tooltips-2101.1.0-build.5.jar"
+    },
+    {
+      "id": "iFDWVIFV",
+      "name": "Brandons Core 1.21.1-3.2.1.309",
+      "slug": "brandons-core",
+      "version": "3.2.1.309",
+      "side": "both",
+      "filename": "BrandonsCore-1.21.1-3.2.1.309.jar",
+      "size": 1385131,
+      "sha512": "c7ce3d22cca5555aa0a41afd0d6ca4b9f11b9d49f7bfda7595db60ba68b2a96377318bfaf27747ed24d356e79ca796fe0239b5825363110b1a654d26eb2774ad",
+      "url": "https://cdn.modrinth.com/data/iFDWVIFV/versions/56nwe5IX/BrandonsCore-1.21.1-3.2.1.309.jar"
+    },
+    {
+      "id": "2gq0ALnz",
+      "name": "CodeChicken Lib 1.21.1-4.6.1.529",
+      "slug": "codechicken-lib",
+      "version": "4.6.1.529",
+      "side": "both",
+      "filename": "CodeChickenLib-1.21.1-4.6.1.529.jar",
+      "size": 1538382,
+      "sha512": "acc300da463672a4091e0f48266df4a5b0704bc23e044e71ca47c3d56390d09eef3690baad8f8744d657bac8d5e02a2b4a2bb77ed0478dba9ad9b8c35901645f",
+      "url": "https://cdn.modrinth.com/data/2gq0ALnz/versions/vLDGhjNJ/CodeChickenLib-1.21.1-4.6.1.529.jar"
+    },
+    {
+      "id": "Rw1NrDzF",
+      "name": "Cucumber-1.21.1-8.0.16.jar",
+      "slug": "cucumber",
+      "version": "8.0.16",
+      "side": "both",
+      "filename": "Cucumber-1.21.1-8.0.16.jar",
+      "size": 275588,
+      "sha512": "fbc63f23f827061b2a45f33a3867e105268b5a51d9ca92ba3bacd2e2a0af847eb4c367e726a62a455b841e503f8ce73ea9e180285670ddf3ec18a8ba4e72da7d",
+      "url": "https://cdn.modrinth.com/data/Rw1NrDzF/versions/8421rqFF/Cucumber-1.21.1-8.0.16.jar"
+    },
+    {
+      "id": "vvuO3ImH",
+      "name": "Curios API",
+      "slug": "curios",
+      "version": "9.5.1+1.21.1",
+      "side": "both",
+      "filename": "curios-neoforge-9.5.1+1.21.1.jar",
+      "size": 410690,
+      "sha512": "5981a267686b744e7e3c227f78cbcd5267c14ac6979a28e814695f4589273998563147207fef4a5cdb7cdbdc39797cd95d9e4abadb55869f18e02a38d0654ae5",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1%2B1.21.1.jar"
+    },
+    {
+      "id": "F3kLpGw6",
+      "name": "DivineRPG",
+      "slug": "divinerpg",
+      "version": "1.10.10",
+      "side": "both",
+      "filename": "divinerpg-1.10.10.jar",
+      "size": 63238949,
+      "sha512": "93d47f3b74917815d9c8c9dcff26687e3789bdc4128539b86664129d0e848bc039bf6531f2c52ac489a68e2038ba82346f54e18d5807b9f3936b1cbc86c31837",
+      "url": "https://cdn.modrinth.com/data/F3kLpGw6/versions/M9cHTouB/divinerpg-1.10.10.jar"
+    },
+    {
+      "id": "nBqivi8H",
+      "name": "Draconic Evolution 1.21.1-3.1.4.633",
+      "slug": "draconic-evolution",
+      "version": "3.1.4.633",
+      "side": "both",
+      "filename": "Draconic-Evolution-1.21.1-3.1.4.633.jar",
+      "size": 6046229,
+      "sha512": "9740f5750a916db8927d8051430b49eba9ebc37e5545aef09b83872a561a721e7eb8fed82e6ed2aad15ba016d6f8ea2ce566a5cafacc4a2879239119cdbaff31",
+      "url": "https://cdn.modrinth.com/data/nBqivi8H/versions/84xwXpNh/Draconic-Evolution-1.21.1-3.1.4.633.jar"
+    },
+    {
+      "id": "fRiHVvU7",
+      "name": "1.1.24+1.21.1+neoforge",
+      "slug": "emi",
+      "version": "1.1.24+1.21.1+neoforge",
+      "side": "both",
+      "filename": "emi-1.1.24+1.21.1+neoforge.jar",
+      "size": 1111538,
+      "sha512": "f4c45ed686fe617311d6debadcb6ace5963e66f8cfe0cfed398231f081f87407070efc7a73c8b695d158f1d87a97180737b9107a46771e77df2bc9a7dc715ebd",
+      "url": "https://cdn.modrinth.com/data/fRiHVvU7/versions/5sIPA1To/emi-1.1.24%2B1.21.1%2Bneoforge.jar"
+    },
+    {
+      "id": "MbejSZ2E",
+      "name": "EnergyMeter-NeoForge-1.21.1-0.6.0",
+      "slug": "energymeter",
+      "version": "1.21.1-0.6.0+neoforge",
+      "side": "both",
+      "filename": "energymeter-neoforge-1.21.1-0.6.0.jar",
+      "size": 398803,
+      "sha512": "cad4eca26c779fb5b0b2510a5cdf1d6dc6e3fc67235813eb183839694538ad3db412d2ca5cefe1695ae5aabb9e263660a53b490225098fd277713def229ef3b2",
+      "url": "https://cdn.modrinth.com/data/MbejSZ2E/versions/wrLe1pXk/energymeter-neoforge-1.21.1-0.6.0.jar"
+    },
+    {
+      "id": "NNAgCjsB",
+      "name": "Entity Culling",
+      "slug": "entityculling",
+      "version": "1.11.3",
+      "side": "client",
+      "filename": "entityculling-neoforge-1.11.3-mc1.21.1.jar",
+      "size": 1510075,
+      "sha512": "93e83dd690b91d610be29451b34836c9daa7e08bd952f88ffa07c62d8774bbaac2ff0c6768d2cbf1b14f47d0b86f98cef9fd341e0d29bd37207eaf4aa2abea63",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/eieYbWYb/entityculling-neoforge-1.11.3-mc1.21.1.jar"
+    },
+    {
+      "id": "JiOqfoFM",
+      "name": "Extended AE 1.21-2.2.35-neoforge",
+      "slug": "extended-ae",
+      "version": "1.21-2.2.35-neoforge",
+      "side": "both",
+      "filename": "ExtendedAE-1.21-2.2.35-neoforge.jar",
+      "size": 5578031,
+      "sha512": "e5b76a50802087d999bf6c113bc635e8ade9f20e06f4d3276a144f4eaa3090fc3b6c67b9b6a1f7d0d036e48e69f601114a0cc92c5a8d45953f895718f806348c",
+      "url": "https://cdn.modrinth.com/data/JiOqfoFM/versions/bC302UUP/ExtendedAE-1.21-2.2.35-neoforge.jar"
+    },
+    {
+      "id": "uXXizFIs",
+      "name": "FerriteCore",
+      "slug": "ferrite-core",
+      "version": "7.0.3-neoforge",
+      "side": "both",
+      "filename": "ferritecore-7.0.3-neoforge.jar",
+      "size": 121559,
+      "sha512": "19af89a2075bb10a63884fa853ebf84b02c79dc3242430ecdad056fd764fdcde367a7303276b329df01b0736e2ef264c5d80c7dc92c6aebd244f556a230bb417",
+      "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/x7kQWVju/ferritecore-7.0.3-neoforge.jar"
+    },
+    {
+      "id": "ftb-chunks",
+      "name": "ftb-chunks",
+      "slug": "",
+      "version": "2101.1.23",
+      "side": "both",
+      "filename": "ftb-chunks-neoforge-2101.1.23.jar",
+      "size": 0,
+      "sha512": "78a48e8a1f789827836c88046ad0ce07e3eb5b29cc8c681c8d22a556308c0fe13fad66475535e9a810450b86f660db51f8c582dabdee026bd80e4ae959fbac89",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-neoforge/2101.1.23/ftb-chunks-neoforge-2101.1.23.jar"
+    },
+    {
+      "id": "ftb-library",
+      "name": "ftb-library",
+      "slug": "",
+      "version": "2101.1.39",
+      "side": "both",
+      "filename": "ftb-library-neoforge-2101.1.39.jar",
+      "size": 0,
+      "sha512": "e28a5c032395b96ce696800ca7689315074110e572186d8ba08bdf326e0ff43f6fcce942c35a3fe60637dc2bf2077f04b3e222892e60016fe545339dcc7529aa",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-neoforge/2101.1.39/ftb-library-neoforge-2101.1.39.jar"
+    },
+    {
+      "id": "ftb-quests",
+      "name": "ftb-quests",
+      "slug": "",
+      "version": "2101.1.38",
+      "side": "both",
+      "filename": "ftb-quests-neoforge-2101.1.38.jar",
+      "size": 0,
+      "sha512": "fc97e8f2848b72ca04eba930a5382a9839faf860c1f943eeb698b4859cd5fa9a9533b900f06855b878cf8b7f1c2c10a9c3db37194e5dcb3ed3e2df342538009d",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-quests-neoforge/2101.1.38/ftb-quests-neoforge-2101.1.38.jar"
+    },
+    {
+      "id": "ftb-teams",
+      "name": "ftb-teams",
+      "slug": "",
+      "version": "2101.1.12",
+      "side": "both",
+      "filename": "ftb-teams-neoforge-2101.1.12.jar",
+      "size": 0,
+      "sha512": "c2c8853615c1ec97e0ace07c320db8f0ad4a18c59746e1d30c86f7af0e6ad36d9bbfe0ca6a365aa63d29244e1690323296fb29d99a38bab97e2c19181a57e376",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-neoforge/2101.1.12/ftb-teams-neoforge-2101.1.12.jar"
+    },
+    {
+      "id": "ftb-xmod-compat",
+      "name": "ftb-xmod-compat",
+      "slug": "",
+      "version": "21.1.14",
+      "side": "both",
+      "filename": "ftb-xmod-compat-neoforge-21.1.14.jar",
+      "size": 0,
+      "sha512": "bdd3c37a4748ae4c27153af584e69edcb4df52d40c2fbdead35dc1b8a9697f612945c37e147ba71a7edc9dd1d0a161cee1bb2b791e6c7cd1e83d8f8cf2eb678a",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-xmod-compat-neoforge/21.1.14/ftb-xmod-compat-neoforge-21.1.14.jar"
+    },
+    {
+      "id": "8BmcQJ2H",
+      "name": "Geckolib",
+      "slug": "geckolib",
+      "version": "4.9.3",
+      "side": "both",
+      "filename": "geckolib-neoforge-1.21.1-4.9.3.jar",
+      "size": 634531,
+      "sha512": "8dfa5f8c57224a5e34e5098367ea9819ca6dc9c11357cd3062c16da3455c8bd1a483098af7383debc4b9ce8e4d7ab3fdc799b415644eb829da83eb72a7335dfd",
+      "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/Grwn5rUB/geckolib-neoforge-1.21.1-4.9.3.jar"
+    },
+    {
+      "id": "UhW5uCKw",
+      "name": "Glodium 1.21-2.2-neoforge",
+      "slug": "glodium",
+      "version": "1.21-2.2-neoforge",
+      "side": "both",
+      "filename": "Glodium-1.21-2.2-neoforge.jar",
+      "size": 61377,
+      "sha512": "56a387a1bdaf0146c9a7e14de0aca8b6f53f25d3ba9d46255f142043387282ed9e4fa0011d309e32d9ffe5362b129c07e301226dd4ac11eda9a4f42f27c0b5d1",
+      "url": "https://cdn.modrinth.com/data/UhW5uCKw/versions/pfbmdJ3b/Glodium-1.21-2.2-neoforge.jar"
+    },
+    {
+      "id": "Ck4E7v7R",
+      "name": "GuideME",
+      "slug": "guideme",
+      "version": "21.1.22",
+      "side": "both",
+      "filename": "guideme-21.1.22.jar",
+      "size": 9332340,
+      "sha512": "2a7b29143c1bef18375f221c337c6e744d04b79bc3cc10cadac46b7d6bb217ad78c51a3c33cd802b221cc7b38ff04a3f7064bd63d292e53bf9f3e09047eeda24",
+      "url": "https://cdn.modrinth.com/data/Ck4E7v7R/versions/QeYKsstN/guideme-21.1.22.jar"
+    },
+    {
+      "id": "6bLUlbZn",
+      "name": "Hostile-Neural-Networks 1.21.1-6.5.1",
+      "slug": "hostile-neural-networks",
+      "version": "1.21.1-6.5.1",
+      "side": "both",
+      "filename": "HostileNeuralNetworks-1.21.1-6.5.1.jar",
+      "size": 490546,
+      "sha512": "fff2e4cd35eb1236e71f71253f22f0bb91056fd20866ae6ed4a4b19943a62c0f5495bae6ebf0008bc5d8b7ba1b5b1d3e7932e6d4c5aac99df520ba38fdc5e85c",
+      "url": "https://cdn.modrinth.com/data/6bLUlbZn/versions/ikdLP02G/HostileNeuralNetworks-1.21.1-6.5.1.jar"
+    },
+    {
+      "id": "5ZwdcRci",
+      "name": "ImmediatelyFast",
+      "slug": "immediatelyfast",
+      "version": "1.6.15+1.21.1-neoforge",
+      "side": "client",
+      "filename": "ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar",
+      "size": 368896,
+      "sha512": "c115cad7b060373fc597aae08c685e2d56f173b88b792a4a2c229e222f8da293b99865e9553cf716483d3c3d6a18f31c51c5dd55be22d4625ed2c962d7b94fd0",
+      "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/EJzmEPZV/ImmediatelyFast-NeoForge-1.6.15%2B1.21.1.jar"
+    },
+    {
+      "id": "9nfaJPtX",
+      "name": "Iron's Lib",
+      "slug": "irons-lib",
+      "version": "1.21.1-2.3.0",
+      "side": "both",
+      "filename": "irons_lib-1.21.1-2.3.0.jar",
+      "size": 481888,
+      "sha512": "74c609a583af1547c36ad39a7f89074a221f106fad5a246810d4921f91d0fc2df5660ef75f47f33e5f546cc51147d78ecbcff883da4a53f24002311697d0a99b",
+      "url": "https://cdn.modrinth.com/data/9nfaJPtX/versions/dgH7P81J/irons_lib-1.21.1-2.3.0.jar"
+    },
+    {
+      "id": "s4OWxYQQ",
+      "name": "virons_spellbooks-1.21.1-3.16.3",
+      "slug": "irons-spells-n-spellbooks",
+      "version": "1.21.1-3.16.3",
+      "side": "both",
+      "filename": "irons_spellbooks-1.21.1-3.16.3.jar",
+      "size": 13890045,
+      "sha512": "fd782f98c6c59b193c4832f33775291d2a7e639e1e23dd47510bfb494d99d182bec1253566b9394f96c733a0d0108be34bd729614b82dc29e55e096fdeb96f5b",
+      "url": "https://cdn.modrinth.com/data/s4OWxYQQ/versions/slKLosTb/irons_spellbooks-1.21.1-3.16.3.jar"
+    },
+    {
+      "id": "nvQzSEkH",
+      "name": "Jade 🔍",
+      "slug": "jade",
+      "version": "15.10.6+neoforge",
+      "side": "both",
+      "filename": "Jade-1.21.1-NeoForge-15.10.6.jar",
+      "size": 726853,
+      "sha512": "dad9755dce8d85d914fc4df2baa0211f13e5839a71c1925fdd01f69081a95e30a2934e6273f8b01f0169adebe7a9dae57a8d904de0c4cb36dc17369bb474f0f2",
+      "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/eYz2YBGT/Jade-1.21.1-NeoForge-15.10.6.jar"
+    },
+    {
+      "id": "u6dRKJwZ",
+      "name": "Just Enough Items (JEI)",
+      "slug": "jei",
+      "version": "19.64.0.455",
+      "side": "client",
+      "filename": "jei-1.21.1-neoforge-19.64.0.455.jar",
+      "size": 2375741,
+      "sha512": "fdd02e57ce4dcf20b69860a5ace1b97d9a771486241179cf9edfe71e30c69bb4003b046d0cce8d8c4913b9689f1d8b04cf0542b0b04a6cf0b3b0465f3bb11702",
+      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/iv3KiVkE/jei-1.21.1-neoforge-19.64.0.455.jar"
+    },
+    {
+      "id": "umyGl7zF",
+      "name": "KubeJS",
+      "slug": "kubejs",
+      "version": "2101.7.2-build.381",
+      "side": "both",
+      "filename": "kubejs-neoforge-2101.7.2-build.381.jar",
+      "size": 2295092,
+      "sha512": "f8286f9f371d0c1fb2b37e56b1dbb359dcfc5a9064a7384cbf6722450f5b5a77f05f55688d7a338b500a6f49590d51e3d3541664dfc0296e50fe573a34e5a529",
+      "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/GDXCpKlp/kubejs-neoforge-2101.7.2-build.381.jar"
+    },
+    {
+      "id": "gvQqBUqZ",
+      "name": "Lithium",
+      "slug": "lithium",
+      "version": "mc1.21.1-0.15.4-neoforge",
+      "side": "both",
+      "filename": "lithium-neoforge-0.15.4+mc1.21.1.jar",
+      "size": 774220,
+      "sha512": "2735da2088b88a8bdcd4ad02a2b6fffbfd3925557cefd4fa54b5477dfb9e582ea7f521300c060f57dff1325dd21bff276b7333363ad3371ed6893e3de9eca9cd",
+      "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/DDUrRVCA/lithium-neoforge-0.15.4%2Bmc1.21.1.jar"
+    },
+    {
+      "id": "jjuIRIVr",
+      "name": "4.11.0 (NeoForge 1.21.1)",
+      "slug": "mega",
+      "version": "4.11.0",
+      "side": "both",
+      "filename": "megacells-4.11.0.jar",
+      "size": 1137276,
+      "sha512": "a4d35f68a5103443930b132684bb30e715d7c92c8cb3b7c6b4151e728ae05b1d5d8d39ea33df0826f6cb5ca94dca5948a0b220119d76f5597d1e3cb881bfeca0",
+      "url": "https://cdn.modrinth.com/data/jjuIRIVr/versions/RPG4EriK/megacells-4.11.0.jar"
+    },
+    {
+      "id": "Ce6I4WUE",
+      "name": "Mekanism",
+      "slug": "mekanism",
+      "version": "10.7.19.85",
+      "side": "both",
+      "filename": "Mekanism-1.21.1-10.7.19.85.jar",
+      "size": 11976009,
+      "sha512": "66745825330a98f3e4a5ea3a44aff8b00870f715c144edc38dd2f61b4240589600b58ae89efac3b54dbb5aa430b1059dac1a28fd71cac5cc9002bbeb5ba3f22b",
+      "url": "https://cdn.modrinth.com/data/Ce6I4WUE/versions/5KzzycBT/Mekanism-1.21.1-10.7.19.85.jar"
+    },
+    {
+      "id": "OFVYKsAk",
+      "name": "Mekanism Generators",
+      "slug": "mekanism-generators",
+      "version": "10.7.19.85",
+      "side": "both",
+      "filename": "MekanismGenerators-1.21.1-10.7.19.85.jar",
+      "size": 1114598,
+      "sha512": "6c3d5b7ea2f67f43c3d169c97de2855a7085f38019cf426e015ccc8ca9bc4f66e96b1cdf4a9afdc92bef7b2e236f16c81415ed5e48736805d5961d29525316d6",
+      "url": "https://cdn.modrinth.com/data/OFVYKsAk/versions/a6gl7srE/MekanismGenerators-1.21.1-10.7.19.85.jar"
+    },
+    {
+      "id": "E6BFl96N",
+      "name": "MERequester-NeoForge-1.21.1-1.5.0",
+      "slug": "merequester",
+      "version": "1.21.1-1.5.0+neoforge",
+      "side": "both",
+      "filename": "merequester-neoforge-1.21.1-1.5.0.jar",
+      "size": 186826,
+      "sha512": "59df36d4af6248a391463847f24062cb5197837df53eb53e9ba635f1e1d1045301c901103d0d336c416dbac4d0f5afc39679e678756d85cae7b61dfcf98caace",
+      "url": "https://cdn.modrinth.com/data/E6BFl96N/versions/hLs5MFnR/merequester-neoforge-1.21.1-1.5.0.jar"
+    },
+    {
+      "id": "7tEfOcA7",
+      "name": "MezzConfig",
+      "slug": "mezzconfig",
+      "version": "0.6.11",
+      "side": "client",
+      "filename": "mezz_config-1.21.1-neoforge-0.6.11-standalone.jar",
+      "size": 346826,
+      "sha512": "38731fd657625548920c6f30c5d38e88d515888eb7d6f687a8b78d91e5ee18d6c16298432fddb8ae62f05128e560357a7c36f067d1a278c23d44d403534f9b9a",
+      "url": "https://cdn.modrinth.com/data/7tEfOcA7/versions/sPQlt1iR/mezz_config-1.21.1-neoforge-0.6.11-standalone.jar"
+    },
+    {
+      "id": "nmDcB62a",
+      "name": "ModernFix",
+      "slug": "modernfix",
+      "version": "5.27.27+mc1.21.1",
+      "side": "both",
+      "filename": "modernfix-neoforge-5.27.27+mc1.21.1.jar",
+      "size": 614138,
+      "sha512": "af14a35e51f1c5d94139c6225ae641e8b0ded5a8c68eb4806cf28025d6c043455ac289902cd6b854a867320ab845ad619b186d02b8341822faf03f4476dec555",
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/ZDZENbHH/modernfix-neoforge-5.27.27%2Bmc1.21.1.jar"
+    },
+    {
+      "id": "pl0jGXIx",
+      "name": "MysticalAgradditions-1.21.1-8.0.15.jar",
+      "slug": "mystical-agradditions",
+      "version": "8.0.15",
+      "side": "both",
+      "filename": "MysticalAgradditions-1.21.1-8.0.15.jar",
+      "size": 318385,
+      "sha512": "d42cb3179a6f372bbea9c37ba08c4221ada9ec0e39d7e1d6b33eca7e770abb3526aad33ff903111a1888a63d65d96b3e4cc09f4041a79b37cdb524fe10388c39",
+      "url": "https://cdn.modrinth.com/data/pl0jGXIx/versions/fNQephU4/MysticalAgradditions-1.21.1-8.0.15.jar"
+    },
+    {
+      "id": "C95ReXie",
+      "name": "MysticalAgriculture-1.21.1-8.0.29.jar",
+      "slug": "mystical-agriculture",
+      "version": "8.0.29",
+      "side": "both",
+      "filename": "MysticalAgriculture-1.21.1-8.0.29.jar",
+      "size": 2328280,
+      "sha512": "022797a3b0dd2fd88d9ce7a16a1204ef5ae6412127807e414fa760e3b6711924a18ce596142b3819272af6fae84e810d4452c449e86f4e1ea4c6da86ca279d02",
+      "url": "https://cdn.modrinth.com/data/C95ReXie/versions/4Wc9oVPI/MysticalAgriculture-1.21.1-8.0.29.jar"
+    },
+    {
+      "id": "fPetb5Kh",
+      "name": "1.21.1-3.4.0-neoforge",
+      "slug": "natures-compass",
+      "version": "1.21.1-3.4.0-neoforge",
+      "side": "both",
+      "filename": "NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+      "size": 224657,
+      "sha512": "5314b536bcb9a594a9cf2bbd46c82468d17e1559bd6c00da9d91e96c0814f50416799a011705f0d184bd731dac3f03dec009c76fea3d02b3556a6013f9649014",
+      "url": "https://cdn.modrinth.com/data/fPetb5Kh/versions/nFniEtJV/NaturesCompass-1.21.1-3.4.0-neoforge.jar"
+    },
+    {
+      "id": "nU0bVIaL",
+      "name": "1.21.1-93-neoforge",
+      "slug": "patchouli",
+      "version": "1.21.1-93-neoforge",
+      "side": "both",
+      "filename": "Patchouli-1.21.1-93-NEOFORGE.jar",
+      "size": 646777,
+      "sha512": "0b5c172db9a6eeecb5ca44b359a83548c3a60be7ff313959acdfc1e5b8039736c18e57e947d435b52d06da31159d2d02ea36e5742668dbc826308a4c99e4039f",
+      "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/BIogJv2D/Patchouli-1.21.1-93-NEOFORGE.jar"
+    },
+    {
+      "id": "tCkE8p2N",
+      "name": "Placebo",
+      "slug": "placebo",
+      "version": "1.21.1-9.9.4",
+      "side": "both",
+      "filename": "Placebo-1.21.1-9.9.4.jar",
+      "size": 326063,
+      "sha512": "",
+      "url": "https://cdn.modrinth.com/data/tCkE8p2N/versions/B5zbSVlT/Placebo-1.21.1-9.9.4.jar"
+    },
+    {
+      "id": "gedNE4y2",
+      "name": "playerAnimator",
+      "slug": "playeranimator",
+      "version": "2.0.4+1.21.1-forge",
+      "side": "both",
+      "filename": "player-animation-lib-forge-2.0.4+1.21.1.jar",
+      "size": 203149,
+      "sha512": "fc00450fb6c95ec1779021bdc726122dacb5915c6baddaacc981cd221b01b8db35f2a0dfde5d6fa6766d877266dc82f58854f571ea53cc5c4d468b80e1548a5f",
+      "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/HJZB6bmA/player-animation-lib-forge-2.0.4%2B1.21.1.jar"
+    },
+    {
+      "id": "sk9knFPE",
+      "name": "Rhino",
+      "slug": "rhino",
+      "version": "2101.2.7-build.85+Rhino-1.21",
+      "side": "both",
+      "filename": "rhino-2101.2.7-build.85.jar",
+      "size": 882075,
+      "sha512": "0a6c7f4410281aeb03b815ec03487a8e80a4d3dae013d81282e447bf9c08144ef57318af614ea6d40b7d9a8c25031c557890ec792a5895a82467c1643116f693",
+      "url": "https://cdn.modrinth.com/data/sk9knFPE/versions/cQ4POTah/rhino-2101.2.7-build.85.jar"
+    },
+    {
+      "id": "AANobbMI",
+      "name": "Sodium",
+      "slug": "sodium",
+      "version": "mc1.21.1-0.8.13-neoforge",
+      "side": "client",
+      "filename": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "size": 1292934,
+      "sha512": "4f537696af95411e9daf15795fb5fcbc49913d488a96fa912fa8f1d7db408710995e8a1461190f3cd0f8217bf9e35e9539176592428ed587ca2d7aa84450a390",
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/uMOpc5uV/sodium-neoforge-0.8.13%2Bmc1.21.1.jar"
+    },
+    {
+      "id": "TyCTlI4b",
+      "name": "Sophisticated Backpacks",
+      "slug": "sophisticated-backpacks",
+      "version": "1.21.1-3.26.20.2244",
+      "side": "both",
+      "filename": "sophisticatedbackpacks-1.21.1-3.26.20.2244.jar",
+      "size": 1264515,
+      "sha512": "b54a2afd4091ddcc5d0104502936dd0f9124a66bf60053a53c8675d7e75f844257b427e3eeb4e5b53fd1a0ec911add1e96506f279d36bf5074420fd586c800eb",
+      "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/DY0e8WVr/sophisticatedbackpacks-1.21.1-3.26.20.2244.jar"
+    },
+    {
+      "id": "nmoqTijg",
+      "name": "Sophisticated Core",
+      "slug": "sophisticated-core",
+      "version": "1.21.1-1.5.28.2458",
+      "side": "both",
+      "filename": "sophisticatedcore-1.21.1-1.5.28.2458.jar",
+      "size": 1845534,
+      "sha512": "5f473fc809a0b4fe8cebb67b770055da9a1a8c8578ece784367da58c1f8b5c3c4c703b022e1eb45348de007ddfa433e52a2304e883a5b98b58bc98ef3686283e",
+      "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/fp75rxsS/sophisticatedcore-1.21.1-1.5.28.2458.jar"
+    },
+    {
+      "id": "hMlaZH8f",
+      "name": "1.21.1-1.6.16.2222",
+      "slug": "sophisticated-storage",
+      "version": "1.21.1-1.6.16.2222",
+      "side": "both",
+      "filename": "sophisticatedstorage-1.21.1-1.6.16.2222.jar",
+      "size": 1936453,
+      "sha512": "a3bf3141fd0853b45014a273db67f164af00f96d96a84acc84e34455286f5a7f539ae1408029eec06650d38e1c2f800d839830d4bd6d198250ec102da8feb01b",
+      "url": "https://cdn.modrinth.com/data/hMlaZH8f/versions/hC4LaBhJ/sophisticatedstorage-1.21.1-1.6.16.2222.jar"
+    },
+    {
+      "id": "LOpKHB2A",
+      "name": "Waystones",
+      "slug": "waystones",
+      "version": "21.1.46+neoforge-1.21.1",
+      "side": "both",
+      "filename": "waystones-neoforge-1.21.1-21.1.46.jar",
+      "size": 1223229,
+      "sha512": "ca90b58d884d4bc2b08a870484ae7ede397e71d31eaaf01ff2603ad498d584763e099c2094e57031522385339705d2c011ed4910bf36efae688e64935b49ece9",
+      "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/6Z6MQ6os/waystones-neoforge-1.21.1-21.1.46.jar"
+    }
+  ]
+}

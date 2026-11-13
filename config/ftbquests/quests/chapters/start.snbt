@@ -1,0 +1,134 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "start"
+	group: ""
+	id: "30C7A4DEF1D06B2B"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "280D44AB1E9F79B5"
+			rewards: [{
+				count: 4
+				id: "1057A1391A65426D"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "48487D4C1ED46E62"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["280D44AB1E9F79B5"]
+			id: "04E9C0DB87E7EEBB"
+			rewards: [{
+				count: 4
+				id: "4BB8594993DAB99E"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1EF7BE9E997D8B67"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04E9C0DB87E7EEBB"]
+			id: "1A47A5825B9E7713"
+			rewards: [{
+				count: 4
+				id: "1AAC50E16649444F"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "55321FA40BF8E24A"
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04E9C0DB87E7EEBB"]
+			id: "242B6F4167503F2C"
+			rewards: [{
+				count: 4
+				id: "28F99B188B0BA9F3"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5FDD3BC6B9B9DD69"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["242B6F4167503F2C"]
+			id: "07D715EDB696FB5F"
+			rewards: [{
+				count: 4
+				id: "2E2CB7D7DA365714"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "72B85DBD8672FFF0"
+				item: { count: 1, id: "mekanismgenerators:heat_generator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "5982C15B4F0A87E3"
+			rewards: [{
+				count: 4
+				id: "2238CD45BBE52677"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "350453D08CBD1234"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+}

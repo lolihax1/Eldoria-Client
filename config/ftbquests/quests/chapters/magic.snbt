@@ -1,0 +1,140 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic"
+	group: ""
+	id: "7F87C3E27974FD24"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "450E1EE832C04E76"
+			rewards: [{
+				count: 4
+				id: "65F9B76CFE41DF41"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3C6E28C160926D2E"
+				item: { count: 1, id: "ars_nouveau:source_jar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["450E1EE832C04E76"]
+			id: "01B6EF4A576627C0"
+			rewards: [{
+				count: 4
+				id: "5C91F316656F7DBD"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "190C04B3D06B2388"
+				item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"01B6EF4A576627C0"
+				"65605B3435817B5B"
+			]
+			id: "4A55A34986A529B7"
+			rewards: [{
+				count: 4
+				id: "53F3A98E5329743B"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1461E50FED2E6BAF"
+				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65605B3435817B5B"]
+			id: "3BE865F4E9780ABB"
+			rewards: [{
+				count: 4
+				id: "535D6626C2BCD5F8"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6E967158711D83B7"
+				item: { count: 1, id: "divinerpg:arlemite_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01B6EF4A576627C0"]
+			id: "6661473579CC99D9"
+			rewards: [{
+				count: 4
+				id: "2DA3B19B7BA1066A"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5918551CC7D9B636"
+				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3BE865F4E9780ABB"]
+			id: "6DD38200AECD1789"
+			rewards: [{
+				count: 4
+				id: "0B4D2097C325DE6B"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0CE76881E88CBFB2"
+				item: { count: 1, id: "divinerpg:rupee_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+}

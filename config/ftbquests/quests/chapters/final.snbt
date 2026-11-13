@@ -1,0 +1,140 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "final"
+	group: ""
+	id: "531AB1A7DFCCD4A9"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["650E077F4DC2BF2D"]
+			id: "1E6CD5DCE42FF0B5"
+			rewards: [{
+				count: 4
+				id: "0FB4D646B0E555D6"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4EA9723C05F7CE80"
+				item: { count: 1, id: "divinerpg:apalachia_gem" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1EC1F4B1F2A431B1"
+			rewards: [{
+				count: 4
+				id: "6F6EF9DF08BD8148"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0A0FBF38DE783C5C"
+				item: { count: 1, id: "divinerpg:skythern_gem" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "2B583AD91CD8268E"
+			rewards: [{
+				count: 4
+				id: "3F68D4BB04961384"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "72FC99E556A54CE5"
+				item: { count: 1, id: "divinerpg:mortum_gem" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6661473579CC99D9"]
+			id: "35F33346C41BFF88"
+			rewards: [{
+				count: 4
+				id: "62C92D3089AEE744"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "28BEBEED41009D74"
+				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1ECF8BD1F3B8B5E9"]
+			id: "61933D3774170C68"
+			rewards: [{
+				count: 4
+				id: "0EDBE8CFC1F85EFB"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "12A62A681E34222E"
+				item: { count: 1, id: "ae2:singularity" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2B583AD91CD8268E"
+				"35F33346C41BFF88"
+				"61933D3774170C68"
+			]
+			id: "3CB968A982080BE1"
+			rewards: [{
+				count: 4
+				id: "45EC9931E06CD50B"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "228640C2B3F19A6B"
+				item: { count: 1, id: "kubejs:heart_of_eldoria" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+}

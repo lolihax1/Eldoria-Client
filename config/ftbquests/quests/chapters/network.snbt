@@ -1,0 +1,140 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "network"
+	group: ""
+	id: "0D8AC2769130CBEF"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["55AF050C759283DB"]
+			id: "1A4620B9B4790CD3"
+			rewards: [{
+				count: 4
+				id: "378DEEC1D2F547C4"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "181454BE723B93BA"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A4620B9B4790CD3"]
+			id: "3FA6495C24497406"
+			rewards: [{
+				count: 4
+				id: "66E989A910C32145"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "43D5AAB22FC7B97A"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FA6495C24497406"]
+			id: "202AC2997D6AA990"
+			rewards: [{
+				count: 4
+				id: "7517E361F14EDAD2"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3D8C3FF860B51852"
+				item: { count: 1, id: "ae2:engineering_processor" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3BE865F4E9780ABB"
+				"01B6EF4A576627C0"
+			]
+			id: "0C752426B15EC075"
+			rewards: [{
+				count: 4
+				id: "4FFDBFF165A96BA5"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "532CE8CD7D61613F"
+				item: { count: 1, id: "kubejs:attuned_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C752426B15EC075"]
+			id: "6EA83A975657A550"
+			rewards: [{
+				count: 4
+				id: "11266203C4BCCB15"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7B037F4E5AF24F3B"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "1ECF8BD1F3B8B5E9"
+			rewards: [{
+				count: 4
+				id: "660CC87C701C670C"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "324C9A0A47432A07"
+				item: { count: 1, id: "ae2:molecular_assembler" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+}
