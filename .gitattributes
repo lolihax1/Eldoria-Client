@@ -1,0 +1,2 @@
+# Отключаем автоконвертацию CRLF/LF, чтобы SHA-512 на GitHub всегда совпадал с manifest.json
+* -text

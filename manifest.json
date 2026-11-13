@@ -9,7 +9,7 @@
   "versionId": "neoforge-21.1.265",
   "repository": "https://github.com/lolihax1/Eldoria-Client",
   "rawBaseUrl": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/",
-  "updatedAt": "2026-11-13T11:00:56Z",
+  "updatedAt": "2026-11-13T11:14:30Z",
   "modsCount": 54,
   "filesCount": 221,
   "files": [
@@ -89,7 +89,7 @@
       "path": "config/actuallyadditions-client.toml",
       "size": 96,
       "sha512": "553e194229ef8bda734c391d387db0839b4d3a630071e11a486f1616d7a8fef4fe846732ecb477a5515b12f2c275cca187f2da8a5b36f68b58491f7e6e886c02",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/actuallyadditions-common.toml",
@@ -101,7 +101,7 @@
       "path": "config/advanced_ae-client.toml",
       "size": 45,
       "sha512": "6d55a29e3c4d1702baccf888f658ec23aab28126dea8df9bdf567ad382d991d8ce9d13bb255aa764629871c3d12437c91d1ed4abf53d2c1c2456c34cb120e201",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/advanced_ae-common.toml",
@@ -113,7 +113,7 @@
       "path": "config/ae2-client.toml",
       "size": 2344,
       "sha512": "06f971ffd8c5751f2cdb5ceb5ca0150116ea8c209384ac7cff40c3d6c3855c5a81650dbfbd068e0faa61af57ed8c44c9be3c464abcc64768d83e50db36004ac6",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/ae2-common.toml",
@@ -125,7 +125,7 @@
       "path": "config/ars_nouveau-client.toml",
       "size": 2697,
       "sha512": "b471c2d365eb82a91491bbda1c94526eee00ee9d1de96ae834b773dd9bdb1c6ca6d0804fa559ae8ff97cde1a8b306f55d716846d58bf6c8fae99aa1049fcf02b",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/ars_nouveau-common.toml",
@@ -719,43 +719,43 @@
       "path": "config/better-advanced-tooltips-client.toml",
       "size": 142,
       "sha512": "5cf814f9767279971d39cf2e8f09b085503be76dac8091a2ae35679ce67542e02455e3ebf9b25ea513bd0000eeaac5e7adc0693d1805e7c7751f91be509fa725",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/brandon3055/BrandonsCore.cfg",
       "size": 754,
       "sha512": "4182dbb9d1eed0176a7424f40a516bc70d25447141d338cb8f54b55c579496aec1f6efddd2013b9d9a1410074e4bc681720cacee2a1139644e2ae851051bb99c",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/brandon3055/DraconicEvolution.cfg",
       "size": 17189,
       "sha512": "e13878d2123714583b8646cd88c3bc8facc5faa3634657868dc79498c5f2ad295d655b011b1265fbf83abc43b5e16f968ae753481528afed2fb06105ae7af898",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/brandon3055/ModuleStats.cfg",
       "size": 9472,
       "sha512": "3b1431f4c4dde43c3f808e085ed6b3ca3b485e14fc77f1a14ab020dae144d233758761d415ba4855bada694e222c41cc8fe87f3a4c6e32558fce676440148499",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/brandon3055/contributors.json",
       "size": 5897,
       "sha512": "69d9dce204e6e321a8f01dcbd6c82c2fda5ce2f757bf7db7359bd0ee6a15dcbbb7589a1edcfe62a0ee06ac9fe7ac7cc0ddda157a5bbe3f94f432dd2104943597",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/brandon3055/contributors.json.etag",
       "size": 13,
       "sha512": "17e40a663a927aad317ba00bfc1b354186ae2d76b88b391e970aefdc95f1fd4d9021faba9d4a6e440ee05fe249350944f69d66dec1cfff8c383e7d0ca6ce9ae5",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/brandon3055/hud_settings.json",
       "size": 349,
       "sha512": "ccd7bb5a84db8de35cb0738d1ef3aa8ba4ee7e4acc697fa1c04a342e0dac518efe8169536d9c620f66fe8a364509f880a10c670e6c823d41f0596766b3c75a49",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/ccl.cfg",
@@ -767,7 +767,7 @@
       "path": "config/cucumber-client.toml",
       "size": 188,
       "sha512": "7acff178992de36a63be26cded6c281d5d93c2aa9bdda652d6a9b05ea29cb4f7e62d4d8ff8e522f425f16f2d378c4c528ece4515506f18f5a8cef71e122e7b03",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/cucumber-common.toml",
@@ -785,7 +785,7 @@
       "path": "config/curios-client.toml",
       "size": 766,
       "sha512": "6bf222ee862df0a5f3b36697d7b0ff56a3ed38146b3fa0e9226b5a58cfd331b40d59bdb9ad8e4fb1036ac7af35815a63b32a6c9876e4a78093e5815b8a69668c",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/curios-common.toml",
@@ -856,8 +856,8 @@
     {
       "path": "config/ftbchunks-client.snbt",
       "size": 9355,
-      "sha512": "1e8b86e25e8548a450bcb8b1e3b65b85831fb91bebe400fa39739d0cd16f37d6989261b9cf2d902eb03a17768ecc1aa47b0ce6a006896789a693db050c0faef8",
-      "mode": "always"
+      "sha512": "4a6e95d55a4d1b0852662ab722dd490ba082ca143fc9449dfbfbbc528fa65ce8d5506dc420aec0636bc33b1a5549c914cb68b50582d82234865b0fa90e7238f0",
+      "mode": "missing"
     },
     {
       "path": "config/ftbchunks-world.snbt",
@@ -869,13 +869,13 @@
       "path": "config/ftblibrary-client.snbt",
       "size": 1799,
       "sha512": "9cf10cdb2a4a8e8a7e2c91e64bc9edd0ef00053ad0f2cccde68c2bd269084e62d4c6abc16e6dc48a13d8f6e3f29a31a349f9233fcaaf0126491bca8654b4a0af",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/ftbquests-client.snbt",
       "size": 1551,
       "sha512": "5f5a8ddbcd4fd29e7a791eb0b070cdda408c703dbfbda35373d95414f3c9fe9308d1a75993611d9701d5583dd4c44b09d7fe04813d46a35c998ca1b8bafe695a",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/ftbquests/quests/chapter_groups.snbt",
@@ -971,7 +971,7 @@
       "path": "config/irons_spellbooks-client.toml",
       "size": 3571,
       "sha512": "c3802d26d63244bc82798ff08212ea1bda55d6dc77d2b9888a7363f8c18ba9e08ab7cee2c9a90ae46f7619bdd43af94e762bc206f058cb540bba6cc5dd57750c",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/irons_spellbooks-server.toml",
@@ -995,91 +995,91 @@
       "path": "config/jade/hide-blocks.json",
       "size": 149,
       "sha512": "05292934dcf31e2b88fc177e4003fbaada87eedc2efa6c24d1cca62d399d85e497e98d07072c1f2e3d2c9223240e970b8ca89932cc569cf386667b97733a855e",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/jade/hide-entities.json",
       "size": 243,
       "sha512": "7e20668be689f3cf6c961afd950bf263f762250fbf6597bd0225d0b8e9b5357f00362f684aa73ce19f712571bb0478a0a7c3bb2e8eb2efeff69f1e3ff4fbab0d",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/jade/jade.json",
       "size": 1089,
       "sha512": "830a41cc840ef410040be3b1e8a4050f446874419ee3524f78c5a08a67aa5ccd1e069220d51474c49bd1dea1c9a2cce0adc512a58aaca1b774115e0d2daa2b58",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/jade/plugins.json",
       "size": 2905,
       "sha512": "42cb7c7c1e2ff0235e4bd5453a0db184fa6e281f903ef21ae37af6d070a815901ec46c66699b04e9a06c64c49584796aaea73f1c0177230da3eb08800d15360a",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/jade/sort-order.json",
       "size": 2997,
       "sha512": "8e07bb74c99a249bd19ffdd5ed205568d50a8baa8b2d6b6e116d00fe96fcea743ee399652284200dd1366a9541f8f202eb9b5eb4ad9e37c024b47ae12b1de493",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/jei/blacklist.json",
       "size": 19,
       "sha512": "81642eeec041a8913fee828a23ee0a103334b5c749396bc21cf7d8c543305a503a417f5384873ba649a28749065bcfb533c285a7f3c4a8cd4bcb820324c49017",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/jei/client/default/jei-client.ini",
       "size": 16752,
       "sha512": "6faa39dbabc9a36911a6f33f022fd26dd8d2cee3c03bcaa0545b09e5be91f10dd1c617ef9d904bf83585f402b2c440554263ed59603937eb6ca56531cb4cb7ca",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/jei/client/default/jei-colors.ini",
       "size": 1655,
       "sha512": "8607835e0e9ccecd5980d6df539689b27862c10e5983ae13f8289c473739aa67cfd04f689c3029a5ab60641671952f94d01ef6bcf77036b728d4cbadebcf2f62",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/jei/client/default/jei-debug.ini",
       "size": 1174,
       "sha512": "561872b0f40448977dbfc261d71c4acd04dc40b3f84e8e84de3093d1d7f10b9ca50ab966ba85e9b5cb926b8b99898d93b51f9a3c7dd0462f98b0f8798ef2cea0",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/jei/client/default/jei-mod-id-format.ini",
       "size": 863,
       "sha512": "8025cf48db77d092f21b963957e4a5b382e734f83344c3e9a38315f6c7b2b52012403fd53cf255c01d8fcb39a40a7529dc7e3357c254df674eb33f2241b0a79d",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/jei/client/ingredient-list-mod-sort-order.ini",
       "size": 221,
       "sha512": "260e2a532f93e6756bff733ac3052ae18ef313fff9b667aa0622007b04207dcbf9e417cfc4bb960fd67584660c5adcf07a7d96c526ec19625c62970659f671ac",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/jei/client/ingredient-list-type-sort-order.ini",
       "size": 183,
       "sha512": "9d16ae5c76eca3f5181d0589443d4ae4c6d732ab6957f67f0f75890fb22b529e5b38952400220f386d1397091bf700e3b930cb3a20b8bf76528a0031fbe3626c",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/jei/client/recipe-category-sort-order.ini",
       "size": 2304,
       "sha512": "4eb9a90b21a78ae5240fc7b9d622dd7c1cafe25e452caea11f349eb94b5866de8c6c062f3df43ad6c7fb717e339e672f65a4dee00e2486fca372eb492728fd31",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/jei/server/world/default/jei-server.ini",
       "size": 760,
       "sha512": "b28d484975aa38b690208e89c121339cba45c4cc5d931ce61a78d3a89929dd3ea3c900dfddfcdfaf611d61479b10ad7480d689992735701b1b10acf559af4373",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/jei/world/server/Сервер Minecraft (127_0_0_1)/lookupHistory.json",
       "size": 219,
       "sha512": "7f437dfd075ae0c3e5127bc7b097370f2e174ca9eca0331d835caa8068780951eccf0dd39721a213413da7029205301074b28faf8e4e14ff977a4c3bb8e530da",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/lithium.properties",
@@ -1103,7 +1103,7 @@
       "path": "config/mezz_config/client/default/settings.ini",
       "size": 1452,
       "sha512": "9b483241dd637e55ab133efd38632011c2d4a9e9944238553bcee59c6bf96c3d34469e355235b0b139f3d80c86b71630da0d6cfc44602c4c2e208e3b69b8bc2d",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/modernfix-common.toml",
@@ -1133,7 +1133,7 @@
       "path": "config/naturescompass-client.toml",
       "size": 444,
       "sha512": "fab5e25553ec79b1df9386848e270b62b62527aa9df050e5d51b2c160232eae263da20fc9b7e16f85692945e7c373c312915327a176d937fa886711256d7394e",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/naturescompass-common.toml",
@@ -1145,7 +1145,7 @@
       "path": "config/neoforge-client.toml",
       "size": 578,
       "sha512": "3b2cddc1c8a2b7b8dd29a716d58b998dbd028ddcad35275eeac0a7100540dab4170975d0b420af2e3152cff5b509977fee15eca1decdff2e899c287963efff51",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/neoforge-common.toml",
@@ -1163,7 +1163,7 @@
       "path": "config/patchouli-client.toml",
       "size": 1089,
       "sha512": "8f50a9633e852380bb85e2d770a3180beb3523b4a07fb6709af7a60e9b61ef5ed9cb9844124492adaa4a456723621094add590c1f71c6f8e24c6731e4cf9d49f",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/placebo.cfg",
@@ -1199,7 +1199,7 @@
       "path": "config/sophisticatedcore-client.toml",
       "size": 478,
       "sha512": "76233eb0781280c1556eebb54c4ac51933a35f487bb3fd4dcc4976154e543da114c01ad04890cd82b3e5d00c1bb2dc1f75afef4e3a191e0f252b5e5f2ecfc8d2",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/sophisticatedcore-common.toml",
@@ -1211,7 +1211,7 @@
       "path": "config/sophisticatedstorage-client.toml",
       "size": 447,
       "sha512": "0637d1916ae038d686637210a796c67dd10aa9369fd3cde170dbd0b4122e33e04b6bcc5f39dd81b68dd6b73b4f399faa52f6c6d3b70b6d3644d7beb5c1b937eb",
-      "mode": "always"
+      "mode": "missing"
     },
     {
       "path": "config/sophisticatedstorage-common.toml",

@@ -138,49 +138,49 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"divinerpg:cave_crawler": true
-			"minecraft:spider": true
-			"divinerpg:rotatick": true
-			"ars_nouveau:drygmy": true
-			"divinerpg:jungle_spider": true
-			"minecraft:pig": true
-			"minecraft:zombie_villager": true
+			"minecraft:enderman": true
+			"divinerpg:jungle_bat": true
 			"minecraft:bee": true
-			"minecraft:witch": true
+			"minecraft:glow_squid": true
 			"ars_nouveau:starbuncle": true
-			"artifacts:mimic": true
-			"divinerpg:miner": true
+			"minecraft:axolotl": true
+			"minecraft:spider": true
+			"minecraft:pig": true
+			"minecraft:salmon": false
+			"minecraft:drowned": true
+			"minecraft:zombie_villager": true
 			"divinerpg:enthralled_dramcryx": true
+			"divinerpg:the_eye": true
+			"ars_nouveau:drygmy": true
+			"divinerpg:cyclops": true
 			"ars_nouveau:wilden_hunter": true
-			"irons_spellbooks:necromancer": true
+			"divinerpg:rainbour": true
+			"ars_nouveau:whirlisprig": true
+			"minecraft:ocelot": true
+			"minecraft:skeleton": true
+			"minecraft:chicken": true
+			"artifacts:mimic": true
+			"divinerpg:ender_spider": true
+			"minecraft:creeper": true
+			"minecraft:tropical_fish": false
+			"minecraft:panda": true
+			"divinerpg:rotatick": true
+			"divinerpg:cave_crawler": true
+			"divinerpg:jungle_spider": true
+			"minecraft:witch": true
+			"minecraft:squid": true
+			"divinerpg:jungle_dramcryx": true
 			"minecraft:cow": true
+			"minecraft:sheep": true
+			"minecraft:parrot": true
+			"divinerpg:miner": true
 			"divinerpg:aequorea": true
 			"divinerpg:the_grue": true
-			"divinerpg:ender_spider": true
-			"minecraft:ocelot": true
-			"minecraft:sheep": true
-			"minecraft:chicken": true
-			"minecraft:axolotl": true
-			"minecraft:parrot": true
-			"minecraft:zombie": true
-			"minecraft:salmon": false
-			"minecraft:bat": true
-			"minecraft:squid": true
-			"divinerpg:rainbour": true
-			"minecraft:enderman": true
-			"divinerpg:cyclops": true
-			"minecraft:creeper": true
-			"minecraft:drowned": true
-			"minecraft:glow_squid": true
-			"divinerpg:caveclops": true
-			"minecraft:skeleton": true
-			"minecraft:tropical_fish": false
 			"minecraft:slime": true
-			"divinerpg:jungle_bat": true
-			"ars_nouveau:whirlisprig": true
-			"divinerpg:jungle_dramcryx": true
-			"divinerpg:the_eye": true
-			"minecraft:panda": true
+			"irons_spellbooks:necromancer": true
+			"minecraft:bat": true
+			"divinerpg:caveclops": true
+			"minecraft:zombie": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

@@ -19,8 +19,25 @@ EXCLUDED_PATHS = {
 }
 MISSING_ONLY_PATHS = {
     "config/sodium-options.json",
+    "config/ftbchunks-client.snbt",
+    "config/ftblibrary-client.snbt",
+    "config/ftbquests-client.snbt",
     "launcher/servers.json",
 }
+MISSING_ONLY_PREFIXES = (
+    "config/jei/",
+    "config/jade/",
+    "config/brandon3055/",
+    "config/mezz_config/",
+)
+
+
+def is_missing_only(rel: str) -> bool:
+    return (
+        rel in MISSING_ONLY_PATHS
+        or rel.startswith(MISSING_ONLY_PREFIXES)
+        or (rel.startswith("config/") and rel.endswith("-client.toml"))
+    )
 
 
 def sha512_file(path: pathlib.Path) -> str:
@@ -43,7 +60,7 @@ def collect_files() -> list[dict]:
                 "path": rel,
                 "size": p.stat().st_size,
                 "sha512": sha512_file(p),
-                "mode": "missing" if rel in MISSING_ONLY_PATHS else "always",
+                "mode": "missing" if is_missing_only(rel) else "always",
             })
 
     for folder in TRACKED_DIRS:
@@ -61,7 +78,7 @@ def collect_files() -> list[dict]:
                 "path": rel,
                 "size": p.stat().st_size,
                 "sha512": sha512_file(p),
-                "mode": "missing" if rel in MISSING_ONLY_PATHS else "always",
+                "mode": "missing" if is_missing_only(rel) else "always",
             })
 
     entries.sort(key=lambda item: item["path"])
