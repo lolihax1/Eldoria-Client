@@ -18,6 +18,25 @@ def compute_hwid():
   str(uuid.getnode())
  ])
  return hashlib.sha256(('eldoria-hwid-v1:'+raw).encode('utf-8')).hexdigest()[:24]
+def load_allowed_mod_filenames(entries):
+ allowed={'eldoria-skin-auth-1.0.0-neoforge-1.21.1.jar','eldoria-client-ui-1.0.1-neoforge-1.21.1.jar'}
+ for r in entries:
+  if r.get('side')!='server' and 'file' in r and 'filename' in r['file']:
+   allowed.add(r['file']['filename'])
+ manifest_file=root/'manifest.json'
+ if manifest_file.is_file():
+  try:
+   m=json.loads(manifest_file.read_text(encoding='utf-8'))
+   for f in m.get('files',[]):
+    p=str(f.get('path',''))
+    if p.startswith('mods/') and '/' not in p[5:]:
+     allowed.add(p[5:])
+   for mod in m.get('mods',[]):
+    if mod.get('side')!='server' and mod.get('filename'):
+     allowed.add(mod['filename'])
+  except Exception:
+   pass
+ return allowed
 def load_mod_entries():
  lock_file=root/'mods-lock.json'
  if lock_file.is_file():
@@ -48,7 +67,7 @@ try:
  entries=load_mod_entries()
  mods_dir=root/'mods'
  mods_dir.mkdir(parents=True,exist_ok=True)
- allowed_filenames={'eldoria-skin-auth-1.0.0-neoforge-1.21.1.jar'}
+ allowed_filenames=load_allowed_mod_filenames(entries)
  emit('status',text='Проверка защиты Eldoria Guard и модов…')
  for r in entries:
   if r['side']=='server':continue

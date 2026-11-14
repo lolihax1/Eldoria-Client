@@ -9,7 +9,7 @@
   "versionId": "neoforge-21.1.265",
   "repository": "https://github.com/lolihax1/Eldoria-Client",
   "rawBaseUrl": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/",
-  "updatedAt": "2026-11-14T19:58:51Z",
+  "updatedAt": "2026-11-14T20:01:39Z",
   "modsCount": 54,
   "filesCount": 285,
   "files": [
@@ -1683,8 +1683,8 @@
     },
     {
       "path": "launcher/electron-bridge.py",
-      "size": 5958,
-      "sha512": "8d542b897777e6171af541108da884e84430fbdc807096b8981de0c36fd651570c21b5aeb9b26955c14007b8dc853d61450e608f039cba17067182dc5c4e09fa",
+      "size": 6654,
+      "sha512": "4a0d2d1eee3bf315899986d8094fdf53b7432cbc6307f31ec4ca38df27b10c35e77777d912397c18db1552643a76ba183f11b6ddcc9ab1f6f364f9eaf10db744",
       "mode": "always"
     },
     {
