@@ -9,7 +9,7 @@
   "versionId": "neoforge-21.1.265",
   "repository": "https://github.com/lolihax1/Eldoria-Client",
   "rawBaseUrl": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/",
-  "updatedAt": "2026-11-14T17:17:57Z",
+  "updatedAt": "2026-11-14T19:58:51Z",
   "modsCount": 54,
   "filesCount": 285,
   "files": [
@@ -1683,8 +1683,8 @@
     },
     {
       "path": "launcher/electron-bridge.py",
-      "size": 4505,
-      "sha512": "7933d60029a2212ccf6e5cad120c527b14fc63270738cb31ccffc64647f128b35a54ac2103278f509d3fd62c23f42a34d83991add7a5d60d7e014ef1115b23f9",
+      "size": 5958,
+      "sha512": "8d542b897777e6171af541108da884e84430fbdc807096b8981de0c36fd651570c21b5aeb9b26955c14007b8dc853d61450e608f039cba17067182dc5c4e09fa",
       "mode": "always"
     },
     {
@@ -1713,8 +1713,8 @@
     },
     {
       "path": "mods/eldoria-skin-auth-1.0.0-neoforge-1.21.1.jar",
-      "size": 29532,
-      "sha512": "769d24d0069770eb23a47e6e6e084926e1032103d69bfe086e2871326474f3bdaa0e3a48f56a18814086b28bcf0b434bbce3d835bcc55becfa077c170fe20d49",
+      "size": 50421,
+      "sha512": "64ddb694a9ba827cec81af43c2d90426020f86c9564cf4ab35c4f790cfbaea8ecd57f462c14dfe19aebc8a955f95d8c17bcb6baa7b7f23ddc31811e0b7af99b0",
       "mode": "always"
     },
     {
