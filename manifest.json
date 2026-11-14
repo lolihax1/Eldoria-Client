@@ -9,7 +9,7 @@
   "versionId": "neoforge-21.1.265",
   "repository": "https://github.com/lolihax1/Eldoria-Client",
   "rawBaseUrl": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/",
-  "updatedAt": "2026-11-14T17:08:11Z",
+  "updatedAt": "2026-11-14T17:16:53Z",
   "modsCount": 54,
   "filesCount": 285,
   "files": [
@@ -1683,8 +1683,8 @@
     },
     {
       "path": "launcher/electron-bridge.py",
-      "size": 3496,
-      "sha512": "0ae0f0ffc1ca9d155a64721300f86b5f1acfbae75dc5071872a4eae7f00bf4d43770f462daa846893f68d78a5f2c0d10e5cde24e5468aa93d838e497c6455aa8",
+      "size": 4505,
+      "sha512": "7933d60029a2212ccf6e5cad120c527b14fc63270738cb31ccffc64647f128b35a54ac2103278f509d3fd62c23f42a34d83991add7a5d60d7e014ef1115b23f9",
       "mode": "always"
     },
     {
@@ -1701,8 +1701,8 @@
     },
     {
       "path": "mods-lock.json",
-      "size": 42070,
-      "sha512": "d69b363003644bb2737b55f44e982fef3d5b6de4f1ff1b0151912ad0f26f0cadf8012e718cb1aa488f816f2c72fdb5924dee30a622e300f9b0896b0970de0ed1",
+      "size": 42238,
+      "sha512": "b94f3d81a2aa31e8285a282d8dc6ae0fcb50e306b82e2e55366845d4801c2a6acca2e3910c5585f31c0315807d3e0afe0841271c84391e37e030d1401d32ad3e",
       "mode": "always"
     },
     {
@@ -2239,7 +2239,7 @@
       "side": "both",
       "filename": "Placebo-1.21.1-9.9.4.jar",
       "size": 326063,
-      "sha512": "",
+      "sha512": "4f3a9c5974132f3638c262c56b0c2886df2bc58027c961aa11d06d0ae2e608b63f24f949b2f8c240989e2a1bfe303fd237c5f2d49269453ad6c2ff1f85f2c648",
       "url": "https://cdn.modrinth.com/data/tCkE8p2N/versions/B5zbSVlT/Placebo-1.21.1-9.9.4.jar"
     },
     {
