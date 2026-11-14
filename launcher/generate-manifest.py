@@ -12,11 +12,16 @@ TRACKED_LAUNCHER_FILES = [
     "launcher/electron-bridge.py",
     "launcher/resolve-profile-skin.py",
     "launcher/servers.json",
+    "mods/eldoria-client-ui-1.0.1-neoforge-1.21.1.jar",
+    "mods/eldoria-skin-auth-1.0.0-neoforge-1.21.1.jar",
 ]
 TRACKED_DIRS = ["config", "kubejs", "resourcepacks"]
 EXCLUDED_PATHS = {
     "config/sodium-fingerprint.json",
 }
+EXCLUDED_PREFIXES = (
+    "config/ars_nouveau/search_index/",
+)
 MISSING_ONLY_PATHS = {
     "config/sodium-options.json",
     "config/ftbchunks-client.snbt",
@@ -71,7 +76,7 @@ def collect_files() -> list[dict]:
             if not p.is_file():
                 continue
             rel = p.relative_to(ROOT).as_posix()
-            if rel in EXCLUDED_PATHS or rel in seen or p.name.startswith("."):
+            if rel in EXCLUDED_PATHS or rel.startswith(EXCLUDED_PREFIXES) or rel in seen or p.name.startswith("."):
                 continue
             seen.add(rel)
             entries.append({

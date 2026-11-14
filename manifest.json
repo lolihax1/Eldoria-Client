@@ -9,9 +9,9 @@
   "versionId": "neoforge-21.1.265",
   "repository": "https://github.com/lolihax1/Eldoria-Client",
   "rawBaseUrl": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/",
-  "updatedAt": "2026-11-13T11:14:30Z",
+  "updatedAt": "2026-11-14T17:08:11Z",
   "modsCount": 54,
-  "filesCount": 221,
+  "filesCount": 285,
   "files": [
     {
       "path": "config/Mekanism/client.toml",
@@ -656,36 +656,6 @@
       "mode": "always"
     },
     {
-      "path": "config/ars_nouveau/search_index/_7.cfe",
-      "size": 390,
-      "sha512": "4577ee59de486b9c5e2e6c0a9cd047b49c722c02ddd4ff65389924011ded145816d627af4e41669ef3d1e8103acd587a8e5861670c6777e73b167368496d07a6",
-      "mode": "always"
-    },
-    {
-      "path": "config/ars_nouveau/search_index/_7.cfs",
-      "size": 69009,
-      "sha512": "c18f58ba501b91189950e6f87c0950bf8934bc07662120ee03f7af8574c51b722f5c74fa0e3e1d29e4dc6b2980a2c509ee8c43533f7b89a8f200015dde281a02",
-      "mode": "always"
-    },
-    {
-      "path": "config/ars_nouveau/search_index/_7.si",
-      "size": 326,
-      "sha512": "5af1ac9f1c4945aa0f9937a25d1dd6970808e8cc02fd5ec3b00d6db18c2cda3c88144dd8e5d06c15158706b01b56aea0555d6b7954561bff12641fdf7847de03",
-      "mode": "always"
-    },
-    {
-      "path": "config/ars_nouveau/search_index/segments_8",
-      "size": 155,
-      "sha512": "81098444b8adbfeeb83bfd664d79d298f905ff64af640d6d7a8d1c9bc3ff5bbad4ac95f3c04451f44bca1218e5055ac1fa1ef65f32c2d5a7ad2747b7ffc7fefb",
-      "mode": "always"
-    },
-    {
-      "path": "config/ars_nouveau/search_index/write.lock",
-      "size": 0,
-      "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
-      "mode": "always"
-    },
-    {
       "path": "config/ars_nouveau/wololo.toml",
       "size": 872,
       "sha512": "292af3b910d3c04685219a33675d398899ac47396c0f2a0db746bab0a3ccce46979bd524c71e491b1041b03c3ab612a2741dffcfc96cecd4a2c935fadb8ba256",
@@ -812,6 +782,222 @@
       "mode": "always"
     },
     {
+      "path": "config/easy_npc/dialog_client.cfg",
+      "size": 279,
+      "sha512": "0429cecca98860498cae30679b235e8406a3763dcb2e0f9de8064e1a43c26db6cd3610447ed7a7b8d3f9a19facc2c51bfbd40fae7c8b0192985a420229878b92",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/dialog_options.cfg",
+      "size": 475,
+      "sha512": "ce69ca5709883b47aed60a1ae60b619a194129c27532e35027485c3b43604a457114cc62bfe801dee88ea7987b464b27be9cf379a007a19f851b910cbccd515c",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/highlight_client.cfg",
+      "size": 192,
+      "sha512": "38973a6c65077bcab67a02a9115203010e02b2032df1165421be957f1faa7b092f3fee25ab7affa5f40e0f7ef55fd52550b2089ca639229e4055b064cf0052bd",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/name_tag_client.cfg",
+      "size": 465,
+      "sha512": "5770bc95aa5f48b19fabe39356200d8210ed7f7b0a5d430d23f2647d325977767131380f8cafe0bad18a0d11811a11ac6860bbf992b88788dfb823b7853d19b9",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/npc_base.cfg",
+      "size": 571,
+      "sha512": "156fbdfe3f90a9663338dd99684e3a50fb3f9f82f1073c05585f3808a66d465a728761cbbd3b281a43e62fbeadef0d2aef65b728244d6a24de5e1a2b6b73e16b",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/remote_texture.cfg",
+      "size": 247,
+      "sha512": "f69a7483275439981205e607ac66dddaa9abe3b91e62469ac731466060a04a66edd10bf17bef11765feada9d05f9ff650f8e7577c68abaf32c021135d595f542",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/render_entity_type_support.cfg",
+      "size": 31656,
+      "sha512": "4945ac06f3fec19ae101ad61c4e1f75223a823395a836676caea90bbe9ee92ba4a2e7d8faf89330f7dc1e7016b76bec777cbd107277d9bfd94ab48bf5730b472",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/security.cfg",
+      "size": 4164,
+      "sha512": "b9292096dde3ebf4100f3eb0bda918af1f3ca88c1f4b4527480670e90e9a6a8200c814cc90902065b8d697a43e7d4042be87108e2629a2154db937d0e5ae2612",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/allay/allay_template.png",
+      "size": 246,
+      "sha512": "85a60bea62fa6e3f0b5b8d1d40af4f285743258d5c455be69aaa849b8795d8075319618251eea4450e0668b872a92c83a1bba62cc24ba73d2cf490b5c1db0875",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/cat/cat_template.png",
+      "size": 283,
+      "sha512": "8f04e065ea20e40ce32bc9f1cc823bcd0d1f405f85e5177a83fe9a3455ca3cc82591b4f7a750ea62acb229997764f76819917c3ce49861fbf4bca0e717243146",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/chicken/chicken_template.png",
+      "size": 287,
+      "sha512": "0bba182a48a6021bdd88d5f3a89854448762579cac6c0a0333c1f4bf1677abb4cb6ecb10bf01f009cbb298ab8b479b954a37a1fc170506aac2fa0691da2dcfbd",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/creeper/creeper_template.png",
+      "size": 255,
+      "sha512": "0a87a98101c76e118fb14c5ebdefc018938547f54e46d6916257e2d4c4df5119c9cc54746f55e84eba467659af6509cd8b7f0eebc401498762b53add67a825d7",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/ender_man/ender_man_template.png",
+      "size": 276,
+      "sha512": "0cdc553dc91d877e4bbf7ac2a5573b890317d7ac5c531be5296b6c4dcc94d893fc1f43bc7d09b5ffeb6bcf0db2128f83925345dba41bf99e283b69c3fc1c0abc",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/fairy/fairy_template.png",
+      "size": 434,
+      "sha512": "8abcb221ebbef44a688d967c98c74c4e4bf91bf546cce452808c22aa03de3dde65610351641adb53fbce176dd5eae9bbc7301666f19711d7adcbe57755b7e52d",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/fox/fox_template.png",
+      "size": 335,
+      "sha512": "445d2e0ada6695822195fee79084317702b25230ad68222f96f354a577ceab8a6a19db273a811644b06883d73ed6f5f255060583ab409a0a48626510ff31d1d6",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/humanoid/humanoid_template.png",
+      "size": 360,
+      "sha512": "ed54c0bad8ef5dd1e6db952bc53a4a10f8ae021a543b4c0e5ab3b096ed60dfa6a89adf6bde45dcfc6204a1c0f2547078edac0ed3295a8bdc890415f26939daee",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/humanoid_slim/humanoid_slim_template.png",
+      "size": 384,
+      "sha512": "f280e81621d60e1d5ac91341309761a741e4aaa259eb2ee85194d1fca4307ff621665ec6989f441bfeadd921b7f82341df0d8562ca3f08442bee761d0a15088e",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/husk/husk_template.png",
+      "size": 531,
+      "sha512": "0daea994b4c5f0bf13f4a6873288d26cc9463ca1fc26efef84b91df6c0647f593035eda46542338d03239caf1e2e08ecab2219bc4b1d8cb236640fbdb17d2e33",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/illager/illager_template.png",
+      "size": 300,
+      "sha512": "230a17a3976a2b8112e98e58cca2f292f7dfd294058e0e1bf00eb7557828cba5ef72034384233101ac1674302050df564178aad528f81e86fb1c2f8fd91c4385",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/iron_golem/iron_golem_template.png",
+      "size": 451,
+      "sha512": "93a969e2eb1651959f19345b8b27a61ca04dbe4b31f2f6174e761ba31b73bab21f971ec8784fc9de6a1085897933a87502de0d65d46c135e3044efe0346464d9",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/orc/orc_template.png",
+      "size": 521,
+      "sha512": "ae750350739a15c0c66c04f4c84a8dc4af48dd85ea747e31139d94cc17b9283d2a105cb7cb0a100db988210600182fc442dcdc726078b67b685f4d5502fb9e8f",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/pig/pig_template.png",
+      "size": 270,
+      "sha512": "324c2b4c4f66f9b3cf5d483e5e801fbb827ef51e204c7f81e9c19dade9a787f1bf74c5185d6e0be5a446b0730a572b3efb59356961c30825945d6760994cf0cc",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/piglin/piglin_template.png",
+      "size": 361,
+      "sha512": "f793bd1c4dfff6c97cd5f2bab2ec592b020d258e6187eb88d439e119da79a0861478db39510d822c5ca1e56885f4901513116986c29ce3276a90958b787d34e2",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/skeleton/skeleton_template.png",
+      "size": 259,
+      "sha512": "a64370055cece452db6d1b45cf4417b64e5b036ba18e916c3d55204f9f6469459988f6d5793139abac259163c25e1efc477ac5b4284c32a68214969cde6196b3",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/spider/spider_template.png",
+      "size": 308,
+      "sha512": "9ce79d6f37b77b557bb5186757fe5f72611abc64ab3aaadf4337840e621ae0603d3a4b676f01a9c359e5e2a9485d7c8783f61d2c58a17d941b3d569d1e61232d",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/stray/stray_template.png",
+      "size": 531,
+      "sha512": "0daea994b4c5f0bf13f4a6873288d26cc9463ca1fc26efef84b91df6c0647f593035eda46542338d03239caf1e2e08ecab2219bc4b1d8cb236640fbdb17d2e33",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/vex/vex_template.png",
+      "size": 247,
+      "sha512": "e2a4c650147d98ec7b3df0557c0784c2d0ca9828d351a538341e8147cec1e1179e06673565f1cb52f18cd03927470c771193e00c624018add70dae6b237ef37a",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/villager/villager_template.png",
+      "size": 357,
+      "sha512": "828deccb185ef3488fb188756365e873fd4bf9749dd05a79cabd000c714ecd1349ebe16115a07f1446ed8b513b44a6e3f331c8f882427318fb02e2c21f08247f",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/villager/villager_without_hat_template.png",
+      "size": 331,
+      "sha512": "2d7364da3a3045932f09c829e5bd95e336f3135d98c4aeaa2c86cdea6520889a895eb8fbbf4a19320f65cbb91725c8cdff5a8590027844ed4ab0f697303c1ecc",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/witch/witch_template.png",
+      "size": 431,
+      "sha512": "b0fa7a8338e33d5c85e9c81b3fa3b3e908f7601dcb0f4f685270ed208089904936c7caa0778c55fd6378b1d010022eff4de5a6235b500a6ac4d7de69cda0e40f",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/wolf/wolf_template.png",
+      "size": 321,
+      "sha512": "2ca2db2db1f1d4313b06a1080b10d1267013e0005d23636366198aefa7e818e02d3f096ec52f435542a4c6aaf5208b227d878fd2c9b00c00c703bf2d4c4f4c93",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/zombie/zombie_template.png",
+      "size": 292,
+      "sha512": "cd0f1e4ba513ca0274b6c094e65365db973515d580024a4baa4506b50a814c45ebe77869770f2ef81cb352040774aff273b45e16f392cc06a3a04df464a5bba1",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/skin/zombie_villager/zombie_villager_template.png",
+      "size": 356,
+      "sha512": "3b583d1575718ea345aebd3f9b27e92a291823c0aca91a21e11f97a7a345965b8a283d7a3a5d0b15cba1341f4e156ef877b81d3e5d7ea65ed8646a16ecb09eaa",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/spawner_type.cfg",
+      "size": 1186,
+      "sha512": "eebcdd38fb6aec5fd0c5dcb75412f057ebdefc6825dfe21da12e147065a19fdc7ce0f83fa66ca3c9f547db15f4c719bf171a4a25e830ffcc3bef8dc075058411",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/speech_bubble_client.cfg",
+      "size": 874,
+      "sha512": "9ab400569306e8d03f6c823467054774fe43723ddcaad466c163ecd3d6836e823383540afc32a3d4e99cc238c842dde4dbda3d31a34d50ef7d10e69564e45c08",
+      "mode": "always"
+    },
+    {
+      "path": "config/easy_npc/storage.cfg",
+      "size": 1146,
+      "sha512": "d6375bd771e4a9ca89beb0de5722b8cbd603f701db4f254ae964f46f14dfa006192b35abaede3e4507feb4df3360392769ace4bde89536ec7b3b4621cef3006d",
+      "mode": "always"
+    },
+    {
       "path": "config/eldoria_spawn.json",
       "size": 113,
       "sha512": "2745814047591121558c84b35bda9926e16682b48f94ba0e17939d787485c823827601920b223bcc25155df52b26edfab6dd0cca88b96976324ac435296d0b63",
@@ -855,8 +1041,8 @@
     },
     {
       "path": "config/ftbchunks-client.snbt",
-      "size": 9355,
-      "sha512": "4a6e95d55a4d1b0852662ab722dd490ba082ca143fc9449dfbfbbc528fa65ce8d5506dc420aec0636bc33b1a5549c914cb68b50582d82234865b0fa90e7238f0",
+      "size": 9863,
+      "sha512": "cc334d0fa355a5272b0e31b8db6e67741ad88ff3af7ff7e43bf249fcab0e401d40e4dd1ce97f92da1673a38d641bed47b03f74501c7ae91ad5a29a474136478a",
       "mode": "missing"
     },
     {
@@ -873,8 +1059,8 @@
     },
     {
       "path": "config/ftbquests-client.snbt",
-      "size": 1551,
-      "sha512": "5f5a8ddbcd4fd29e7a791eb0b070cdda408c703dbfbda35373d95414f3c9fe9308d1a75993611d9701d5583dd4c44b09d7fe04813d46a35c998ca1b8bafe695a",
+      "size": 1550,
+      "sha512": "b0bb2026bf47e940fe7dc0b6395c7fdb263c4411b2e2570143e31327ccc866070f19d3e03869f9eca90af73181a4359770baa7cb659097b6a2a6967ae57ac99c",
       "mode": "missing"
     },
     {
@@ -968,6 +1154,12 @@
       "mode": "always"
     },
     {
+      "path": "config/industrialupgrade-common.toml",
+      "size": 118044,
+      "sha512": "f97dc243ef6b5ce105942866c4fb08fc070e2663d9b47f69d939f301b1d6656f2772d16cd7ca513424677c34b858133ec5f8c5422c23a2a86383f3cd4a15a91f",
+      "mode": "always"
+    },
+    {
       "path": "config/irons_spellbooks-client.toml",
       "size": 3571,
       "sha512": "c3802d26d63244bc82798ff08212ea1bda55d6dc77d2b9888a7363f8c18ba9e08ab7cee2c9a90ae46f7619bdd43af94e762bc206f058cb540bba6cc5dd57750c",
@@ -1017,8 +1209,8 @@
     },
     {
       "path": "config/jade/sort-order.json",
-      "size": 2997,
-      "sha512": "8e07bb74c99a249bd19ffdd5ed205568d50a8baa8b2d6b6e116d00fe96fcea743ee399652284200dd1366a9541f8f202eb9b5eb4ad9e37c024b47ae12b1de493",
+      "size": 3117,
+      "sha512": "579733c41781d8f76647258e56a2bd28d957d4d9efdd7615094a6f844730c72cfdb8460e06f44dfc68596f92130db9ba158656398948ced73d6b37ec8d398aad",
       "mode": "missing"
     },
     {
@@ -1065,8 +1257,8 @@
     },
     {
       "path": "config/jei/client/recipe-category-sort-order.ini",
-      "size": 2304,
-      "sha512": "4eb9a90b21a78ae5240fc7b9d622dd7c1cafe25e452caea11f349eb94b5866de8c6c062f3df43ad6c7fb717e339e672f65a4dee00e2486fca372eb492728fd31",
+      "size": 8186,
+      "sha512": "7e0c1ca51ff1fc865b9f2d0b17bec7fa971c85b835ff227578b6a6d7e0d10de23d0de666b354dffd7afc80f7028c87e5b16973a8b09da66b069520157318c946",
       "mode": "missing"
     },
     {
@@ -1238,6 +1430,42 @@
       "mode": "always"
     },
     {
+      "path": "config/voicechat/category-volumes.properties",
+      "size": 46,
+      "sha512": "7ec58440e609b57bb196309dabc2e057c4bb9c432df38d2baa7819edfe10795b58977393d346dc2ea9dcc77e200c70de8da7a4cfe7ea63912f4f0b00078c0381",
+      "mode": "always"
+    },
+    {
+      "path": "config/voicechat/player-volumes.properties",
+      "size": 44,
+      "sha512": "e9776935a1de755804b3796a2bcc0f0f883f45ebc8a39c53a9ba4890e43d335780eff6332c8ef9e592a62b07897e707c6fbb5b3e1bdf72e95b4fcc188277dba2",
+      "mode": "always"
+    },
+    {
+      "path": "config/voicechat/translations.properties",
+      "size": 1182,
+      "sha512": "6efec564b357663b15875076a19f1e61f925c820050e597fe521a3bee2c950a5047758c05aa532e69802651df375467c80898af124b255b9a247eac93c3bdd66",
+      "mode": "always"
+    },
+    {
+      "path": "config/voicechat/username-cache.json",
+      "size": 2,
+      "sha512": "27c74670adb75075fad058d5ceaf7b20c4e7786c83bae8a32f626f9782af34c9a33c2046ef60fd2a7878d378e29fec851806bbd9a67878f3a9f1cda4830763fd",
+      "mode": "always"
+    },
+    {
+      "path": "config/voicechat/voicechat-client.properties",
+      "size": 5063,
+      "sha512": "71c886f5885225cd00fcaafd207391ca8f651d7a1778bebd005a1946ac046754551135a109a4db26cbacfc219d9822b26756828fa8cac60b0659015668691c41",
+      "mode": "always"
+    },
+    {
+      "path": "config/voicechat/voicechat-server.properties",
+      "size": 3072,
+      "sha512": "8ab189776b1f787b22a27e1ffc99ba67dff45c217b97079fa81970f4cf562789dc4bf9b806c10d4f968a8e9491d242381ea169ea310f67c14eb6054fe13caa6d",
+      "mode": "always"
+    },
+    {
       "path": "config/waystones-common.toml",
       "size": 6646,
       "sha512": "2051e24bb08b16479cbc2fd007a487e047223f0fb27516ce91873e819a92b4e118633cf997cb0596251ae3c58df2af9ff70e08a5a5f11237069a776343abc9fb",
@@ -1253,6 +1481,36 @@
       "path": "kubejs/assets/ars_nouveau/animations/wilden_chimera_animations.json",
       "size": 25038,
       "sha512": "3996c4b7e1107339f1e3fda97c434f1828ff272dcd1ab8f2599a05fd933c2a52e449a386afcd84cb9a5093dc4e54d34a39affdc2e52c9c0d4d96e657900a843a",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/assets/eldoria/sounds.json",
+      "size": 149,
+      "sha512": "48d53085bfb9f4b580cec0f255ad7a2f79e773cda1e9d157800aa259966e5b8516651f9899fe5db7b264ef66ca3559b0ce07945acee37c4c14ec0b4cdcf757a2",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/assets/eldoria/sounds/npc/santa/welcome.ogg",
+      "size": 158423,
+      "sha512": "ad9165897e660a1f38f9973a25dbec7f05d899d48603745b733d01d162e88326ce3edecf9d69172a670ec7a22a6470f4459ad0357c079c4b8c5ec3bc14a07091",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/assets/eldoria/textures/entity/santa.png",
+      "size": 409,
+      "sha512": "6fc05f1d867d2550e1cc09f65a7214b9c02b25c56d59ffa35a4e17a73f2f22bebec52c08a3f25b54567f32a0703700555dbeb8e08f3710f4871a4e244116c3c7",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/assets/ftbessentials/lang/en_us.json",
+      "size": 6062,
+      "sha512": "44c06f285060cd3e56c46b0b6958cbfa0f57ff9fea599a6b80b38d964484597ba4ad6ee60771a8be934bcf2f5deab9401f82acb2cc3ea4cfd08d748e214dfe08",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/assets/ftbessentials/lang/ru_ru.json",
+      "size": 8400,
+      "sha512": "d1695d788985eaec1c0abbc1eb92cca8adb8a121adb5c25a6e57d3e7cc7ede5b8607c2946838f33bdf266987bc6558c3cdaa512e97937ea045e468b40c286e33",
       "mode": "always"
     },
     {
@@ -1289,6 +1547,120 @@
       "path": "kubejs/data/eldoria/dimension_type/lobby.json",
       "size": 503,
       "sha512": "02158f596cbf6491bec240b4aaa14df87774b5b867e88a0ea0a9db8955c3b335d1695c853c2274c71d38c6997fcde7d4c478fc5c72fb33ac011d4419f7bfdf1b",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2433.json",
+      "size": 665,
+      "sha512": "94042e2818b96a15e3bb085fa439dec2c65d7f1e4d175ec8260afac5e4a493e9d4adef3c9d3531a4ca0ac141b74e9c450917481c9602f31878c191ba4f96e84f",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2434.json",
+      "size": 674,
+      "sha512": "54da2805ecb13541c5e208cc75a407e3c0b406522a9ffa1752684ce621c02f9f40a96ea056e135d5f8898c590deff17377584c2513a5f17b0147f8a66432dad4",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2435.json",
+      "size": 1188,
+      "sha512": "d59c7ab285417e2e0cae04f2c185c141795ebf83f7bd676f0d2eea1133eda984f70d0154cc82fd8928a4b14af0b02b78176f05dc670413feccf3b7d96729032c",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2436.json",
+      "size": 1188,
+      "sha512": "462b3a3d89b802d34ad905ec8313ef59cbe2812e180e6be2c5186d5951b4d178d6f759da535ed87e9879c92af76004c1f357a3fde933fd563c1e949134e736f7",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2437.json",
+      "size": 670,
+      "sha512": "b492a00a250ec33262ab54644ef7ee49b00c19c67d6db23193a71ecc72cad10c2b74289d503b576b91e26a01967e72ec662f7c95adec296ab5d7b1bb316ee4c5",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2438.json",
+      "size": 851,
+      "sha512": "b95f96d265d4da7b381fa28c57442f5f24bd4a6418ea42f46739b75b76e63f222479f3f43706ca0cba490560e344e4935e89e73bd60da6ab7b92099765d23ced",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2439.json",
+      "size": 850,
+      "sha512": "0e278a4af0a3ba058f39e366c95481d71c11f8cda3257b6e20618922f26bc0b0bcc18299611882533cd59e058d290aab9580e546142878ded38237870d2a403d",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2440.json",
+      "size": 854,
+      "sha512": "ba2dd478295a59b62caf649553912090f692e696f3dcb2db040ea9d10db1b36cea496814abb311d7e592aea358499454a92e86a37d38ac305d965661cd93e118",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2441.json",
+      "size": 855,
+      "sha512": "90f7c5631f72ee03ac81597ce6549438c2b586688902e7fb9a56e83353fa956e6c62c12bc53989fb109eb28bfed8f63b50c02d9b653458ecdedb7052b6f196b9",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2442.json",
+      "size": 855,
+      "sha512": "2fbff6d6f319b1788154d991496577f7be68831b42076c61791a869a5ca106aa806f936cbdeaf5aea806bee0d19979cf8be9e2ddc124949d80bf6dbd1ef0207b",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2443.json",
+      "size": 1106,
+      "sha512": "c88eddf1864ac04e9cd39407c9e1e31ee71ae5b8d22bee59eed26b408037f4c8458c482c421c2fbdb10500381d21ef228c33bc12b8a33e7bc4a901016e7cda47",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2444.json",
+      "size": 518,
+      "sha512": "bdfd6ee3e71088f8f76dfcd32b5d966fe9613acada6cdf6f154b86fe53fb0b3a7e6917239679dbc0d7bd15fc45eb36a039f9f9efbaae65036507011dff36c750",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2445.json",
+      "size": 517,
+      "sha512": "04260fd9fc5a917b59ea4b3cd7a0031bd56caeea4f776569f70bb8dddc2868aaf3f64c3f59ae33715f862e2376d8fa6ba14f844f83f24ae405a207b43926e212",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2446.json",
+      "size": 518,
+      "sha512": "980d036fb6d0cdff42fd5f5663271e4b3410b8e9f5c1617219f4a1dbb209e81ecff05c98319d83953d0c3b3c8648b2dabda60e86339a266552448c715fe89e41",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2447.json",
+      "size": 520,
+      "sha512": "1956ade5930575b306b7ccc739fe849586f163cec98173df90473d2dd3a3d85d1db670b4dcfbab923f18c5f63a92b78c9c393d426aa4d39d8f8e5120465e1262",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2448.json",
+      "size": 520,
+      "sha512": "b9bf84594ff3760043080c5cfdff6f84507b383e198ad9a8b34d466c8135b78b3749a30787eb45ffb00fcea82b2f7126c3ef7365ee10240b9aea6ff8cc652592",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2449.json",
+      "size": 489,
+      "sha512": "7f1c27f1fff079b33c45e6e03735a3a0dbcd3ac1edd88a79490d4f13da9355fdb8d9a9cbe069b8fec10b234907678eff7739dfdd5ce75b2f1da683764384af18",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2450.json",
+      "size": 494,
+      "sha512": "b3674cee4a2126b49feaf587b62443f99d64b2df92c443c07559be2e47e83d1bf8eeb46ddc8ae6aead393ecbe4ef1cf2c50645057f5f4975be39bb290ad1587b",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/data/industrialupgrade/recipe/industrialupgrade_2451.json",
+      "size": 493,
+      "sha512": "efd446e4aed9bcd28016a8555b7e9b152a6d539d7dfb07bc2a7b71875d02331433db6363a32299c3605b5e9cf3045cedce5b77300e7239af04513d80e07bfb10",
       "mode": "always"
     },
     {
@@ -1331,6 +1703,18 @@
       "path": "mods-lock.json",
       "size": 42070,
       "sha512": "d69b363003644bb2737b55f44e982fef3d5b6de4f1ff1b0151912ad0f26f0cadf8012e718cb1aa488f816f2c72fdb5924dee30a622e300f9b0896b0970de0ed1",
+      "mode": "always"
+    },
+    {
+      "path": "mods/eldoria-client-ui-1.0.1-neoforge-1.21.1.jar",
+      "size": 3684,
+      "sha512": "6be61121296951f5d1dcb5166fb1408b86bd8ffd52adcefe85c670b2da031339767cf52d85235763bce6d5854ca520d3e35777aa26ca618d5491dd06780da9f2",
+      "mode": "always"
+    },
+    {
+      "path": "mods/eldoria-skin-auth-1.0.0-neoforge-1.21.1.jar",
+      "size": 29521,
+      "sha512": "0b34581c83cc6d3200ac158c6ee75ce7b25053072ee9b5d988d9828e1a7461da19b75a50788d6e77f77acab269e09b0c6a1ae2c4af1eb5e43d6663507d87ee87",
       "mode": "always"
     },
     {

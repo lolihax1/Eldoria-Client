@@ -20,6 +20,8 @@
   "extendedae:tile_data": null,
   "ftbquests:barrier": null,
   "hostilenetworks:io_port_mode": null,
+  "industrialupgrade:component_provider_blockentity": null,
+  "industrialupgrade:deposists_provider_blockentity": null,
   "jade:block_face": null,
   "jade:block_properties": null,
   "jade:block_states": null,

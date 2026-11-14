@@ -1,0 +1,28 @@
+{
+  "type": "industrialupgrade:shaped_recipe",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "quantumgenerators:qg/grasp_gen"
+    },
+    "B": {
+      "item": "industrialupgrade:itemcore/kvrcore"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BAB",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "quantumgenerators:qg/kvsp_gen"
+  },
+  "show_notification": false,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "quantumgenerators"
+    }
+  ]
+}

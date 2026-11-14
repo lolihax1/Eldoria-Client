@@ -6,7 +6,10 @@ downloads/
 libraries/
 local/
 logs/
-mods/
+mods/*
+!mods/eldoria-*.jar
+launcher/.eldoria-launch-ticket
+config/ars_nouveau/search_index/
 patchouli_books/
 runtime/
 saves/
