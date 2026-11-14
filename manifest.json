@@ -9,7 +9,7 @@
   "versionId": "neoforge-21.1.265",
   "repository": "https://github.com/lolihax1/Eldoria-Client",
   "rawBaseUrl": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/",
-  "updatedAt": "2026-11-14T17:16:53Z",
+  "updatedAt": "2026-11-14T17:17:57Z",
   "modsCount": 54,
   "filesCount": 285,
   "files": [
@@ -1713,8 +1713,8 @@
     },
     {
       "path": "mods/eldoria-skin-auth-1.0.0-neoforge-1.21.1.jar",
-      "size": 29521,
-      "sha512": "0b34581c83cc6d3200ac158c6ee75ce7b25053072ee9b5d988d9828e1a7461da19b75a50788d6e77f77acab269e09b0c6a1ae2c4af1eb5e43d6663507d87ee87",
+      "size": 29532,
+      "sha512": "769d24d0069770eb23a47e6e6e084926e1032103d69bfe086e2871326474f3bdaa0e3a48f56a18814086b28bcf0b434bbce3d835bcc55becfa077c170fe20d49",
       "mode": "always"
     },
     {
