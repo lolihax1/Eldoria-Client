@@ -104,7 +104,7 @@ try:
     '-XX:+ParallelRefProcEnabled',
     '-Dfile.encoding=UTF-8',
     '-Deldoria.hwid='+hwid,
-    '-Deldoria.site.url=http://127.0.0.1:8778'
+    '-Deldoria.site.url=https://eldoria.pro'
    ]+custom,
    'gameDirectory':str(root),
    'launcherName':'Eldoria TechnoMagic',

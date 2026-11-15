@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "Eldoria TechnoMagic",
-  "packVersion": "0.1.2",
+  "packVersion": "0.1.3",
   "release": "0.1-playtest",
   "minecraft": "1.21.1",
   "loader": "neoforge",
@@ -9,9 +9,9 @@
   "versionId": "neoforge-21.1.265",
   "repository": "https://github.com/lolihax1/Eldoria-Client",
   "rawBaseUrl": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/",
-  "updatedAt": "2026-11-15T17:49:31Z",
+  "updatedAt": "2026-11-15T19:11:53Z",
   "modsCount": 60,
-  "filesCount": 284,
+  "filesCount": 285,
   "files": [
     {
       "path": "config/Mekanism/client.toml",
@@ -1496,6 +1496,12 @@
       "mode": "always"
     },
     {
+      "path": "kubejs/assets/eldoria/textures/entity/steve.png",
+      "size": 1863,
+      "sha512": "b52042dcd1a676011686c77ae9ad3afd0b8f85d5b511131fdc686ae9dc50e56589c281c4011cb036f921b47609f58df4dc84996b20e472a9736f9526b87d4d8b",
+      "mode": "always"
+    },
+    {
       "path": "kubejs/assets/ftbessentials/lang/en_us.json",
       "size": 5966,
       "sha512": "eeabd21a3731ffa3046e2cc7eefdad122b46e85bb0f04ca871d96eedc169c73f643506b700c54deb350c3c20a8004bf0a28564bd4efbbca49848eb852713ef45",
@@ -1677,14 +1683,14 @@
     },
     {
       "path": "launcher/electron-bridge.py",
-      "size": 5764,
-      "sha512": "c993e58df0783f5e01ff746f8a2fa31b4595d915fd2c9b1533d114f5500bdead97016cf75d5313dde1167bb48788446c1c483c1c24a0382fe91dfa12c236122d",
+      "size": 5762,
+      "sha512": "9893a61ce7e5c63dce1c0ced235bd5209ab25f2d7436fb1ee2107dbb80b0779c222c847c4e684cb03e95f77b40083da0f109af92e3659f58a2a23b8a1a221bff",
       "mode": "always"
     },
     {
       "path": "launcher/resolve-profile-skin.py",
-      "size": 939,
-      "sha512": "f564db477ba106654bc17bcc4c0973ac60d465a46171f1faf37c1f675c3a8fe8d1b537c0e7821c7856085be1e9119c6125aefc45ef102936e7395746b5f51bf4",
+      "size": 913,
+      "sha512": "8d6156963b5c1e77738b3874fc4c8d002f66e25e5ab263bcd6d474e1ae3894c190f05aa3e4790ab5945b4c3d32b05b39659c6f88042ebaf93158b14740d67c24",
       "mode": "always"
     },
     {
@@ -1714,7 +1720,7 @@
     {
       "path": "pack-info.json",
       "size": 150,
-      "sha512": "f8eb341ca6c998860d1369a74a9ed4891dc90bd3e70addcb19b024f641c69e9357bd44cf27abb0e9b66f2fe24e03770a9bdc7c1ed51a357f78892a58c563883a",
+      "sha512": "a49d167217d339dcf1b5cf4cd23804a0cbaaaf0af56e834097a844ac037cb5d99b05bb4eea7aec7ce5b7d00ebbe25f119037d10e54a5210faeb25f754a844382",
       "mode": "always"
     }
   ],
