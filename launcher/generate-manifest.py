@@ -13,13 +13,14 @@ TRACKED_LAUNCHER_FILES = [
     "launcher/resolve-profile-skin.py",
     "launcher/servers.json",
     "mods/eldoria-client-ui-1.0.1-neoforge-1.21.1.jar",
-    "mods/eldoria-skin-auth-1.0.0-neoforge-1.21.1.jar",
+    "mods/eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar",
 ]
 TRACKED_DIRS = ["config", "kubejs", "resourcepacks"]
 EXCLUDED_PATHS = {
     "config/sodium-fingerprint.json",
 }
 EXCLUDED_PREFIXES = (
+    "config/jei/world/",
     "config/ars_nouveau/search_index/",
 )
 MISSING_ONLY_PATHS = {

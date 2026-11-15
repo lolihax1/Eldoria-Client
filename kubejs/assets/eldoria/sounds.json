@@ -1,0 +1,10 @@
+{
+  "npc.santa.welcome": {
+    "sounds": [
+      {
+        "name": "eldoria:npc/santa/welcome",
+        "stream": true
+      }
+    ]
+  }
+}

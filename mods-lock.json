@@ -1096,5 +1096,184 @@
       "file_type": null
     },
     "source": "https://modrinth.com/mod/playeranimator"
+  },
+  "CgGEe1h3": {
+    "name": "Easy NPC",
+    "slug": "easy-npc",
+    "version": "7.18.0",
+    "version_id": "bVaYwkNt",
+    "client_side": "required",
+    "server_side": "required",
+    "side": "both",
+    "file": {
+      "id": "epGlB0zn",
+      "hashes": {
+        "sha512": "aa2ac1858d2cef4cceff9abbfec61966d300949f3c385d1c3a5dbb4dc58be4c194b4e166bd6bbd1ab0bea49ec802a4a35b72ac245d70acb53d2edd0f1c461e20",
+        "sha1": "9345fcce498992d718eea9da415bc3d814495056"
+      },
+      "url": "https://cdn.modrinth.com/data/CgGEe1h3/versions/bVaYwkNt/easy_npc_bundle-neoforge-1.21.1-7.18.0.jar",
+      "filename": "easy_npc_bundle-neoforge-1.21.1-7.18.0.jar",
+      "primary": true,
+      "size": 25224,
+      "file_type": null
+    },
+    "source": "https://modrinth.com/mod/easy-npc",
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "ngLoLP1P",
+        "file_name": null,
+        "dependency_type": "optional"
+      },
+      {
+        "version_id": null,
+        "project_id": "Epm6R3P2",
+        "file_name": null,
+        "dependency_type": "required"
+      },
+      {
+        "version_id": null,
+        "project_id": "uTGjf7vA",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  "Epm6R3P2": {
+    "name": "Easy NPC: Core",
+    "slug": "easy-npc-core",
+    "version": "7.18.0",
+    "version_id": "9TVwS7rU",
+    "client_side": "required",
+    "server_side": "required",
+    "side": "both",
+    "file": {
+      "id": "GbUg84qr",
+      "hashes": {
+        "sha512": "2bcabc384dcc5c6cb4eb28712b583df3228002f27d2c3801efff6681673c113001b10ce333fa48ee206486500d9b8a83f62bfc2208820466319dc5ce6043ec5c",
+        "sha1": "ca84b46e2c4d907c8b3fce3447d2ddf41034b8c8"
+      },
+      "url": "https://cdn.modrinth.com/data/Epm6R3P2/versions/9TVwS7rU/easy_npc-neoforge-1.21.1-7.18.0.jar",
+      "filename": "easy_npc-neoforge-1.21.1-7.18.0.jar",
+      "primary": true,
+      "size": 3132335,
+      "file_type": null
+    },
+    "source": "https://modrinth.com/mod/easy-npc-core",
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "ngLoLP1P",
+        "file_name": null,
+        "dependency_type": "optional"
+      },
+      {
+        "version_id": null,
+        "project_id": "y4JF3gXL",
+        "file_name": null,
+        "dependency_type": "optional"
+      }
+    ]
+  },
+  "uTGjf7vA": {
+    "name": "Easy NPC: Config UI",
+    "slug": "easy-npc-config-ui",
+    "version": "7.18.0",
+    "version_id": "5k9n62gb",
+    "client_side": "required",
+    "server_side": "required",
+    "side": "both",
+    "file": {
+      "id": "560vE9Tk",
+      "hashes": {
+        "sha512": "83c1d70d7381eca36daef79e250ee3b06caf12c2caa3966e3b82cba74516bd55ff7144fdfe9d71f5e75df51850ac60eab8d532eca7d4bc460b676095f305d604",
+        "sha1": "7b9564421c4c50e4d0cd7168c5442bb3a34fabc3"
+      },
+      "url": "https://cdn.modrinth.com/data/uTGjf7vA/versions/5k9n62gb/easy_npc_config_ui-neoforge-1.21.1-7.18.0.jar",
+      "filename": "easy_npc_config_ui-neoforge-1.21.1-7.18.0.jar",
+      "primary": true,
+      "size": 1186275,
+      "file_type": null
+    },
+    "source": "https://modrinth.com/mod/easy-npc-config-ui",
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "ngLoLP1P",
+        "file_name": null,
+        "dependency_type": "optional"
+      },
+      {
+        "version_id": null,
+        "project_id": "Epm6R3P2",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  "9eGKb6K1": {
+    "name": "Simple Voice Chat",
+    "slug": "simple-voice-chat",
+    "version": "neoforge-1.21.1-2.6.22",
+    "version_id": "2s7zUspF",
+    "client_side": "optional",
+    "server_side": "optional",
+    "side": "both",
+    "file": {
+      "id": "6vYxQM4U",
+      "hashes": {
+        "sha1": "3b2001d8df61fe6dc03dcd5f5cd4a8f49821feb0",
+        "sha512": "309e3b18e299b2bccf9128dbb05c2603a9860f7cd68858d23f8fdb8265ea85ec7fb1655c95b87c0a9522ae1fd6380b26e4a4c31207f9c7af80870fcc6207abad"
+      },
+      "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/2s7zUspF/voicechat-neoforge-1.21.1-2.6.22.jar",
+      "filename": "voicechat-neoforge-1.21.1-2.6.22.jar",
+      "primary": true,
+      "size": 4918442,
+      "file_type": null
+    },
+    "source": "https://modrinth.com/mod/simple-voice-chat",
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "9eGKb6K1",
+        "file_name": null,
+        "dependency_type": "optional"
+      },
+      {
+        "version_id": null,
+        "project_id": "9s6osm5g",
+        "file_name": null,
+        "dependency_type": "optional"
+      }
+    ]
+  },
+  "curseforge:372007": {
+    "name": "[IU] Industrial Upgrade",
+    "slug": "industrial-upgrade",
+    "version": "3.4.0.13",
+    "side": "both",
+    "source": "https://www.curseforge.com/minecraft/mc-mods/industrial-upgrade/files/8600905",
+    "file": {
+      "filename": "IndustrialUpgrade-1.21.1-3.4.0.13.jar",
+      "url": "https://mediafilez.forgecdn.net/files/8600/905/IndustrialUpgrade-1.21.1-3.4.0.13.jar",
+      "size": 36735788,
+      "hashes": {
+        "sha512": "6efc9d6ab3e5db3dfed6ebbce1826b5772ab6aab78c2d5d54e3d343bae130898b9509766c012a2084b792c781a89a4103f5c7af11eb216374bae555d6e879039",
+        "sha1": "622878e4fb0d1bd9789907a08b0d5e0be54cd288"
+      }
+    }
+  },
+  "eldoria-auth-v2": {
+    "name": "Eldoria Skin & Launcher Auth",
+    "side": "both",
+    "version": "2.0.0",
+    "file": {
+      "filename": "eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar",
+      "size": 58060,
+      "url": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/mods/eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar",
+      "hashes": {
+        "sha512": "627d0a0e5ae6ab0fa2d8a6fc3ae1021ca1311bc3b6f75454b8fa257aec74087017585d8b7af660002486f9b743a64f9b160603a4d301333e28df8bb0aa9b79fc"
+      }
+    }
   }
 }

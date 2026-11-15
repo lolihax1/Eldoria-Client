@@ -1,7 +1,6 @@
 import sys,json,pathlib,uuid,hashlib,urllib.request,time,hmac,secrets,os,platform
 import minecraft_launcher_lib
 root=pathlib.Path(__file__).resolve().parent.parent
-LAUNCHER_HMAC_SECRET=b'eldoria-tm-official-launcher-2026-hmac-v1-9f4b2c8e7a1d6f3b5e0c9a8d7f6e5b4c'
 FORBIDDEN_JVM_PREFIXES=(
  '-javaagent','-agentlib','-agentpath','-xbootclasspath',
  '-xx:-disableattachmechanism','-xx:+startattachlistener',
@@ -19,7 +18,7 @@ def compute_hwid():
  ])
  return hashlib.sha256(('eldoria-hwid-v1:'+raw).encode('utf-8')).hexdigest()[:24]
 def load_allowed_mod_filenames(entries):
- allowed={'eldoria-skin-auth-1.0.0-neoforge-1.21.1.jar','eldoria-client-ui-1.0.1-neoforge-1.21.1.jar'}
+ allowed={'eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar','eldoria-client-ui-1.0.1-neoforge-1.21.1.jar'}
  for r in entries:
   if r.get('side')!='server' and 'file' in r and 'filename' in r['file']:
    allowed.add(r['file']['filename'])
@@ -47,21 +46,6 @@ def load_mod_entries():
   if isinstance(manifest.get('mods'),list):
    return [{'name':m['name'],'side':m.get('side','both'),'file':{'filename':m['filename'],'url':m['url'],'hashes':{'sha512':m['sha512']}}}for m in manifest['mods']]
  raise FileNotFoundError('Не найден mods-lock.json или manifest.json')
-def make_launch_ticket(nick,hwid):
- clean=str(nick or '').strip()
- nick_lower=clean.lower()
- issued_at=int(time.time()*1000)
- nonce=secrets.token_hex(16)
- payload=f'eldoria-ticket-v1:{nick_lower}:{issued_at}:{nonce}'
- sig=hmac.new(LAUNCHER_HMAC_SECRET,payload.encode('utf-8'),hashlib.sha256).hexdigest()
- ticket_obj={'nick':clean,'nickLower':nick_lower,'issuedAt':issued_at,'nonce':nonce,'ticketSig':sig,'hwid':hwid}
- try:
-  ticket_path=root/'launcher'/'.eldoria-launch-ticket'
-  ticket_path.parent.mkdir(parents=True,exist_ok=True)
-  ticket_path.write_text(json.dumps(ticket_obj,ensure_ascii=False,indent=2),encoding='utf-8')
- except Exception:
-  pass
- return f'{nick_lower}:{issued_at}:{nonce}:{sig}'
 try:
  settings=json.load(sys.stdin);full=sys.argv[1]=='verify'
  entries=load_mod_entries()
@@ -98,7 +82,6 @@ try:
  else:
   nick=settings['nickname'];digest=bytearray(hashlib.md5(('OfflinePlayer:'+nick).encode()).digest());digest[6]=(digest[6]&15)|48;digest[8]=(digest[8]&63)|128
   hwid=compute_hwid()
-  ticket_str=make_launch_ticket(nick,hwid)
   import ctypes
   shell=ctypes.WinDLL('shell32',use_last_error=True);kernel=ctypes.WinDLL('kernel32');shell.CommandLineToArgvW.argtypes=[ctypes.c_wchar_p,ctypes.POINTER(ctypes.c_int)];shell.CommandLineToArgvW.restype=ctypes.POINTER(ctypes.c_wchar_p);kernel.LocalFree.argtypes=[ctypes.c_void_p]
   n=ctypes.c_int();argv=shell.CommandLineToArgvW('java '+settings.get('jvmArgs',''),ctypes.byref(n))
@@ -121,7 +104,6 @@ try:
     '-XX:+ParallelRefProcEnabled',
     '-Dfile.encoding=UTF-8',
     '-Deldoria.hwid='+hwid,
-    '-Deldoria.launcher.ticket='+ticket_str,
     '-Deldoria.site.url=http://127.0.0.1:8778'
    ]+custom,
    'gameDirectory':str(root),

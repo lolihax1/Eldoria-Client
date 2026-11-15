@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "Eldoria TechnoMagic",
-  "packVersion": "0.1.0",
+  "packVersion": "0.1.2",
   "release": "0.1-playtest",
   "minecraft": "1.21.1",
   "loader": "neoforge",
@@ -9,9 +9,9 @@
   "versionId": "neoforge-21.1.265",
   "repository": "https://github.com/lolihax1/Eldoria-Client",
   "rawBaseUrl": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/",
-  "updatedAt": "2026-11-14T20:01:39Z",
-  "modsCount": 54,
-  "filesCount": 285,
+  "updatedAt": "2026-11-15T17:49:31Z",
+  "modsCount": 60,
+  "filesCount": 284,
   "files": [
     {
       "path": "config/Mekanism/client.toml",
@@ -1268,12 +1268,6 @@
       "mode": "missing"
     },
     {
-      "path": "config/jei/world/server/Сервер Minecraft (127_0_0_1)/lookupHistory.json",
-      "size": 219,
-      "sha512": "7f437dfd075ae0c3e5127bc7b097370f2e174ca9eca0331d835caa8068780951eccf0dd39721a213413da7029205301074b28faf8e4e14ff977a4c3bb8e530da",
-      "mode": "missing"
-    },
-    {
       "path": "config/lithium.properties",
       "size": 267,
       "sha512": "7cc1ad34b644be80c01adecf595809874a1d0a86e9b954e4ba39226bb96ec39c8433ce787c7e11280c598a2cf103c00949ea37406abc3e573fb7d28cca1a0573",
@@ -1479,14 +1473,14 @@
     },
     {
       "path": "kubejs/assets/ars_nouveau/animations/wilden_chimera_animations.json",
-      "size": 25038,
-      "sha512": "3996c4b7e1107339f1e3fda97c434f1828ff272dcd1ab8f2599a05fd933c2a52e449a386afcd84cb9a5093dc4e54d34a39affdc2e52c9c0d4d96e657900a843a",
+      "size": 23903,
+      "sha512": "23c22e7a23ac3a20614531c2347259d074df5bc6a8e1947f48b429b36f4802f5033b4f9fb9c7833e24759f4b24df29a3ad6a60b907d36e20165d5a4dc7911413",
       "mode": "always"
     },
     {
       "path": "kubejs/assets/eldoria/sounds.json",
-      "size": 149,
-      "sha512": "48d53085bfb9f4b580cec0f255ad7a2f79e773cda1e9d157800aa259966e5b8516651f9899fe5db7b264ef66ca3559b0ce07945acee37c4c14ec0b4cdcf757a2",
+      "size": 139,
+      "sha512": "a921fb8182470faf686bb6de058618d82adb99a262bdc0aaf6afeb0347911202008a13df539458e4fb678c5c193030c408b8c742b009a3787558a50b99f96bf4",
       "mode": "always"
     },
     {
@@ -1503,14 +1497,14 @@
     },
     {
       "path": "kubejs/assets/ftbessentials/lang/en_us.json",
-      "size": 6062,
-      "sha512": "44c06f285060cd3e56c46b0b6958cbfa0f57ff9fea599a6b80b38d964484597ba4ad6ee60771a8be934bcf2f5deab9401f82acb2cc3ea4cfd08d748e214dfe08",
+      "size": 5966,
+      "sha512": "eeabd21a3731ffa3046e2cc7eefdad122b46e85bb0f04ca871d96eedc169c73f643506b700c54deb350c3c20a8004bf0a28564bd4efbbca49848eb852713ef45",
       "mode": "always"
     },
     {
       "path": "kubejs/assets/ftbessentials/lang/ru_ru.json",
-      "size": 8400,
-      "sha512": "d1695d788985eaec1c0abbc1eb92cca8adb8a121adb5c25a6e57d3e7cc7ede5b8607c2946838f33bdf266987bc6558c3cdaa512e97937ea045e468b40c286e33",
+      "size": 8304,
+      "sha512": "58e39cfb19990a42671c95f9e87f79b49be4b1ba1d329aa6f54508fbb2dd8262079a3c214a87d6db38d3fe97ea718f72c7e43db137f787ee90d5c3ca32c64baf",
       "mode": "always"
     },
     {
@@ -1683,8 +1677,8 @@
     },
     {
       "path": "launcher/electron-bridge.py",
-      "size": 6654,
-      "sha512": "4a0d2d1eee3bf315899986d8094fdf53b7432cbc6307f31ec4ca38df27b10c35e77777d912397c18db1552643a76ba183f11b6ddcc9ab1f6f364f9eaf10db744",
+      "size": 5764,
+      "sha512": "c993e58df0783f5e01ff746f8a2fa31b4595d915fd2c9b1533d114f5500bdead97016cf75d5313dde1167bb48788446c1c483c1c24a0382fe91dfa12c236122d",
       "mode": "always"
     },
     {
@@ -1701,8 +1695,8 @@
     },
     {
       "path": "mods-lock.json",
-      "size": 42238,
-      "sha512": "b94f3d81a2aa31e8285a282d8dc6ae0fcb50e306b82e2e55366845d4801c2a6acca2e3910c5585f31c0315807d3e0afe0841271c84391e37e030d1401d32ad3e",
+      "size": 46971,
+      "sha512": "abca01b61e69bbce882e8879dda399f21bfdfb62e3464e9efa80bcace59aceda1e2a742b947eefe096b9ce0fd6b2c1fcdfd6166c0de9b6f78ea3f01fbc2d2eb8",
       "mode": "always"
     },
     {
@@ -1712,15 +1706,15 @@
       "mode": "always"
     },
     {
-      "path": "mods/eldoria-skin-auth-1.0.0-neoforge-1.21.1.jar",
-      "size": 50421,
-      "sha512": "64ddb694a9ba827cec81af43c2d90426020f86c9564cf4ab35c4f790cfbaea8ecd57f462c14dfe19aebc8a955f95d8c17bcb6baa7b7f23ddc31811e0b7af99b0",
+      "path": "mods/eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar",
+      "size": 58060,
+      "sha512": "627d0a0e5ae6ab0fa2d8a6fc3ae1021ca1311bc3b6f75454b8fa257aec74087017585d8b7af660002486f9b743a64f9b160603a4d301333e28df8bb0aa9b79fc",
       "mode": "always"
     },
     {
       "path": "pack-info.json",
-      "size": 157,
-      "sha512": "fc2ee689b5f7e2b890c058fa77e8c235d94a3c429bbdefc1a2a1dd903745e2932645c4c198fad01d396129ce67c960e245fedb46d10496e2d0038a2718574375",
+      "size": 150,
+      "sha512": "f8eb341ca6c998860d1369a74a9ed4891dc90bd3e70addcb19b024f641c69e9357bd44cf27abb0e9b66f2fe24e03770a9bdc7c1ed51a357f78892a58c563883a",
       "mode": "always"
     }
   ],
@@ -1891,6 +1885,50 @@
       "url": "https://cdn.modrinth.com/data/nBqivi8H/versions/84xwXpNh/Draconic-Evolution-1.21.1-3.1.4.633.jar"
     },
     {
+      "id": "Epm6R3P2",
+      "name": "Easy NPC: Core",
+      "slug": "easy-npc-core",
+      "version": "7.18.0",
+      "side": "both",
+      "filename": "easy_npc-neoforge-1.21.1-7.18.0.jar",
+      "size": 3132335,
+      "sha512": "2bcabc384dcc5c6cb4eb28712b583df3228002f27d2c3801efff6681673c113001b10ce333fa48ee206486500d9b8a83f62bfc2208820466319dc5ce6043ec5c",
+      "url": "https://cdn.modrinth.com/data/Epm6R3P2/versions/9TVwS7rU/easy_npc-neoforge-1.21.1-7.18.0.jar"
+    },
+    {
+      "id": "CgGEe1h3",
+      "name": "Easy NPC",
+      "slug": "easy-npc",
+      "version": "7.18.0",
+      "side": "both",
+      "filename": "easy_npc_bundle-neoforge-1.21.1-7.18.0.jar",
+      "size": 25224,
+      "sha512": "aa2ac1858d2cef4cceff9abbfec61966d300949f3c385d1c3a5dbb4dc58be4c194b4e166bd6bbd1ab0bea49ec802a4a35b72ac245d70acb53d2edd0f1c461e20",
+      "url": "https://cdn.modrinth.com/data/CgGEe1h3/versions/bVaYwkNt/easy_npc_bundle-neoforge-1.21.1-7.18.0.jar"
+    },
+    {
+      "id": "uTGjf7vA",
+      "name": "Easy NPC: Config UI",
+      "slug": "easy-npc-config-ui",
+      "version": "7.18.0",
+      "side": "both",
+      "filename": "easy_npc_config_ui-neoforge-1.21.1-7.18.0.jar",
+      "size": 1186275,
+      "sha512": "83c1d70d7381eca36daef79e250ee3b06caf12c2caa3966e3b82cba74516bd55ff7144fdfe9d71f5e75df51850ac60eab8d532eca7d4bc460b676095f305d604",
+      "url": "https://cdn.modrinth.com/data/uTGjf7vA/versions/5k9n62gb/easy_npc_config_ui-neoforge-1.21.1-7.18.0.jar"
+    },
+    {
+      "id": "eldoria-auth-v2",
+      "name": "Eldoria Skin & Launcher Auth",
+      "slug": "",
+      "version": "2.0.0",
+      "side": "both",
+      "filename": "eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar",
+      "size": 58060,
+      "sha512": "627d0a0e5ae6ab0fa2d8a6fc3ae1021ca1311bc3b6f75454b8fa257aec74087017585d8b7af660002486f9b743a64f9b160603a4d301333e28df8bb0aa9b79fc",
+      "url": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/mods/eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar"
+    },
+    {
       "id": "fRiHVvU7",
       "name": "1.1.24+1.21.1+neoforge",
       "slug": "emi",
@@ -2054,6 +2092,17 @@
       "size": 368896,
       "sha512": "c115cad7b060373fc597aae08c685e2d56f173b88b792a4a2c229e222f8da293b99865e9553cf716483d3c3d6a18f31c51c5dd55be22d4625ed2c962d7b94fd0",
       "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/EJzmEPZV/ImmediatelyFast-NeoForge-1.6.15%2B1.21.1.jar"
+    },
+    {
+      "id": "curseforge:372007",
+      "name": "[IU] Industrial Upgrade",
+      "slug": "industrial-upgrade",
+      "version": "3.4.0.13",
+      "side": "both",
+      "filename": "IndustrialUpgrade-1.21.1-3.4.0.13.jar",
+      "size": 36735788,
+      "sha512": "6efc9d6ab3e5db3dfed6ebbce1826b5772ab6aab78c2d5d54e3d343bae130898b9509766c012a2084b792c781a89a4103f5c7af11eb216374bae555d6e879039",
+      "url": "https://mediafilez.forgecdn.net/files/8600/905/IndustrialUpgrade-1.21.1-3.4.0.13.jar"
     },
     {
       "id": "9nfaJPtX",
@@ -2307,6 +2356,17 @@
       "size": 1936453,
       "sha512": "a3bf3141fd0853b45014a273db67f164af00f96d96a84acc84e34455286f5a7f539ae1408029eec06650d38e1c2f800d839830d4bd6d198250ec102da8feb01b",
       "url": "https://cdn.modrinth.com/data/hMlaZH8f/versions/hC4LaBhJ/sophisticatedstorage-1.21.1-1.6.16.2222.jar"
+    },
+    {
+      "id": "9eGKb6K1",
+      "name": "Simple Voice Chat",
+      "slug": "simple-voice-chat",
+      "version": "neoforge-1.21.1-2.6.22",
+      "side": "both",
+      "filename": "voicechat-neoforge-1.21.1-2.6.22.jar",
+      "size": 4918442,
+      "sha512": "309e3b18e299b2bccf9128dbb05c2603a9860f7cd68858d23f8fdb8265ea85ec7fb1655c95b87c0a9522ae1fd6380b26e4a4c31207f9c7af80870fcc6207abad",
+      "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/2s7zUspF/voicechat-neoforge-1.21.1-2.6.22.jar"
     },
     {
       "id": "LOpKHB2A",

@@ -38,3 +38,8 @@ usernamecache.json
 *.tmp
 *.log
 __pycache__/
+
+launcher/backups/
+debug/
+easy_npc/
+emi.json
