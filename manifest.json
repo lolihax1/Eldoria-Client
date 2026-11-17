@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "Eldoria TechnoMagic",
-  "packVersion": "0.1.7",
+  "packVersion": "0.1.8",
   "release": "0.1-playtest",
   "minecraft": "1.21.1",
   "loader": "neoforge",
@@ -9,7 +9,7 @@
   "versionId": "neoforge-21.1.265",
   "repository": "https://github.com/lolihax1/Eldoria-Client",
   "rawBaseUrl": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/",
-  "updatedAt": "2026-11-17T10:58:08Z",
+  "updatedAt": "2026-11-17T11:01:30Z",
   "modsCount": 61,
   "filesCount": 289,
   "files": [
@@ -1707,8 +1707,8 @@
     },
     {
       "path": "mods/eldoria-client-ui-1.0.1-neoforge-1.21.1.jar",
-      "size": 3684,
-      "sha512": "6be61121296951f5d1dcb5166fb1408b86bd8ffd52adcefe85c670b2da031339767cf52d85235763bce6d5854ca520d3e35777aa26ca618d5491dd06780da9f2",
+      "size": 4801,
+      "sha512": "e4db6d53d397ec85d871583649dbdbf3d4b47c5f235d7628a7e7847e938fe8114a1096c5432b64c12b2aa3cbce6ad8b9ea3791795e0769d91a8a81a82954e90a",
       "mode": "always"
     },
     {
@@ -1720,7 +1720,7 @@
     {
       "path": "pack-info.json",
       "size": 150,
-      "sha512": "818000be998f0256898da89077a876b3b18c1e401ded83b428ae7aefc2ede7a8a06496decaf383d347c78a02ba262719e52d94ce0495c683cd2eaae9e0cd4ba2",
+      "sha512": "2f3ec9edae6bc39a15e61f22abe6a394bd2d346a5af236b5bd98d7065599f68a99656ba8abab75cf832b497eff16519ff59b70612d08c86dd3ae1c49921b6149",
       "mode": "always"
     },
     {
