@@ -1269,10 +1269,10 @@
     "version": "2.0.0",
     "file": {
       "filename": "eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar",
-      "size": 58060,
+      "size": 60189,
       "url": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/mods/eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar",
       "hashes": {
-        "sha512": "627d0a0e5ae6ab0fa2d8a6fc3ae1021ca1311bc3b6f75454b8fa257aec74087017585d8b7af660002486f9b743a64f9b160603a4d301333e28df8bb0aa9b79fc"
+        "sha512": "f4f723b31e7735038b9b5c526c32d79fd969339842a454ac6026401bd1dd07d3a486209788572a9dc32e8909330905afdc57bc306f2ab1d03a1e774dd49b74fb"
       }
     }
   },
