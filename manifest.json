@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "Eldoria TechnoMagic",
-  "packVersion": "0.1.4",
+  "packVersion": "0.1.5",
   "release": "0.1-playtest",
   "minecraft": "1.21.1",
   "loader": "neoforge",
@@ -9,9 +9,9 @@
   "versionId": "neoforge-21.1.265",
   "repository": "https://github.com/lolihax1/Eldoria-Client",
   "rawBaseUrl": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/",
-  "updatedAt": "2026-11-17T09:48:01Z",
+  "updatedAt": "2026-11-17T10:19:22Z",
   "modsCount": 61,
-  "filesCount": 286,
+  "filesCount": 289,
   "files": [
     {
       "path": "config/Mekanism/client.toml",
@@ -1720,7 +1720,7 @@
     {
       "path": "pack-info.json",
       "size": 150,
-      "sha512": "5eef4d5591b7550cfff3f206394340409a0b821a3242dba6c2e39b48173a7bc8564b2cd7ed4193e7f93f87f4e5180c2372ec72ed706b534434c37e8a0875b2d3",
+      "sha512": "aedcb7d002803423c0d5279f7ee3279671fb0853ec231e540ab173cfae8e0bad4fb27bde0c51cf7c18f46c28a5b4cae209043e9b5871359b1db949f2fc8bd7bc",
       "mode": "always"
     },
     {
@@ -1728,6 +1728,24 @@
       "size": 4179228,
       "sha512": "05a45e0855e102420af50f1418ffc2652f9011554eaaecac622cbbf7b6b2e309e0241c81490119da7844787a44ab03a1707506cefd69ad8f63a294ea8638248c",
       "mode": "always"
+    },
+    {
+      "path": "kubejs/assets/minecraft/textures/entity/chest/normal.png",
+      "mode": "always",
+      "size": 1364,
+      "sha512": "7e6491177c5a869f9973c6d9a71177b66c79cdeff94448d48cc413ee7306a2521a16f596841a0fb6ba3e223152a049b01cc30bd4231d31314723089bcfef9b8d"
+    },
+    {
+      "path": "kubejs/assets/minecraft/textures/entity/chest/normal_left.png",
+      "mode": "always",
+      "size": 1093,
+      "sha512": "42bfec497ad4d8eb9d20b3744ef7e5e1580e111c5c02830610fbff2a5ea2c4991c8a37cd545cdcbadfedcf07f30793511fbf950ec0b9df23ab708e08d07a8f88"
+    },
+    {
+      "path": "kubejs/assets/minecraft/textures/entity/chest/normal_right.png",
+      "mode": "always",
+      "size": 1074,
+      "sha512": "c11f3327462e30fd16a65cbb39636aae29dc7e9d4759c8fff5aef9b5b27d0d02f08fcf8562b79b5e8f3e134d7468a22f93b2a6bd3ce52705d1f38e41a74c857e"
     }
   ],
   "mods": [
