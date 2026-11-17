@@ -1275,5 +1275,20 @@
         "sha512": "627d0a0e5ae6ab0fa2d8a6fc3ae1021ca1311bc3b6f75454b8fa257aec74087017585d8b7af660002486f9b743a64f9b160603a4d301333e28df8bb0aa9b79fc"
       }
     }
+  },
+  "decorationx-christmas": {
+    "name": "DecorationX: Christmas",
+    "slug": "decorationx-christmas",
+    "version": "1.1.1",
+    "side": "both",
+    "file": {
+      "filename": "decorationx_christmas-1.1.1-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/mods/decorationx_christmas-1.1.1-neoforge-1.21.1.jar",
+      "size": 4179228,
+      "hashes": {
+        "sha512": "05a45e0855e102420af50f1418ffc2652f9011554eaaecac622cbbf7b6b2e309e0241c81490119da7844787a44ab03a1707506cefd69ad8f63a294ea8638248c",
+        "sha1": "9372310af14253230cdffed6a0aebb8e2b196e62"
+      }
+    }
   }
 }
