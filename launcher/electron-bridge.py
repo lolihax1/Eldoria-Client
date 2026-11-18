@@ -1,4 +1,5 @@
 import sys,json,pathlib,uuid,hashlib,urllib.request,time,hmac,secrets,os,platform
+import urllib.parse
 import minecraft_launcher_lib
 root=pathlib.Path(__file__).resolve().parent.parent
 FORBIDDEN_JVM_PREFIXES=(
@@ -37,15 +38,26 @@ def load_allowed_mod_filenames(entries):
    pass
  return allowed
 def load_mod_entries():
- lock_file=root/'mods-lock.json'
- if lock_file.is_file():
-  return list(json.loads(lock_file.read_text(encoding='utf-8')).values())
  manifest_file=root/'manifest.json'
  if manifest_file.is_file():
   manifest=json.loads(manifest_file.read_text(encoding='utf-8'))
-  if isinstance(manifest.get('mods'),list):
-   return [{'name':m['name'],'side':m.get('side','both'),'file':{'filename':m['filename'],'url':m['url'],'hashes':{'sha512':m['sha512']}}}for m in manifest['mods']]
- raise FileNotFoundError('Не найден mods-lock.json или manifest.json')
+  if not isinstance(manifest.get('mods'),list):raise RuntimeError('Некорректный манифест модов')
+  state_file=root/'launcher/client-manifest-state.json'
+  state=json.loads(state_file.read_text(encoding='utf-8')) if state_file.is_file() else {}
+  commit=str(state.get('commit',''))
+  pinned=len(commit)==40 and all(c in '0123456789abcdef' for c in commit) and state.get('packVersion')==manifest.get('packVersion')
+  files={f['path']:f for f in manifest.get('files',[])}
+  entries=[]
+  for mod in manifest['mods']:
+   filename=mod['filename'];url=mod['url']
+   if pinned and 'mods/'+filename in files:
+    url='https://raw.githubusercontent.com/lolihax1/Eldoria-Client/'+commit+'/mods/'+urllib.parse.quote(filename,safe='')
+   entries.append({'name':mod['name'],'side':mod.get('side','both'),'file':{'filename':filename,'url':url,'hashes':{'sha512':mod['sha512']}}})
+  return entries
+ lock_file=root/'mods-lock.json'
+ if lock_file.is_file():return list(json.loads(lock_file.read_text(encoding='utf-8')).values())
+ raise FileNotFoundError('Не найден манифест клиента Eldoria')
+
 try:
  settings=json.load(sys.stdin);full=sys.argv[1]=='verify'
  entries=load_mod_entries()
