@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "Eldoria TechnoMagic",
-  "packVersion": "0.1.11",
+  "packVersion": "0.1.12",
   "release": "0.1-playtest",
   "minecraft": "1.21.1",
   "loader": "neoforge",
@@ -9,7 +9,7 @@
   "versionId": "neoforge-21.1.265",
   "repository": "https://github.com/lolihax1/Eldoria-Client",
   "rawBaseUrl": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/",
-  "updatedAt": "2026-11-18T10:12:25.773Z",
+  "updatedAt": "2026-11-18T13:36:19.925817+00:00",
   "modsCount": 62,
   "filesCount": 291,
   "files": [
@@ -1713,8 +1713,8 @@
     },
     {
       "path": "mods/eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar",
-      "size": 67834,
-      "sha512": "4186978043cddde9fdb67897ff4c69534e7f95e2f59ba02f37a6d716c779b6792b9813c9cf391e6376b2410272e8bb3dc2e59d589bf5283610290c8b54fdafcd",
+      "size": 69067,
+      "sha512": "bdfb6cdd0d8c7f632297ecdd23bd25de0144b2e3056f88cc70c76547ef9ed980a9477612b8fe8847318c38b1404cc5df085b76719e534514b52a789aa42eff67",
       "mode": "always"
     },
     {
@@ -1966,8 +1966,8 @@
       "version": "2.0.0",
       "side": "both",
       "filename": "eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar",
-      "size": 67834,
-      "sha512": "4186978043cddde9fdb67897ff4c69534e7f95e2f59ba02f37a6d716c779b6792b9813c9cf391e6376b2410272e8bb3dc2e59d589bf5283610290c8b54fdafcd",
+      "size": 69067,
+      "sha512": "bdfb6cdd0d8c7f632297ecdd23bd25de0144b2e3056f88cc70c76547ef9ed980a9477612b8fe8847318c38b1404cc5df085b76719e534514b52a789aa42eff67",
       "url": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/mods/eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar"
     },
     {
