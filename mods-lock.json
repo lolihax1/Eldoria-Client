@@ -1269,10 +1269,10 @@
     "version": "2.0.0",
     "file": {
       "filename": "eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar",
-      "size": 67834,
+      "size": 76160,
       "url": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/mods/eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar",
       "hashes": {
-        "sha512": "4186978043cddde9fdb67897ff4c69534e7f95e2f59ba02f37a6d716c779b6792b9813c9cf391e6376b2410272e8bb3dc2e59d589bf5283610290c8b54fdafcd"
+        "sha512": "4f4d11eb7859dd75d708820cd011070b4051394609fc6de58b924029961e1687e3d87a751397796dc56a5b510adeb0beb3998759fbe2dd699fc3eec35593376b"
       }
     }
   },
@@ -1309,5 +1309,19 @@
       "file_type": null
     },
     "source": "https://modrinth.com/mod/iris"
+  },
+  "minevegas-casino": {
+    "name": "MineVegas Casino",
+    "slug": "minevegas-casino",
+    "version": "1.1.2",
+    "side": "both",
+    "file": {
+      "filename": "minevegas-casino-neoforge-1.21.1-1.1.2.jar",
+      "url": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/mods/minevegas-casino-neoforge-1.21.1-1.1.2.jar",
+      "size": 27110317,
+      "hashes": {
+        "sha512": "a2241e7ebd71ca5fb058a10eb60803ee85689ad13609f68f4bc3cd7f6a8aac99810abf7ecd4e8179e3e75297653b3b369f03ede00f0a74f126a668745ac3cc24"
+      }
+    }
   }
 }

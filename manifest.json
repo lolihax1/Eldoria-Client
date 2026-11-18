@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "Eldoria TechnoMagic",
-  "packVersion": "0.1.12",
+  "packVersion": "0.1.13",
   "release": "0.1-playtest",
   "minecraft": "1.21.1",
   "loader": "neoforge",
@@ -9,9 +9,9 @@
   "versionId": "neoforge-21.1.265",
   "repository": "https://github.com/lolihax1/Eldoria-Client",
   "rawBaseUrl": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/",
-  "updatedAt": "2026-11-18T13:36:19.925817+00:00",
-  "modsCount": 62,
-  "filesCount": 291,
+  "updatedAt": "2026-11-18T17:56:01.931560+00:00",
+  "modsCount": 63,
+  "filesCount": 299,
   "files": [
     {
       "path": "config/Mekanism/client.toml",
@@ -1491,8 +1491,8 @@
     },
     {
       "path": "kubejs/assets/eldoria/textures/entity/santa.png",
-      "size": 409,
-      "sha512": "6fc05f1d867d2550e1cc09f65a7214b9c02b25c56d59ffa35a4e17a73f2f22bebec52c08a3f25b54567f32a0703700555dbeb8e08f3710f4871a4e244116c3c7",
+      "size": 923,
+      "sha512": "4851d08850034b9186b7239072d039f2e48cf8230df4e294495b01d2688fd7b128073ac24fdfc7aaf63c4c669a584e9a4baa69fc86dd23a97e29623621442e62",
       "mode": "always"
     },
     {
@@ -1677,8 +1677,8 @@
     },
     {
       "path": "kubejs/startup_scripts/eldoria.js",
-      "size": 523,
-      "sha512": "3c93819503a85b7eb56d0f9da198975e51f48d4c0a834e79ced4c31b37d2a62fb7a857af4f77a212f19da21c080287682abded893ce7dc8c3606105d255febb5",
+      "size": 619,
+      "sha512": "361826ac7ec04a12cd038799849201f4074ec51e40116dd0bafcb73e2ced015056db1db6ee060f543e32768adff0e00623296c79328f65062c29a4b61626d575",
       "mode": "always"
     },
     {
@@ -1713,8 +1713,8 @@
     },
     {
       "path": "mods/eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar",
-      "size": 69067,
-      "sha512": "bdfb6cdd0d8c7f632297ecdd23bd25de0144b2e3056f88cc70c76547ef9ed980a9477612b8fe8847318c38b1404cc5df085b76719e534514b52a789aa42eff67",
+      "size": 76160,
+      "sha512": "4f4d11eb7859dd75d708820cd011070b4051394609fc6de58b924029961e1687e3d87a751397796dc56a5b510adeb0beb3998759fbe2dd699fc3eec35593376b",
       "mode": "always"
     },
     {
@@ -1758,6 +1758,54 @@
       "size": 85,
       "sha512": "a23870815da3b2f1d74193bcfdf158e6d2a5322958738d24031d7469fa6a22403d249fb61eb31b966b432cb29802f98fc3881f86fe2842c82db1b6b7c9f2d675",
       "mode": "missing"
+    },
+    {
+      "path": "mods/minevegas-casino-neoforge-1.21.1-1.1.2.jar",
+      "size": 27110317,
+      "sha512": "a2241e7ebd71ca5fb058a10eb60803ee85689ad13609f68f4bc3cd7f6a8aac99810abf7ecd4e8179e3e75297653b3b369f03ede00f0a74f126a668745ac3cc24",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/assets/eldoria/lang/en_us.json",
+      "size": 98,
+      "sha512": "1a50d378ee5edfef54fe5256f4414b3f32e072559ab160f279d7d41929eba808b301eacf5ef629959bd6b52e5aff8c2b8238c0ce97465c371c3e519f2572174b",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/assets/eldoria/lang/ru_ru.json",
+      "size": 122,
+      "sha512": "a85c3b8ed68b226782a0f56a05c61c0f236ffc638adfb8af55d9f9ea33a4d9a2ab6229490edb3c693961945e05016a226e0919f59391c6b7747d11f4679673e3",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/assets/eldoria/lang/uk_ua.json",
+      "size": 126,
+      "sha512": "72a2704282f60ca3e0d3d70543a967fc0c23f09176bc80dd3acad11e95f0340b7de9e955c8d17a31a7f5da4f7099d588706951148f2006d8ef95fe51bca5e926",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/assets/eldoria/textures/entity/croupier.png",
+      "size": 2281,
+      "sha512": "7e7afac3e25962cb99712c3cd569ede31c4b6d523bc1454496498102e428cf5825bbf0997afadaee5edd21d08cc47ba901902fabb40e2aedf667643d23ad9467",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/assets/kubejs/lang/en_us.json",
+      "size": 47,
+      "sha512": "82f5cf070548fc3a6468dc57e1daee59b48e0a819385d9b9fce1e96392f775c777ba4c21bc19e94297d30379c3cf713e0b6acd420309e5fcedc1c3b833d493fe",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/assets/kubejs/lang/ru_ru.json",
+      "size": 47,
+      "sha512": "82f5cf070548fc3a6468dc57e1daee59b48e0a819385d9b9fce1e96392f775c777ba4c21bc19e94297d30379c3cf713e0b6acd420309e5fcedc1c3b833d493fe",
+      "mode": "always"
+    },
+    {
+      "path": "kubejs/assets/kubejs/lang/uk_ua.json",
+      "size": 47,
+      "sha512": "82f5cf070548fc3a6468dc57e1daee59b48e0a819385d9b9fce1e96392f775c777ba4c21bc19e94297d30379c3cf713e0b6acd420309e5fcedc1c3b833d493fe",
+      "mode": "always"
     }
   ],
   "mods": [
@@ -1966,8 +2014,8 @@
       "version": "2.0.0",
       "side": "both",
       "filename": "eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar",
-      "size": 69067,
-      "sha512": "bdfb6cdd0d8c7f632297ecdd23bd25de0144b2e3056f88cc70c76547ef9ed980a9477612b8fe8847318c38b1404cc5df085b76719e534514b52a789aa42eff67",
+      "size": 76160,
+      "sha512": "4f4d11eb7859dd75d708820cd011070b4051394609fc6de58b924029961e1687e3d87a751397796dc56a5b510adeb0beb3998759fbe2dd699fc3eec35593376b",
       "url": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/mods/eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar"
     },
     {
@@ -2442,6 +2490,17 @@
       "size": 2540723,
       "sha512": "33fddb430e16222902eac75b8b3d57c381b0f3cc729f3b56c4628df12ca108f23a0b11e2feb167923d6d14d1fc7e8ee1a977ec421b19d1951bdca74c4092b9c5",
       "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/KduFYu4t/iris-neoforge-1.8.14-beta.1%2Bmc1.21.1.jar"
+    },
+    {
+      "id": "minevegas-casino",
+      "name": "MineVegas Casino",
+      "slug": "minevegas-casino",
+      "version": "1.1.2",
+      "side": "both",
+      "filename": "minevegas-casino-neoforge-1.21.1-1.1.2.jar",
+      "url": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/mods/minevegas-casino-neoforge-1.21.1-1.1.2.jar",
+      "size": 27110317,
+      "sha512": "a2241e7ebd71ca5fb058a10eb60803ee85689ad13609f68f4bc3cd7f6a8aac99810abf7ecd4e8179e3e75297653b3b369f03ede00f0a74f126a668745ac3cc24"
     }
   ]
 }
