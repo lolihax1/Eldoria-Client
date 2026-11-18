@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "Eldoria TechnoMagic",
-  "packVersion": "0.1.10",
+  "packVersion": "0.1.11",
   "release": "0.1-playtest",
   "minecraft": "1.21.1",
   "loader": "neoforge",
@@ -9,9 +9,9 @@
   "versionId": "neoforge-21.1.265",
   "repository": "https://github.com/lolihax1/Eldoria-Client",
   "rawBaseUrl": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/",
-  "updatedAt": "2026-11-17T22:36:33Z",
-  "modsCount": 61,
-  "filesCount": 289,
+  "updatedAt": "2026-11-18T10:12:25.773Z",
+  "modsCount": 62,
+  "filesCount": 291,
   "files": [
     {
       "path": "config/Mekanism/client.toml",
@@ -1701,8 +1701,8 @@
     },
     {
       "path": "mods-lock.json",
-      "size": 47603,
-      "sha512": "d34019667257b3abeb91c414b60deb5dadd894f646333190664453a19bf2c1d544fe25348f6cffb24c6e0e2cb4ac32a449dd183b604ef78e3ad827bfbd846634",
+      "size": 48317,
+      "sha512": "ebb92c7ad0edbee520fb8164cb378db1026cdc7c99ba5c50dd10dcd9e790f44b34d925d0052e833bfa59c00afef2e7206205e352481c856898a91b71c6aa4054",
       "mode": "always"
     },
     {
@@ -1713,14 +1713,14 @@
     },
     {
       "path": "mods/eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar",
-      "size": 61546,
-      "sha512": "d6e4ca182b8fe00263a2ef33cf78bb8813347c4fc975b8b6a46f86557dd2972723c3cbe9e7541c44d4b27ddf7c0c9cd3c90e39f23950914c60cc4c7479100101",
+      "size": 67834,
+      "sha512": "4186978043cddde9fdb67897ff4c69534e7f95e2f59ba02f37a6d716c779b6792b9813c9cf391e6376b2410272e8bb3dc2e59d589bf5283610290c8b54fdafcd",
       "mode": "always"
     },
     {
       "path": "pack-info.json",
       "size": 151,
-      "sha512": "8517c74fe6ea8bd0fde07c27a32acdb11066344b88999ce609b5a7e4c70eac62b4aac7ff01600ab81d129f6a23a69c06a772252aebb22a451726694aafdf72b2",
+      "sha512": "e88c5310230f3f42c736fbf8a0c74b0012ec1d37c60c68d7d34de52460a1764431c947a857f67565937854e919c0625aae14a41fdfb63469e4aefa7a7d4f0a4c",
       "mode": "always"
     },
     {
@@ -1746,6 +1746,18 @@
       "mode": "always",
       "size": 1074,
       "sha512": "c11f3327462e30fd16a65cbb39636aae29dc7e9d4759c8fff5aef9b5b27d0d02f08fcf8562b79b5e8f3e134d7468a22f93b2a6bd3ce52705d1f38e41a74c857e"
+    },
+    {
+      "path": "mods/iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "size": 2540723,
+      "sha512": "33fddb430e16222902eac75b8b3d57c381b0f3cc729f3b56c4628df12ca108f23a0b11e2feb167923d6d14d1fc7e8ee1a977ec421b19d1951bdca74c4092b9c5",
+      "mode": "always"
+    },
+    {
+      "path": "config/iris.properties",
+      "size": 85,
+      "sha512": "a23870815da3b2f1d74193bcfdf158e6d2a5322958738d24031d7469fa6a22403d249fb61eb31b966b432cb29802f98fc3881f86fe2842c82db1b6b7c9f2d675",
+      "mode": "missing"
     }
   ],
   "mods": [
@@ -1954,8 +1966,8 @@
       "version": "2.0.0",
       "side": "both",
       "filename": "eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar",
-      "size": 61546,
-      "sha512": "d6e4ca182b8fe00263a2ef33cf78bb8813347c4fc975b8b6a46f86557dd2972723c3cbe9e7541c44d4b27ddf7c0c9cd3c90e39f23950914c60cc4c7479100101",
+      "size": 67834,
+      "sha512": "4186978043cddde9fdb67897ff4c69534e7f95e2f59ba02f37a6d716c779b6792b9813c9cf391e6376b2410272e8bb3dc2e59d589bf5283610290c8b54fdafcd",
       "url": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/mods/eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar"
     },
     {
@@ -2419,6 +2431,17 @@
       "size": 4179228,
       "sha512": "05a45e0855e102420af50f1418ffc2652f9011554eaaecac622cbbf7b6b2e309e0241c81490119da7844787a44ab03a1707506cefd69ad8f63a294ea8638248c",
       "url": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/mods/decorationx_christmas-1.1.1-neoforge-1.21.1.jar"
+    },
+    {
+      "id": "YL57xq9U",
+      "name": "Iris Shaders",
+      "slug": "iris",
+      "version": "1.8.14-beta.1+1.21.1-neoforge",
+      "side": "client",
+      "filename": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "size": 2540723,
+      "sha512": "33fddb430e16222902eac75b8b3d57c381b0f3cc729f3b56c4628df12ca108f23a0b11e2feb167923d6d14d1fc7e8ee1a977ec421b19d1951bdca74c4092b9c5",
+      "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/KduFYu4t/iris-neoforge-1.8.14-beta.1%2Bmc1.21.1.jar"
     }
   ]
 }

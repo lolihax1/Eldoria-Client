@@ -1269,10 +1269,10 @@
     "version": "2.0.0",
     "file": {
       "filename": "eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar",
-      "size": 61546,
+      "size": 67834,
       "url": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/mods/eldoria-skin-auth-2.0.0-neoforge-1.21.1.jar",
       "hashes": {
-        "sha512": "d6e4ca182b8fe00263a2ef33cf78bb8813347c4fc975b8b6a46f86557dd2972723c3cbe9e7541c44d4b27ddf7c0c9cd3c90e39f23950914c60cc4c7479100101"
+        "sha512": "4186978043cddde9fdb67897ff4c69534e7f95e2f59ba02f37a6d716c779b6792b9813c9cf391e6376b2410272e8bb3dc2e59d589bf5283610290c8b54fdafcd"
       }
     }
   },
@@ -1290,5 +1290,24 @@
         "sha1": "9372310af14253230cdffed6a0aebb8e2b196e62"
       }
     }
+  },
+  "YL57xq9U": {
+    "name": "Iris Shaders",
+    "slug": "iris",
+    "version": "1.8.14-beta.1+1.21.1-neoforge",
+    "side": "client",
+    "file": {
+      "id": "V48n9PqY",
+      "hashes": {
+        "sha512": "33fddb430e16222902eac75b8b3d57c381b0f3cc729f3b56c4628df12ca108f23a0b11e2feb167923d6d14d1fc7e8ee1a977ec421b19d1951bdca74c4092b9c5",
+        "sha1": "1bd129cf7bce65d6b1c0543045f0620c98a0f885"
+      },
+      "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/KduFYu4t/iris-neoforge-1.8.14-beta.1%2Bmc1.21.1.jar",
+      "filename": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "primary": true,
+      "size": 2540723,
+      "file_type": null
+    },
+    "source": "https://modrinth.com/mod/iris"
   }
 }
