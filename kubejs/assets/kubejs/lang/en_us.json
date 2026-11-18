@@ -1,3 +1,7 @@
 {
-  "item.kubejs.casino_coin": "Casino Coin"
+  "item.kubejs.casino_coin": "Casino Coin",
+  "item.kubejs.resonant_core": "Resonant Core",
+  "item.kubejs.attuned_core": "Attuned Core",
+  "item.kubejs.divine_core": "Divine Core",
+  "item.kubejs.heart_of_eldoria": "Heart of Eldoria"
 }

@@ -1,3 +1,7 @@
 {
-  "item.kubejs.casino_coin": "Casino Coin"
+  "item.kubejs.casino_coin": "Casino Coin",
+  "item.kubejs.resonant_core": "Резонансне ядро",
+  "item.kubejs.attuned_core": "Налаштоване ядро",
+  "item.kubejs.divine_core": "Божественне ядро",
+  "item.kubejs.heart_of_eldoria": "Серце Елдорії"
 }

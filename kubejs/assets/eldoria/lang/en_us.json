@@ -1,4 +1,23 @@
 {
   "gui.eldoria.trade.amount": "In-game dollar amount",
-  "gui.eldoria.trade.money": "Offer $"
+  "gui.eldoria.trade.money": "Offer $",
+  "eldoria.npc.text.41f5cb445b60b2d6": "Santa · Eldoria",
+  "eldoria.npc.text.cf12d8d5cdac9022": "Eldoria guide",
+  "eldoria.npc.text.b9d6bc86430e989b": "Treat merchant",
+  "eldoria.npc.text.7d985e3ce20536aa": "Eldoria cashier",
+  "eldoria.npc.text.6912db2fc9b210d6": "Voice chat",
+  "eldoria.npc.text.ffc45e9c78189326": "Enter survival",
+  "eldoria.npc.text.b88f2e06972b9d8d": "How do I use voice chat?",
+  "eldoria.npc.text.1a9fb1f3cf8e189a": "Back",
+  "eldoria.npc.text.da8022d2a5fad823": "Browse goods",
+  "eldoria.npc.text.a64f29c40fcc533e": "Buy 1 · 100 $",
+  "eldoria.npc.text.7bb6639f172b525b": "Buy 10 · 1,000 $",
+  "eldoria.npc.text.2112cee570c5cf28": "Sell 1 · 85 $",
+  "eldoria.npc.text.a78a2e02e1a661ad": "Sell 10 · 850 $",
+  "eldoria.npc.text.9d4f37971434fba2": "My balance",
+  "eldoria.npc.text.15be37215f404295": "Happy New Year! Welcome to winter Eldoria. Explore the square, visit the merchant and set off on your adventure. Press the button below to enter the survival world.",
+  "eldoria.npc.text.61dbf3747211fc80": "Press V and select your microphone. By default, hold Caps Lock to talk. Keep the noise down and respect nearby players. Ask the staff if you need help.",
+  "eldoria.npc.text.c22a52aee7747e4e": "This is a protected lobby: building and flying are reserved for staff. /spawn returns here; /rtp takes you to survival. Use the FTB Chunks map to protect your home.",
+  "eldoria.npc.text.d425c2dc656aec8a": "Welcome to the winter market! Exchange emeralds for cookies, bread and lanterns. Trading is optional: check the price first.",
+  "eldoria.npc.text.04461d71746a6956": "Casino Coin is a separate casino token. Buy for 100 in-game $, sell for 85 in-game $. For another quantity use /casino buy number or /casino sell number. Only Casino Coin can be wagered. Your website wallet is not used here."
 }

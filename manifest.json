@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "Eldoria TechnoMagic",
-  "packVersion": "0.1.14",
+  "packVersion": "0.1.15",
   "release": "0.1-playtest",
   "minecraft": "1.21.1",
   "loader": "neoforge",
@@ -9,9 +9,9 @@
   "versionId": "neoforge-21.1.265",
   "repository": "https://github.com/lolihax1/Eldoria-Client",
   "rawBaseUrl": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/",
-  "updatedAt": "2026-11-18T18:45:31.021335+00:00",
+  "updatedAt": "2026-11-18T22:33:42.352915+00:00",
   "modsCount": 63,
-  "filesCount": 299,
+  "filesCount": 301,
   "files": [
     {
       "path": "config/Mekanism/client.toml",
@@ -1677,8 +1677,8 @@
     },
     {
       "path": "kubejs/startup_scripts/eldoria.js",
-      "size": 619,
-      "sha512": "361826ac7ec04a12cd038799849201f4074ec51e40116dd0bafcb73e2ced015056db1db6ee060f543e32768adff0e00623296c79328f65062c29a4b61626d575",
+      "size": 668,
+      "sha512": "d255864b2a1d1f32549753838d7bf8a15c0fe5ab4161a6dabde941a978333f1a4d25a59a425d2029b706a6c2a4d78600877106368f0a27aca1cf582ea2adf9b3",
       "mode": "always"
     },
     {
@@ -1719,8 +1719,8 @@
     },
     {
       "path": "pack-info.json",
-      "size": 151,
-      "sha512": "1e49729f3d2f644caf04e8342c149f3a982fe62524370e2e9f7eb88c1d7ab31922277777b7b79195a9d7bcce446ab1e32ae1061da844cbba4e4ec15231835fda",
+      "size": 158,
+      "sha512": "5e39d0139805fe8dc5c4582af1fb8c8329e3a72f893c48e573a31d8c8e146c045eb6f296057fcc85018a8263aee82e05be77fb223da2bd5a084f576145da94f8",
       "mode": "always"
     },
     {
@@ -1767,21 +1767,21 @@
     },
     {
       "path": "kubejs/assets/eldoria/lang/en_us.json",
-      "size": 98,
-      "sha512": "1a50d378ee5edfef54fe5256f4414b3f32e072559ab160f279d7d41929eba808b301eacf5ef629959bd6b52e5aff8c2b8238c0ce97465c371c3e519f2572174b",
-      "mode": "always"
+      "mode": "always",
+      "size": 1958,
+      "sha512": "2f032a2b9d6a5b3839164fd302b75051f9e2de8001d0bfb9680793751513394cf894c341b904f1d3b92b782850ece17b65d8c93f7657d62cc84ab7c84183697d"
     },
     {
       "path": "kubejs/assets/eldoria/lang/ru_ru.json",
-      "size": 122,
-      "sha512": "a85c3b8ed68b226782a0f56a05c61c0f236ffc638adfb8af55d9f9ea33a4d9a2ab6229490edb3c693961945e05016a226e0919f59391c6b7747d11f4679673e3",
-      "mode": "always"
+      "mode": "always",
+      "size": 2740,
+      "sha512": "edf304c07306414e7b800c7ab96411b355d7ae34a2a57fd33ddd0aeac37925a694859c69f4428592d71b924be5ff76989b987ad5c7d104182e2ae6748a136a87"
     },
     {
       "path": "kubejs/assets/eldoria/lang/uk_ua.json",
-      "size": 126,
-      "sha512": "72a2704282f60ca3e0d3d70543a967fc0c23f09176bc80dd3acad11e95f0340b7de9e955c8d17a31a7f5da4f7099d588706951148f2006d8ef95fe51bca5e926",
-      "mode": "always"
+      "mode": "always",
+      "size": 2777,
+      "sha512": "38aff337577d8fa4189416b2c57d18f177c74e4a04670828554a07188a37a98412af169b370b051da7f56d6e1e2b86803766b9d7416416da21561c5d1011b456"
     },
     {
       "path": "kubejs/assets/eldoria/textures/entity/croupier.png",
@@ -1791,21 +1791,33 @@
     },
     {
       "path": "kubejs/assets/kubejs/lang/en_us.json",
-      "size": 47,
-      "sha512": "82f5cf070548fc3a6468dc57e1daee59b48e0a819385d9b9fce1e96392f775c777ba4c21bc19e94297d30379c3cf713e0b6acd420309e5fcedc1c3b833d493fe",
-      "mode": "always"
+      "mode": "always",
+      "size": 246,
+      "sha512": "3f082425b4b5f85d8fc3986a9c2915edfdaee105ca159c5446b5075fad3f5ac8bb243f7dec0bd1cd835bf3497b2beb2e22c8a61f42814d3606c15c9aa892145c"
     },
     {
       "path": "kubejs/assets/kubejs/lang/ru_ru.json",
-      "size": 47,
-      "sha512": "82f5cf070548fc3a6468dc57e1daee59b48e0a819385d9b9fce1e96392f775c777ba4c21bc19e94297d30379c3cf713e0b6acd420309e5fcedc1c3b833d493fe",
-      "mode": "always"
+      "mode": "always",
+      "size": 316,
+      "sha512": "977889f3e839bfcf3bbed47032ecec67be887f6da5ccb1982e873b383d297c51093c4e8822179685d5cabd55a349d088ff43231b204e3d51410b5c68c959c882"
     },
     {
       "path": "kubejs/assets/kubejs/lang/uk_ua.json",
-      "size": 47,
-      "sha512": "82f5cf070548fc3a6468dc57e1daee59b48e0a819385d9b9fce1e96392f775c777ba4c21bc19e94297d30379c3cf713e0b6acd420309e5fcedc1c3b833d493fe",
-      "mode": "always"
+      "mode": "always",
+      "size": 310,
+      "sha512": "1602005c4b260d6daac18105e53631a3965794d230b4c0462e1abe14da6abb1e8bc11fa23924e9a21dee9e907b63c21760fc6c9e9bd3a56d41e1197838b0790b"
+    },
+    {
+      "path": "config/ftbquests/quests/lang/uk_ua.snbt",
+      "mode": "always",
+      "size": 10623,
+      "sha512": "2903597023bcaa24bcd88124bf5a6e789f22ba71dfe4988c17c2c9aada33ed8c71657975831cd068a96f67106a4f72c709b20f7c23f3031f0f2adbda1399e246"
+    },
+    {
+      "path": "kubejs/assets/ftbessentials/lang/uk_ua.json",
+      "mode": "always",
+      "size": 8517,
+      "sha512": "8927d3a7630457843360ba7552145602c1723a795e55ee9ec68a1af6becc7a0c5e6b0023676f2b3be7d25cda691b90b835b87b7187c1a7cadaeca92cab23aa44"
     }
   ],
   "mods": [
