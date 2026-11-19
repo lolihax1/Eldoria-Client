@@ -1176,23 +1176,5 @@
         "sha512": "a2241e7ebd71ca5fb058a10eb60803ee85689ad13609f68f4bc3cd7f6a8aac99810abf7ecd4e8179e3e75297653b3b369f03ede00f0a74f126a668745ac3cc24"
       }
     }
-  },
-  "curseforge-1613750": {
-    "name": "Manas Cosmetics",
-    "slug": "manas-cosmetics",
-    "version": "1.0.7",
-    "side": "client",
-    "source": "https://www.curseforge.com/minecraft/mc-mods/manas-cosmetics",
-    "file": {
-      "id": "9345333",
-      "hashes": {
-        "sha512": "6b6ba8d18a44a177fe96fb5e0ce4d2360eee8a5311916bd7bcf84c07e70644545a9bf9a97de5cb15c3536c7838a36412d92e62408b77d4a55fbda25b1ad74b15"
-      },
-      "url": "https://mediafilez.forgecdn.net/files/9345/333/manas_cosmetics-neoforge-client-1.0.7.jar",
-      "filename": "manas_cosmetics-neoforge-client-1.0.7.jar",
-      "primary": true,
-      "size": 712566,
-      "file_type": null
-    }
   }
 }
