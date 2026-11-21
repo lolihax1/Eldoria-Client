@@ -1176,5 +1176,20 @@
         "sha512": "a2241e7ebd71ca5fb058a10eb60803ee85689ad13609f68f4bc3cd7f6a8aac99810abf7ecd4e8179e3e75297653b3b369f03ede00f0a74f126a668745ac3cc24"
       }
     }
+  },
+  "eldoria-cosmetics": {
+    "name": "Eldoria Cosmetics",
+    "slug": "eldoria-cosmetics",
+    "version": "1.0.0",
+    "side": "both",
+    "file": {
+      "id": "eldoria-cosmetics-1.0.0",
+      "filename": "eldoria-cosmetics-1.0.0-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/mods/eldoria-cosmetics-1.0.0-neoforge-1.21.1.jar",
+      "size": 1257846,
+      "hashes": {
+        "sha512": "3387838d28e55fa82755ccca16f17ab833783b9a670c7f3e1d908d08992f99f3f0058ec118fbd7d16540fd1e7e845670ae20dbbcd45181467d2e7faa88305547"
+      }
+    }
   }
 }
