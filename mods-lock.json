@@ -1186,9 +1186,9 @@
       "id": "eldoria-cosmetics-1.0.0",
       "filename": "eldoria-cosmetics-1.0.0-neoforge-1.21.1.jar",
       "url": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/mods/eldoria-cosmetics-1.0.0-neoforge-1.21.1.jar",
-      "size": 1257862,
+      "size": 4291632,
       "hashes": {
-        "sha512": "c36f770f1b5258af894857d9dc1c0563bc4bcf151b4bb465bf84cb7845ddedde00db2eae0aa0db86d9001f46633623b0bb08b3098e4f15a2e015884c8601f322"
+        "sha512": "3e179d32b0655c399f4b928f13944cc8ed4caf59ec66e2c3e3777282afa5e2664960ef52510ae50f7d29cdf3cc3e4135a59e2c50432796121c0841d754bc307d"
       }
     }
   }

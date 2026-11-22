@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "Eldoria TechnoMagic",
-  "packVersion": "0.1.19",
+  "packVersion": "0.1.20",
   "release": "0.1-playtest",
   "minecraft": "1.21.1",
   "loader": "neoforge",
@@ -9,7 +9,7 @@
   "versionId": "neoforge-21.1.265",
   "repository": "https://github.com/lolihax1/Eldoria-Client",
   "rawBaseUrl": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/",
-  "updatedAt": "2026-11-21T19:04:09.266042+00:00",
+  "updatedAt": "2026-11-22T19:24:03.785189+00:00",
   "modsCount": 64,
   "filesCount": 302,
   "files": [
@@ -1702,7 +1702,7 @@
     {
       "path": "mods-lock.json",
       "size": 42464,
-      "sha512": "066a5185c9c2636a629286515a8801d5fb3f10ec9b860bee9ed0070fa55fb3ea0193c6b1d6f40a2991ef6b2d692a6a457aaeb844f1faa301e3d614c423430b0e",
+      "sha512": "85d07b4cabb394a4016dab72596898e3ec1a9765b867884017b2c84e2fe2afbe3b4aaa3a97b6701689754449d5c1019462a38581f9c6b7ad76fa70e3ad8eeaf2",
       "mode": "always"
     },
     {
@@ -1720,7 +1720,7 @@
     {
       "path": "pack-info.json",
       "size": 158,
-      "sha512": "76b1879918eb0f5283231375d951bde55fe576b9951ee7f66d7a45fb8a0430408be2ba68d5aca61bae68748d26739801d50be8ab09a009fd7cfbdaa2e490537f",
+      "sha512": "bcf42040e105036e648cb31b6728f4b007e449e0329ed3b3696a9044f85e4dd3aee676eec957f5b2bc8b25178f31d460180cd269997256147fb2242bfd3c45a5",
       "mode": "always"
     },
     {
@@ -1821,8 +1821,8 @@
     },
     {
       "path": "mods/eldoria-cosmetics-1.0.0-neoforge-1.21.1.jar",
-      "size": 1257862,
-      "sha512": "c36f770f1b5258af894857d9dc1c0563bc4bcf151b4bb465bf84cb7845ddedde00db2eae0aa0db86d9001f46633623b0bb08b3098e4f15a2e015884c8601f322",
+      "size": 4291632,
+      "sha512": "3e179d32b0655c399f4b928f13944cc8ed4caf59ec66e2c3e3777282afa5e2664960ef52510ae50f7d29cdf3cc3e4135a59e2c50432796121c0841d754bc307d",
       "mode": "always"
     }
   ],
@@ -2526,8 +2526,8 @@
       "side": "both",
       "filename": "eldoria-cosmetics-1.0.0-neoforge-1.21.1.jar",
       "url": "https://raw.githubusercontent.com/lolihax1/Eldoria-Client/main/mods/eldoria-cosmetics-1.0.0-neoforge-1.21.1.jar",
-      "size": 1257862,
-      "sha512": "c36f770f1b5258af894857d9dc1c0563bc4bcf151b4bb465bf84cb7845ddedde00db2eae0aa0db86d9001f46633623b0bb08b3098e4f15a2e015884c8601f322"
+      "size": 4291632,
+      "sha512": "3e179d32b0655c399f4b928f13944cc8ed4caf59ec66e2c3e3777282afa5e2664960ef52510ae50f7d29cdf3cc3e4135a59e2c50432796121c0841d754bc307d"
     }
   ]
 }
